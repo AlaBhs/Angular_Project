@@ -8,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './trivia.component.css'
 })
 export class TriviaComponent {
-
+  startQuiz(category: string): void {
+    alert(`Starting quiz: ${category}`);
+    // You can add navigation or quiz-loading logic here.
+  }
 }

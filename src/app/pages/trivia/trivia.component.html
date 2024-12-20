@@ -1,1 +1,39 @@
-<p>trivia works!</p>
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Football Trivia</h1>
+    <p class="text-center lead">Test your football knowledge with these quizzes. Choose a category and get started!</p>
+  
+    <!-- Trivia Categories -->
+    <div class="row mt-4">
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <div class="card-body text-center">
+            <i class="bi bi-clipboard" style="font-size: 3rem; color: #007bff;"></i>
+            <h3 class="mt-3">World Cup Trivia</h3>
+            <p>Challenge yourself with questions about the FIFA World Cup!</p>
+            <button class="btn btn-primary" (click)="startQuiz('World Cup')">Start Quiz</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <div class="card-body text-center">
+            <i class="bi bi-person-fill" style="font-size: 3rem; color: #28a745;"></i>
+            <h3 class="mt-3">Famous Players</h3>
+            <p>How well do you know football legends?</p>
+            <button class="btn btn-primary" (click)="startQuiz('Famous Players')">Start Quiz</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <div class="card-body text-center">
+            <i class="bi bi-award" style="font-size: 3rem; color: #ff9800;"></i>
+            <h3 class="mt-3">Awards & Records</h3>
+            <p>Test your knowledge of football's greatest achievements!</p>
+            <button class="btn btn-primary" (click)="startQuiz('Awards & Records')">Start Quiz</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

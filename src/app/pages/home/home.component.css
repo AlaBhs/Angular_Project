@@ -1,0 +1,11 @@
+.card {
+    border-radius: 15px;
+  }
+  .btn-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  .btn-link:hover {
+    text-decoration: underline;
+  }
+  

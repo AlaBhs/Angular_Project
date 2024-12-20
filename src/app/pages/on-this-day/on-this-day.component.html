@@ -1,0 +1,23 @@
+<div class="container mt-5">
+    <h1 class="text-center mb-4">On This Day in Football</h1>
+    <p class="text-center lead">Discover iconic football events that happened on this day in history!</p>
+
+    @for(event of events;track event.id){
+    <div class="list-group mt-4">
+        <a class="list-group-item list-group-item-action">
+            <strong>{{ event.year }}:</strong> {{ event.description }}
+        </a>
+    </div>
+    } @empty {
+    <div class="text-center mt-5">
+        <p class="text-muted">No events found for today. Check back later!</p>
+    </div>
+    }
+
+
+
+
+
+
+
+</div>
