@@ -5,7 +5,7 @@ import { Inject, Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class ThemesService {
-  
+  private currentTheme: string = 'light'; 
   constructor(@Inject(DOCUMENT) private document: Document) {}
   
   loadTheme(themeName: string) {
@@ -23,5 +23,13 @@ export class ThemesService {
       style.href = `${themeName}.css`;
       head.appendChild(style);
     }
+    this.currentTheme = themeName;
+  }
+  toggleTheme() {
+    const newTheme = this.currentTheme === 'light' ? 'dark' : 'light';
+    this.loadTheme(newTheme);
+  }
+  getCurrentTheme(): string {
+    return this.currentTheme;
   }
 }
