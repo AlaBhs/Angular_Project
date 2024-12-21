@@ -4,7 +4,7 @@ import { TimelineComponent } from './pages/timeline/timeline.component';
 import { TriviaComponent } from './pages/trivia/trivia.component';
 import { HallOfFameComponent } from './pages/hall-of-fame/hall-of-fame.component';
 import { OnThisDayComponent } from './pages/on-this-day/on-this-day.component';
-import { LeaderboardComponent } from './pages/leaderboard/leaderboard.component';
+import { UclComponent } from './pages/ucl/ucl.component';
 import { ContactComponent } from './pages/contact/contact.component';
 
 export const routes: Routes = [
@@ -13,7 +13,7 @@ export const routes: Routes = [
   { path: 'trivia', component: TriviaComponent },
   { path: 'hall-of-fame', component: HallOfFameComponent },
   { path: 'on-this-day', component: OnThisDayComponent },
-  { path: 'leaderboard', component: LeaderboardComponent },
+  { path: 'ucl', component: UclComponent },
   { path: 'contact', component: ContactComponent },
   { path: '**', redirectTo: '' },
 ];

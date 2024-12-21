@@ -1,0 +1,11 @@
+/* Define Color Palette */
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --primary-color: #007bff; /* UCL-themed blue */
+    --secondary-color: #6c757d;
+    --accent-color: #e3f2fd;
+    --card-background: #f8f9fa;
+  }
+  
+  
