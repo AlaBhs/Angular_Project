@@ -1,8 +1,13 @@
 <div class="container mt-5">
+  <img class="bg_ucl" src="assets/images/ball.png" />
+  <img class="bg_ucl_2" src="assets/images/ball.png" />
   <div class="hero-section text-center d-flex align-items-center">
     <div class="text-content mr-4">
-      <h1 class="slide-in-left">Europe's Premier <span>Football</span> Competition</h1>
-      <p class="slide-in-left2">The UEFA Champions League is the pinnacle of European club football, bringing together the best teams from across the continent to compete for ultimate glory. Known for its electrifying matches and legendary moments, the competition represents the dreams of players and fans alike, uniting the football world with its rich heritage and unparalleled prestige.</p>
+      <h1 class="slide-in-left">Europe's Premier <span class="primary-span">Football</span> Competition</h1>
+      <p class="slide-in-left2">The UEFA Champions League is the pinnacle of European club football, bringing together
+        the best teams from across the continent to compete for ultimate glory. Known for its electrifying matches and
+        legendary moments, the competition represents the dreams of players and fans alike, uniting the football world
+        with its rich heritage and unparalleled prestige.</p>
     </div>
     <div class="image-content">
       <img src="assets/images/pngegg.png" alt="UCL Trophy" class="img-fluid ">
@@ -11,25 +16,143 @@
 
   <!-- Rest of the content sections like history, success, etc. -->
   <section class="history mt-5">
-    <h2>History of the UCL</h2>
-    <p>The UEFA Champions League was established in 1955 as the European Cup. It became the Champions League in 1992, introducing group stages and expanding its reach to the biggest clubs in Europe.</p>
+    <h2><span class="primary-span">History</span> of the UCL</h2>
+    <p>The UEFA Champions League was established in 1955 as the European Cup. It became the Champions League in 1992,
+      introducing group stages and expanding its reach to the biggest clubs in Europe.</p>
   </section>
-
+  <section class="mt-5">
+    <div class="d-flex justify-content-between">
+      <!-- Finals Details Card -->
+      <article class="section_card" routerLink="/ucl/finals">
+        <img class="card__background" src="assets/images/ucl_bg.jpg" alt="ucl finals photo" width="1920"
+          height="1080" />
+        <div class="card__content | flow">
+          <div class="card__content--container | flow">
+            <h2 class="card__title">Champions League Finals</h2>
+            <p class="card__description">
+              Explore all the Champions League Finals from 1955-56 to 2022-23.
+            </p>
+          </div>
+          <button class="card__button" routerLink="/ucl/finals">Click for Details</button>
+        </div>
+      </article>
+      <!-- Team Performances Card -->
+      <article class="section_card" routerLink="/ucl/performances">
+        <img class="card__background" src="assets/images/ucl_teams_bg.jpg" alt="ucl team photo" width="1920"
+          height="1080" />
+        <div class="card__content | flow">
+          <div class="card__content--container | flow">
+            <h2 class="card__title">Team Performances</h2>
+            <p class="card__description">
+              Discover the statistics of top-performing teams in the Champions League.
+            </p>
+          </div>
+          <button class="card__button" routerLink="/ucl/performances">Click for Details</button>
+        </div>
+      </article>
+    </div>
+  </section>
   <section class="success mt-5">
-    <h2>Most Successful Clubs</h2>
-    <ul class="list-group">
-      <li class="list-group-item"><strong>Real Madrid:</strong> 14 titles</li>
-      <li class="list-group-item"><strong>AC Milan:</strong> 7 titles</li>
-      <li class="list-group-item"><strong>Liverpool:</strong> 6 titles</li>
-      <li class="list-group-item"><strong>Bayern Munich:</strong> 6 titles</li>
-    </ul>
+    <h2 class="text-center mb-4">Most Successful <span class="primary-span">Clubs</span></h2>
+    <div class="row justify-content-center">
+      <!-- Real Madrid Card -->
+      <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+        <div class="card text-center shadow-sm border-0">
+          <div class="card-body">
+            <div class="image-container mx-auto">
+              <img src="assets/clubs-logos/realmadrid.png" alt="Real Madrid Logo" class="club-logo">
+            </div>
+            <h5 class="card-title mt-3">Real Madrid</h5>
+            <p class="card-text">15 Titles</p>
+          </div>
+        </div>
+      </div>
+      <!-- AC Milan Card -->
+      <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+        <div class="card text-center shadow-sm border-0">
+          <div class="card-body">
+            <div class="image-container mx-auto">
+              <img src="assets/clubs-logos/acmilan.png" alt="AC Milan Logo" class="club-logo">
+            </div>
+            <h5 class="card-title mt-3">AC Milan</h5>
+            <p class="card-text ">7 Titles</p>
+          </div>
+        </div>
+      </div>
+      <!-- Liverpool Card -->
+      <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+        <div class="card text-center shadow-sm border-0">
+          <div class="card-body">
+            <div class="image-container mx-auto">
+              <img src="assets/clubs-logos/liverpool.png" alt="Liverpool Logo" class="club-logo">
+            </div>
+            <h5 class="card-title mt-3">Liverpool</h5>
+            <p class="card-text ">6 Titles</p>
+          </div>
+        </div>
+      </div>
+      <!-- Bayern Munich Card -->
+      <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+        <div class="card text-center shadow-sm border-0">
+          <div class="card-body">
+            <div class="image-container mx-auto">
+              <img src="assets/clubs-logos/bayern.png" alt="Bayern Munich Logo" class="club-logo">
+            </div>
+            <h5 class="card-title mt-3">Bayern Munich</h5>
+            <p class="card-text ">6 Titles</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section class="current-season mt-5">
-    <h2>Current Season</h2>
-    <p>Follow the latest fixtures, group stage rankings, and knockout stages as the road to the UCL final unfolds.</p>
-    <a href="/ucl-schedule" class="btn btn-primary">View Schedule</a>
-  </section>
+
+
+  <div class="shadow-sm mt-5">
+    <div class="current-season p-3">
+      <h2 class="card-title text-center">Current <span class="primary-span">Season</span></h2>
+      <p class="description text-center">
+        Follow the latest fixtures, group stage rankings, and knockout stages as the road to the UCL final unfolds.
+      </p>
+      <div class="text-center">
+        <button class="btn btn-outline-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#moreDetails"
+          aria-expanded="false" aria-controls="moreDetails">
+          View More
+        </button>
+      </div>
+      <div class="collapse mt-4" id="moreDetails">
+        <h5 class="text-center mb-3 text-color">Group Stage Rankings</h5>
+        <div class="table-responsive">
+          <table class="table table-hover table-bordered text-center">
+            <thead class="table-dark">
+              <tr>
+                <th>Group</th>
+                <th>Team</th>
+                <th>Played</th>
+                <th>Points</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>A</td>
+                <td>Team 1</td>
+                <td>6</td>
+                <td>15</td>
+              </tr>
+              <tr>
+                <td>A</td>
+                <td> Team 2</td>
+                <td>6</td>
+                <td>12</td>
+              </tr>
+              <!-- Add more rows for other teams/groups -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <section class="gallery mt-5">
     <h2>Gallery</h2>
