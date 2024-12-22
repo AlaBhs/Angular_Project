@@ -1,0 +1,3 @@
+div, p{
+    color: var(--text-color) !important;
+}
