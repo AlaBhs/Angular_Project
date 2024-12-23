@@ -1,4 +1,4 @@
-import { Component, inject, OnInit } from '@angular/core';
+import { Component, inject, OnInit, signal } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { FootballDataService } from '../../services/football-data.service';
 import { Observable, of } from 'rxjs';
@@ -13,7 +13,7 @@ import { CommonModule } from '@angular/common';
   styleUrl: './ucl.component.css'
 })
 export class UclComponent implements OnInit {
-  viewMore:boolean = false;
+  expanded = signal(false) ;
   groupStageRankings$: Observable<UclTeam[]> = of([]);
 
 
@@ -26,5 +26,8 @@ export class UclComponent implements OnInit {
       error: (error) => console.error('Error fetching groupStageRankings:', error),
       complete: () => console.log('Observable completed'),
     });
+  }
+  toggleView() {
+    this.expanded.set(!this.expanded()); // Toggle the expanded state
   }
 }

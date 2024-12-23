@@ -359,9 +359,10 @@ p {
   vertical-align: middle;
 }
 
-.collapse {
+.standings-container {
   padding: 15px;
   border-radius: 5px;
+  transition: display 500ms ease-in, transform 500ms ease-in;
 }
 .text-color {
   color: var(--text-color);

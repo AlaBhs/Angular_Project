@@ -115,12 +115,11 @@
         Follow the latest fixtures, group stage rankings, and knockout stages as the road to the UCL final unfolds.
       </p>
       <div class="text-center">
-        <button class="btn btn-outline-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#moreDetails"
-          aria-expanded="false" aria-controls="moreDetails">
-          View More
+        <button class="btn btn-outline-secondary" type="button"  (click)="toggleView()">
+          {{ expanded() ? 'View Less' : 'View More' }}
         </button>
       </div>
-      <div class="collapse mt-4" id="moreDetails">
+      <div class="standings-container mt-4" [hidden]="!expanded()">
         <h5 class="text-center mb-3 text-color">Group Stage Rankings</h5>
         <div class="table-responsive bg_color soft-border">
           <table class="table table-hover text-center standings-table">
