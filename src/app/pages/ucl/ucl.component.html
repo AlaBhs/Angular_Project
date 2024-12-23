@@ -109,7 +109,7 @@
 
 
   <div class="shadow-sm mt-5">
-    <div class="current-season p-3">
+    <div class="current-season  p-3">
       <h2 class="card-title text-center">Current <span class="primary-span">Season</span></h2>
       <p class="description text-center">
         Follow the latest fixtures, group stage rankings, and knockout stages as the road to the UCL final unfolds.
@@ -122,36 +122,62 @@
       </div>
       <div class="collapse mt-4" id="moreDetails">
         <h5 class="text-center mb-3 text-color">Group Stage Rankings</h5>
-        <div class="table-responsive">
-          <table class="table table-hover table-bordered text-center">
+        <div class="table-responsive bg_color soft-border">
+          <table class="table table-hover text-center standings-table">
             <thead class="table-dark">
               <tr>
-                <th>Group</th>
+                <th>Rank</th>
+                <th>Logo</th>
                 <th>Team</th>
-                <th>Played</th>
+                <th>Matches</th>
+                <th>Wins</th>
+                <th>Draws</th>
+                <th>Losses</th>
+                <th>Goals For</th>
+                <th>Goals Against</th>
+                <th>Goal Difference</th>
                 <th>Points</th>
               </tr>
             </thead>
             <tbody>
+              @for(team of (groupStageRankings$ | async); track team.rank;){
+
               <tr>
-                <td>A</td>
-                <td>Team 1</td>
-                <td>6</td>
-                <td>15</td>
+                <td [ngClass]="{'finals-8': $index < 8, 'finals-16': $index >= 8 && $index < 24}">{{ team.rank }}</td>
+                <td>
+                  <img [src]="team.logo" alt="{{ team.name }} logo" class="team-logo" />
+                </td>
+                <td>{{ team.name }}</td>
+                <td>{{ team.matches }}</td>
+                <td>{{ team.wins }}</td>
+                <td>{{ team.draws }}</td>
+                <td>{{ team.losses }}</td>
+                <td>{{ team.goalsFor }}</td>
+                <td>{{ team.goalsAgainst }}</td>
+                <td>{{ team.goalDifference }}</td>
+                <td>{{ team.points }}</td>
               </tr>
-              <tr>
-                <td>A</td>
-                <td> Team 2</td>
-                <td>6</td>
-                <td>12</td>
-              </tr>
-              <!-- Add more rows for other teams/groups -->
+              } @empty{
+              <p class="text-center mt-3">No data available at the moment.</p>
+              }
             </tbody>
           </table>
+          <div class="m-4">
+            <div class="d-flex"><span class="promotion8"></span>
+              <p>Promotion - Champions League (Play Offs: 1/8-finals)</p>
+            </div>
+            <div class="d-flex"><span class="promotion16"></span>
+              <p>Promotion - Champions League (Play Offs: 1/16-finals)</p>
+            </div>
+          </div>
+          <p class="m-3"> If teams finish on equal points at the end of the season, score difference will be the
+            tie-breaker.
+          </p>
         </div>
       </div>
     </div>
   </div>
+
 
 
   <section class="gallery mt-5">

@@ -1,32 +1,30 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { FootballDataService } from '../../services/football-data.service';
+import { Observable, of } from 'rxjs';
+import { UclTeam } from './dto/ucl-team.dto';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-ucl',
   standalone: true,
-  imports: [RouterLink],
+  imports: [RouterLink,CommonModule],
   templateUrl: './ucl.component.html',
   styleUrl: './ucl.component.css'
 })
 export class UclComponent implements OnInit {
-  groupStageRankings: any[] = [];
+  viewMore:boolean = false;
+  groupStageRankings$: Observable<UclTeam[]> = of([]);
 
-  constructor(private footballDataService: FootballDataService) { }
 
-  ngOnInit(): void {
-    this.fetchGroupStageRankings();
-  }
+  constructor(private footballDataService: FootballDataService) {}
 
-  fetchGroupStageRankings(): void {
-    this.footballDataService.getUCLGroupStageRankings().subscribe({
-      next: (data: any) => {
-        this.groupStageRankings = data.standings || []; 
-        console.log(this.groupStageRankings);
-      },
-      error: (error: any) => {
-        console.error('Error fetching UCL rankings:', error);
-      }
+  ngOnInit() {
+    this.groupStageRankings$ = this.footballDataService.getGroupStageRankings();
+    this.groupStageRankings$.subscribe({
+      next: (data) => console.log('Data emitted from the service:', data),
+      error: (error) => console.error('Error fetching groupStageRankings:', error),
+      complete: () => console.log('Observable completed'),
     });
   }
 }
