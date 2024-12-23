@@ -115,7 +115,7 @@
         Follow the latest fixtures, group stage rankings, and knockout stages as the road to the UCL final unfolds.
       </p>
       <div class="text-center">
-        <button class="btn btn-outline-secondary" type="button"  (click)="toggleView()">
+        <button class="btn btn-outline-secondary" type="button" (click)="toggleView()">
           {{ expanded() ? 'View Less' : 'View More' }}
         </button>
       </div>
@@ -172,6 +172,47 @@
           <p class="m-3"> If teams finish on equal points at the end of the season, score difference will be the
             tie-breaker.
           </p>
+        </div>
+        <div class="text-center">
+          <button class="btn btn-outline-secondary mt-3" type="button" (click)="toggleViewScorers()">
+            {{ expandedScorers() ?'View Less' : 'Click to show top Scorers' }}
+          </button>
+        </div>
+      </div>
+      <div class="standings-container mt-4" [hidden]="!expandedScorers() || !expanded()">
+        <h5 class="text-center mb-3 text-color">Top Scorers Rankings</h5>
+        <div class="table-responsive bg_color soft-border">
+          <table class="table table-hover text-center standings-table">
+            <thead class="table-dark">
+              <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Nationality</th>
+                <th>Team</th>
+                <th>Goals</th>
+                <th>Assists</th>
+                <th>Played Matches</th>
+              </tr>
+            </thead>
+            <tbody>
+              @for(player of (topScorers$ | async); track $index;){
+              <tr>
+                <td>{{ $index + 1}}</td>
+                <td>{{ player.name }}</td>
+                <td>{{ player.nationality }}</td>
+                <td>
+                  <img [src]="player.team" alt="{{ player.name }} logo" class="team-logo" />
+                </td>
+                <td>{{ player.goals || 'N/A' }}</td>
+                <td>{{ player.assists || 'N/A'}}</td>
+                <td>{{ player.playedMatches }}</td>
+              </tr>
+              } @empty{
+              <p class="text-center mt-3">No data available at the moment.</p>
+              }
+            </tbody>
+          </table>
+         
         </div>
       </div>
     </div>

@@ -14,20 +14,33 @@ import { CommonModule } from '@angular/common';
 })
 export class UclComponent implements OnInit {
   expanded = signal(false) ;
+  expandedScorers = signal(false) ;
   groupStageRankings$: Observable<UclTeam[]> = of([]);
+  topScorers$: Observable<any> = of([]);
 
 
   constructor(private footballDataService: FootballDataService) {}
 
   ngOnInit() {
     this.groupStageRankings$ = this.footballDataService.getGroupStageRankings();
+    this.topScorers$ = this.footballDataService.getTopScorers();
+
     this.groupStageRankings$.subscribe({
       next: (data) => console.log('Data emitted from the service:', data),
       error: (error) => console.error('Error fetching groupStageRankings:', error),
       complete: () => console.log('Observable completed'),
     });
+
+    this.topScorers$.subscribe({
+      next: (data) => console.log('Data emitted from the service:', data),
+      error: (error) => console.error('Error fetching topScorers:', error),
+      complete: () => console.log('Observable completed'),
+    });
   }
   toggleView() {
     this.expanded.set(!this.expanded()); // Toggle the expanded state
+  }
+  toggleViewScorers() {
+    this.expandedScorers.set(!this.expandedScorers()); // Toggle the expanded state
   }
 }
