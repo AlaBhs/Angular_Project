@@ -6,6 +6,8 @@ import { HallOfFameComponent } from './pages/hall-of-fame/hall-of-fame.component
 import { OnThisDayComponent } from './pages/on-this-day/on-this-day.component';
 import { UclComponent } from './pages/ucl/ucl.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { FinalsDetailsComponent } from './pages/ucl/finals-details/finals-details.component';
+import { TeamPerformancesComponent } from './pages/ucl/team-performances/team-performances.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -14,7 +16,8 @@ export const routes: Routes = [
   { path: 'hall-of-fame', component: HallOfFameComponent },
   { path: 'on-this-day', component: OnThisDayComponent },
   { path: 'ucl', component: UclComponent },
+  { path: 'ucl/finals', component: FinalsDetailsComponent },
+  { path: 'ucl/performances', component: TeamPerformancesComponent },
   { path: 'contact', component: ContactComponent },
   { path: '**', redirectTo: '' },
 ];
-
