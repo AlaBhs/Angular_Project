@@ -4,20 +4,20 @@ import { FootballDataService } from '../../services/football-data.service';
 import { Observable, of } from 'rxjs';
 import { UclTeam } from './dto/ucl-team.dto';
 import { CommonModule } from '@angular/common';
+import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
 
 @Component({
   selector: 'app-ucl',
   standalone: true,
-  imports: [RouterLink,CommonModule],
+  imports: [RouterLink, CommonModule, NgxSkeletonLoaderModule],
   templateUrl: './ucl.component.html',
-  styleUrl: './ucl.component.css'
+  styleUrl: './ucl.component.css',
 })
 export class UclComponent implements OnInit {
-  expanded = signal(false) ;
-  expandedScorers = signal(false) ;
+  expanded = signal(false);
+  expandedScorers = signal(false);
   groupStageRankings$: Observable<UclTeam[]> = of([]);
   topScorers$: Observable<any> = of([]);
-
 
   constructor(private footballDataService: FootballDataService) {}
 
@@ -27,7 +27,8 @@ export class UclComponent implements OnInit {
 
     this.groupStageRankings$.subscribe({
       next: (data) => console.log('Data emitted from the service:', data),
-      error: (error) => console.error('Error fetching groupStageRankings:', error),
+      error: (error) =>
+        console.error('Error fetching groupStageRankings:', error),
       complete: () => console.log('Observable completed'),
     });
 
@@ -38,9 +39,9 @@ export class UclComponent implements OnInit {
     });
   }
   toggleView() {
-    this.expanded.set(!this.expanded()); // Toggle the expanded state
+    this.expanded.set(!this.expanded());
   }
   toggleViewScorers() {
-    this.expandedScorers.set(!this.expandedScorers()); // Toggle the expanded state
+    this.expandedScorers.set(!this.expandedScorers()); 
   }
 }
