@@ -1,0 +1,50 @@
+<div class="flex items-center justify-between mx-auto mt-10 max-w-6xl">
+    <!-- First Column: Previous Button -->
+    <div class="w-1/12 text-center">
+      <button class="px-6 py-3 text-black bg-white hover:bg-gray-200 focus:outline-none rounded-full"
+              (click)="prevSlide()">‹</button>
+    </div>
+  
+    <!-- Second Column: Carousel Slide -->
+    <div class="w-10/12">
+      <div class="relative carousel relative w-full">
+        <div class="carousel-inner relative overflow-hidden w-full">
+          
+          <!-- First Slide: First World Cup -->
+          <div *ngIf="currentSlide === 0" class="carousel-item w-full">
+            <div class="text-center p-6">
+              <h2 class="text-2xl font-bold mb-4 text-yellow-500">First World Cup</h2>
+              <p>The inaugural World Cup took place in 1930 in Uruguay, featuring 13 teams and marking the beginning of a global football tradition.</p>
+              <img src="../../../../assets/images/firstwc.jpg" class="block  w-128 mx-auto mt-4 rounded-lg" alt="First World Cup">
+            </div>
+          </div>
+  
+          <!-- Second Slide: Last World Cup -->
+          <div *ngIf="currentSlide === 1" class="carousel-item w-full">
+            <div class="text-center p-6">
+              <h2 class="text-2xl font-bold mb-4 text-yellow-500">Most Recent World Cup</h2>
+              <p>In 2022, Qatar hosted the World Cup, becoming the first Middle Eastern country to do so and delivering a tournament filled with memorable moments.</p>
+              <img src="../../../../assets/images/qatarwc.png" class="block  w-128 mx-auto mt-4 rounded-lg" alt="Last World Cup">
+            </div>
+          </div>
+  
+          <!-- Third Slide: Upcoming World Cup -->
+          <div *ngIf="currentSlide === 2" class="carousel-item w-full">
+            <div class="text-center p-6">
+              <h2 class="text-2xl font-bold mb-4 text-yellow-500">Upcoming World Cup</h2>
+              <p>The 2026 World Cup will be co-hosted by the USA, Canada, and Mexico, uniting three nations to stage an expanded tournament with 48 teams.</p>
+              <img src="../../../../assets/images/wc26.jpg" class="block w-128 mx-auto mt-4 rounded-md" alt="Upcoming World Cup">
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  
+    <!-- Third Column: Next Button -->
+    <div class="w-1/12 text-center">
+      <button class="px-6 py-3 text-black bg-white hover:bg-gray-200 focus:outline-none rounded-full"
+              (click)="nextSlide()">›</button>
+    </div>
+  </div>
+  
