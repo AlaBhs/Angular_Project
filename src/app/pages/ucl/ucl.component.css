@@ -6,7 +6,7 @@
   width: 2080px;
   pointer-events: none;
 }
-.bg_color{
+.bg_color {
   background-color: var(--background-color);
 }
 .bg_ucl_2 {
@@ -135,13 +135,13 @@
 .finals-8 {
   background: linear-gradient(to bottom, var(--nav-color), #003a70);
 }
-.finals-16{
+.finals-16 {
   background: linear-gradient(to bottom, var(--nav-color), #0084ff);
 }
-.soft-border{
+.soft-border {
   border-radius: 10px;
 }
-.promotion8{
+.promotion8 {
   background-color: #003a70;
   display: block;
   width: 17px;
@@ -150,7 +150,7 @@
   margin-top: 2px;
   margin-right: 4px;
 }
-.promotion16{
+.promotion16 {
   background-color: #0084ff;
   display: block;
   width: 17px;
@@ -359,10 +359,29 @@ p {
   vertical-align: middle;
 }
 
-.collapse {
+.standings-container {
   padding: 15px;
   border-radius: 5px;
+  transition: display 500ms ease-in, transform 500ms ease-in;
 }
 .text-color {
   color: var(--text-color);
+}
+.skeleton-row {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: #f5f5f5;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -150%;
+  }
+  100% {
+    background-position: 150%;
+  }
 }
