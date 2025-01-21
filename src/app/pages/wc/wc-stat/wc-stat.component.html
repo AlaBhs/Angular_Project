@@ -1,0 +1,13 @@
+<div class="relative h-full flex  justify-center bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 group" style="background-image: url('../../../../assets/images/statbg.jpg');background-size: cover; background-position: center; background-repeat: no-repeat;">
+    <!-- Question Text (opacity reduced on hover) -->
+    <div class="text-center opacity-100 group-hover:opacity-50 transition-opacity duration-300">
+        <p class="text-yellow-400 text-lg font-bold mt-7">{{question}}</p>
+    </div>
+
+    <!-- Image and Stat Text (on hover) -->
+    <div class="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 shadow-indigo-500/50 transition-opacity duration-300 bg-black bg-opacity-75">
+        <img [src]="imagesrc()" class="w-24 h-20 mb-2 rounded-full">
+        <p *ngIf="stat" class="text-lg font-bold">{{stat()}}</p>
+        <p *ngIf="!stat" class="text-lg">Loading...</p>
+    </div>
+</div>
