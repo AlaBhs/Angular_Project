@@ -7,10 +7,11 @@ import { WcStatComponent } from './wc-stat/wc-stat.component';
 import { ActivatedRoute } from '@angular/router';
 import { distinctUntilChanged, map, Observable, of, startWith, debounceTime, combineLatest, BehaviorSubject } from 'rxjs';
 import { CarouselComponent } from './carousel/carousel.component';
+import { WcMatchesComponent } from './wc-matches/wc-matches.component';
 @Component({
   selector: 'app-wc',
   standalone: true,
-  imports: [CommonModule, FormsModule, WcListComponent,WcStatComponent,ReactiveFormsModule,CarouselComponent],
+  imports: [CommonModule, FormsModule, WcListComponent,WcStatComponent,ReactiveFormsModule,CarouselComponent,WcMatchesComponent],
   templateUrl: './wc.component.html',
   styleUrls: ['./wc.component.css'],
   encapsulation: ViewEncapsulation.ShadowDom
@@ -57,7 +58,7 @@ qs : string[] = ['x','y','z','w'];
     );
 })
 
-    
+  
   }
   generateStats()
   {

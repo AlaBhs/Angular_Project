@@ -1,0 +1,33 @@
+<div class="max-w-4xl mx-auto px-4 py-8">
+    <h1 class="text-3xl font-bold text-center mb-8">World Cup Knockout Stages</h1>
+    
+    <!-- Loop through stages -->
+    <div *ngFor="let stage of stages" class="text-center mb-10">
+      <h2 class="text-xl font-semibold mb-4">{{ stage.name }}</h2>
+      
+      <!-- Matches for the stage -->
+      <div
+        [class.grid]="stage.matches.length > 2"
+        [class.grid-cols-2]="stage.matches.length > 2"
+        [class.flex]="stage.matches.length <= 2"
+        [class.justify-center]="stage.matches.length <= 2"
+        [class.space-x-4]="stage.matches.length <= 2"
+        class="gap-8"
+      >
+        <div *ngFor="let match of stage.matches">
+          <app-wc-match-item 
+            [matchDate]="match.match_time"
+            [venue]="match.venue"
+            [homeTeam]="match.home_team"
+            [awayTeam]="match.away_team"
+            [attendance]="match.attendance"
+            [referee]="match.referee"
+            [score]="match.score"
+            [homeTeamFlag]="match.home_team_flag"
+            [awayTeamFlag]="match.away_team_flag"
+          ></app-wc-match-item>
+        </div>
+      </div>
+    </div>
+  </div>
+  
