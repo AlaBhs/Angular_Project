@@ -1,34 +1,91 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/">Website<span>Name</span></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand" routerLink="/">Website<span>Name</span></a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" routerLink="/trivia" routerLinkActive="active-link">Trivia</a>
+          <a class="nav-link" routerLink="/trivia" routerLinkActive="active-link"
+            >Trivia</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/hall-of-fame" routerLinkActive="active-link">Hall Of Fame</a>
+          <a
+            class="nav-link"
+            routerLink="/hall-of-fame"
+            routerLinkActive="active-link"
+            >Hall Of Fame</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/on-this-day" routerLinkActive="active-link">On This Day</a>
+          <a
+            class="nav-link"
+            routerLink="/on-this-day"
+            routerLinkActive="active-link"
+            >On This Day</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/ucl" routerLinkActive="active-link">UCL</a>
+          <a class="nav-link" routerLink="/ucl" routerLinkActive="active-link"
+            >UCL</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/contact" routerLinkActive="active-link">Contact</a>
+          <a
+            class="nav-link"
+            routerLink="/contact"
+            routerLinkActive="active-link"
+            >Contact</a
+          >
         </li>
       </ul>
       <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <input
+          class="form-control me-2"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
       </form>
-      <div id="theme-icon"> <img [src]="'assets/icons/' + (isDarkMode ? 'dark' : 'light') + '-mode.png'"
-          alt="Toggle Theme" class="theme-icon" (click)="toggleTheme()" /></div>
-
+      <div id="theme-icon">
+        <img
+          [src]="'assets/icons/' + (isDarkMode ? 'dark' : 'light') + '-mode.png'"
+          alt="Toggle Theme"
+          class="theme-icon"
+          (click)="toggleTheme()"
+        />
+      </div>
+      <!-- Add Login/Logout Button with @if -->
+      <div class="navbar-nav">
+        <li class="nav-item">
+          @if (!isLoggedIn) {
+            <a
+              class="nav-link"
+              routerLink="/login"
+              routerLinkActive="active-link"
+              >Login</a
+            >
+          }
+          @if (isLoggedIn) {
+            <a
+              class="nav-link"
+              (click)="logout()"
+              routerLinkActive="active-link"
+              >Logout</a
+            >
+          }
+        </li>
+      </div>
     </div>
   </div>
 </nav>

@@ -1,0 +1,46 @@
+<div class="container-fluid vh-100 d-flex flex-column justify-content-center align-items-center football-background">
+  <!-- Preload the icon image -->
+  @if (randomQuote) {
+    <img [src]="randomQuote.imageUrl" alt="" style="display: none;" />
+  }
+
+  <!-- Random Quote Section -->
+  @if (randomQuote) {
+    <div class="quote-container">
+      <!-- Narrator Icon -->
+      <img
+        [src]="randomQuote.imageUrl"
+        alt="{{ randomQuote.name }}"
+        class="narrator-icon"
+        [title]="randomQuote.name"
+      />
+      <!-- Quote Text -->
+      <p class="quote-text">"{{ randomQuote.text }}"</p>
+    </div>
+  }
+
+  <!-- Messi Image -->
+  <div class="messi-image"></div>
+
+  <!-- Ronaldo Image -->
+  <div class="ronaldo-image"></div>
+
+  <!-- Login Card -->
+  <div class="card p-4 shadow-lg login-card">
+    <div class="text-center mb-4">
+      <span class="display-4">⚽</span> <!-- Football emoji -->
+      <h2 class="mt-2">Login</h2>
+    </div>
+    <form (ngSubmit)="onSubmit()">
+      <div class="mb-3">
+        <label for="username" class="form-label">Username</label>
+        <input [(ngModel)]="username" name="username" type="text" class="form-control" id="username" placeholder="Enter your username" required>
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <input [(ngModel)]="password" name="password" type="password" class="form-control" id="password" placeholder="Enter your password" required>
+      </div>
+      <button type="submit" class="btn btn-primary w-100 login-button">Login</button>
+    </form>
+  </div>
+</div>

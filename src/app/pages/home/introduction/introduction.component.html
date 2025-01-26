@@ -1,0 +1,37 @@
+<div class="introduction">
+    <h1>Welcome to Website<span class="site-name">Name</span></h1>
+    <p>
+        Welcome to <strong>WebsiteName</strong>, your ultimate destination for everything about the world's greatest football competitions! Dive deep into the rich history, current standings, and fascinating facts of the <strong><span class="ucl-text">UEFA Champions League</span></strong> and the <strong><span class="wc-text">FIFA World Cup</span></strong>. From all-time top scorers to legendary moments, we’ve got it all covered.
+    </p>
+    <div class="image-links">
+        <!-- UCL Card -->
+        <article class="section_card" routerLink="/ucl">
+            <img class="card__background" [src]="uclImagePath" alt="UCL Link" width="1920" height="1080" />
+            <div class="card__content | flow">
+                <div class="card__content--container | flow">
+                    <h2 class="card__title">UEFA Champions League</h2>
+                    <p class="card__description">
+                        Explore the history, current standings, and top scorers of the UCL.
+                    </p>
+                </div>
+                <button class="card__button" routerLink="/ucl">Explore now</button>
+            </div>
+        </article>
+        <!-- World Cup Card -->
+        <article class="section_card" routerLink="/wc">
+            <img class="card__background" [src]="wcImagePath" alt="WC Link" width="1920" height="1080" />
+            <div class="card__content | flow">
+                <div class="card__content--container | flow">
+                    <h2 class="card__title">FIFA World Cup</h2>
+                    <p class="card__description">
+                        Discover the history, current standings, and legendary moments of the World Cup.
+                    </p>
+                </div>
+                <button class="card__button" routerLink="/wc">Explore now</button>
+            </div>
+        </article>
+    </div>
+    <p class="quiz-message">
+        Test your football knowledge with our <strong><span class="quiz-text">daily quiz</span></strong> and climb the leaderboard to prove you’re the ultimate football expert. Don’t forget to check out the quiz on the right side of the page and challenge yourself every day!
+    </p>
+</div>
