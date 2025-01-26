@@ -8,19 +8,22 @@ const cors = require('cors');
 const app = express();
 const port = 3000;
 
-// Initialize DuckDB
+// Initialize DuckDB in-memory database
 const db = new duckdb.Database(':memory:');
 app.use(cors());
 
+// Object to track loaded CSV files
+const loadedTables = {};
+
 // Endpoint to read from any CSV and query it
 app.get('/query-csv', async (req, res) => {
-    const { csvFile, filterColumn, filterValue, sortColumn, sortOrder, page, pageSize } = req.query;
+    const { csvFile, filterColumns, filterValues, excludeColumn, excludeValues, sortColumn, sortOrder, page, pageSize } = req.query;
   
     if (!csvFile) {
       return res.status(400).send({ error: 'CSV file name is required as a query parameter' });
     }
   
-    const csvUrl = `https://raw.githubusercontent.com/NouiraTaher/FootballTrivia/main/${csvFile}`;
+    const csvUrl = `https://raw.githubusercontent.com/NouiraTaher/FootballTrivia/refs/heads/main/${csvFile}`;
     const tableName = path.basename(csvFile, '.csv'); // Use the filename (without .csv) as the table name
     const tempFilePath = path.join(__dirname, `${tableName}.csv`);
   
@@ -57,9 +60,29 @@ app.get('/query-csv', async (req, res) => {
       // Build the query with filtering, sorting, and pagination
       let query = `SELECT * FROM ${tableName}`;
   
-      // Add filtering
-      if (filterColumn && filterValue) {
-        query += ` WHERE ${filterColumn} LIKE '%${filterValue}%'`;
+      // Add filtering for multiple columns
+      let filters = [];
+      if (filterColumns && filterValues) {
+        const filterColumnsArray = filterColumns.split(',');
+        const filterValuesArray = filterValues.split(',');
+        filters = filterColumnsArray.map((col, index) => {
+          const value = filterValuesArray[index];
+          return `CAST(${col} AS VARCHAR) LIKE '%${value}%'`;
+        });
+      }
+  
+      // Add exclude filter for partial match
+      if (excludeColumn && excludeValues) {
+        const excludeValuesArray = excludeValues.split(',');
+        const excludeCondition = excludeValuesArray.map(value => {
+          return `LOWER(${excludeColumn}) NOT LIKE '%${value}%'`;
+        }).join(' AND ');
+        filters.push(excludeCondition);
+      }
+  
+      // If there are any filters, join them with AND
+      if (filters.length > 0) {
+        query += ' WHERE ' + filters.join(' AND ');
       }
   
       // Add sorting
@@ -98,10 +121,11 @@ app.get('/query-csv', async (req, res) => {
       console.error('Error in /query-csv:', error);
       res.status(500).send({ error: 'An error occurred while processing the CSV file' });
     }
-  });
-  
+});
+
+
 
 // Start the server
 app.listen(port, () => {
-  console.log(`Express server running on http://localhost:${port}`);
+    console.log(`Express server running on http://localhost:${port}`);
 });

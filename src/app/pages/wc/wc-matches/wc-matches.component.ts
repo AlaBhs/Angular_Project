@@ -1,6 +1,8 @@
 import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
 import { WcMatchItemComponent } from '../wc-match-item/wc-match-item.component';
+import { WcService } from '../wc.service';
+import { Observable } from 'rxjs';
 
 
 interface Match {
@@ -13,12 +15,13 @@ interface Match {
   score: string;
   home_team_flag: string;
   away_team_flag: string;
-  stage: string; // Add the 'stage' property
+  stage: string; // This represents the stage name, which we will dynamically get from the matches
 }
 
 interface Stage {
   name: string;
   matches: Match[];
+  matchCount: number; // This will store the number of matches in the stage
 }
 
 @Component({
@@ -29,51 +32,68 @@ interface Stage {
   styleUrl: './wc-matches.component.css'
 })
 export class WcMatchesComponent {
-  stages: Stage[] = []; // Stores the filtered and ordered stages
-  selectedYear: number = 2022; // Default to 2022
-  allMatches: Match[] = []; // Holds all the fetched matches
 
-  constructor() {}
+  stages: Stage[] = []; // Stores the filtered and ordered stages
+  allMatches: Match[] = []; // Holds all the fetched matches
+  year : any;
+  constructor(private wcService : WcService) {
+  }
 
   ngOnInit(): void {
     this.fetchMatches();
   }
 
+  
   fetchMatches(): void {
-    // Fetch matches using the service
-    // this.matchService.getMatchesByYear(this.selectedYear).subscribe((matches: Match[]) => {
-    //   this.allMatches = matches;
-    //   this.filterAndOrderStages();
-    // });
+    // Fetch matches using the service (matches are already filtered to knockout stages)
+    this.wcService.selectedYear$.subscribe((year) => {
+      if (year !== null) {
+        this.wcService.fetchKnockOutMatchesByYear(year).subscribe((matches: Match[]) => {
+          this.organizeMatchesByStage(matches);
+          this.year=year;
+        });
+      }
+    });
   }
 
-  filterAndOrderStages(): void {
-    const knockoutStagesOrder = [
-      'Final',
-      'Place for 3rd', // Third-place match
-      'Semi-Finals',
-      'Quarter-Finals',
-      'Round of 16',
-    ];
+  organizeMatchesByStage(matches: Match[]): void {
+    // Group matches by their stage
+    const groupedStages: { [key: string]: Match[] } = {};
 
-    // Filter out group stages (assuming they have different names like "Group A", "Preliminary round", etc.)
-    const filteredMatches = this.allMatches.filter(match =>
-      knockoutStagesOrder.includes(match.stage)
-    );
+    matches.forEach((match) => {
+      if (!groupedStages[match.stage]) {
+        groupedStages[match.stage] = [];
+      }
+      groupedStages[match.stage].push(match);
+    });
 
-    // Group matches by stage and order them as per `knockoutStagesOrder`
-    this.stages = knockoutStagesOrder
-      .map(stageName => {
-        const matchesInStage = filteredMatches.filter(match => match.stage === stageName);
+    // Convert the grouped object into an array of stages with match counts
+    const stagesWithMatchCount: Stage[] = Object.keys(groupedStages)
+      .map((stageName) => {
+        const stageMatches = groupedStages[stageName];
         return {
           name: stageName,
-          matches: matchesInStage,
+          matches: stageMatches,
+          matchCount: stageMatches.length,
         };
       })
-      .filter(stage => stage.matches.length > 0); // Remove empty stages
-  }
+      .filter((stage) => stage.matches.length > 0); // Remove any empty stages
 
+    // Now we need to sort the stages dynamically
+    this.stages = stagesWithMatchCount.sort((a, b) => {
+      // Final and Place for 3rd are special, we can sort them first by match count
+      if (a.name === "Final" && b.matchCount === 1) return -1; // Move Final and Place for 3rd to the top
+
+      // Sort the remaining stages by the number of matches (ascending)
+      return a.matchCount - b.matchCount;
+    });
+  }
+  goBackToList() {
+    this.wcService.resetSelectedYear();
+    }
 }
+
+
 
 
 

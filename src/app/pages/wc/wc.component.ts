@@ -19,6 +19,7 @@ import { WcMatchesComponent } from './wc-matches/wc-matches.component';
 export class WcComponent implements OnInit {
 searchTerm: any;
 formBuilder = inject(FormBuilder);
+selectedYear$: Observable<number | null> | undefined;
 
 
   
@@ -29,7 +30,10 @@ qs : string[] = ['x','y','z','w'];
   sortControl = new FormControl('');
   filteredAndSortedWcs$: Observable<any[]> | undefined;
   
-  constructor(@Inject(WcService) private worldCupService : WcService , private route : ActivatedRoute) { }
+  constructor(@Inject(WcService) private worldCupService : WcService , private route : ActivatedRoute) {
+    this.selectedYear$ = this.worldCupService.selectedYear$;
+
+   }
   ngOnInit(): void {
     
   
@@ -58,7 +62,7 @@ qs : string[] = ['x','y','z','w'];
     );
 })
 
-  
+
   }
   generateStats()
   {
