@@ -1,0 +1,33 @@
+<div class="football-fact-container p-3">
+  @if (fact) {
+    <div class="fact-content">
+      <!-- Left side: Text -->
+      <div class="text-section">
+        @if (fact.date != '') {
+          <h3>On this day: {{ fact.title }}</h3>
+        } @else {
+          <h3>{{ fact.title }}</h3>
+        }
+        <!-- Use innerHTML to render the description with line breaks -->
+        <p [innerHTML]="fact.description"></p>
+      </div>
+
+      <!-- Right side: Video -->
+      <div class="video-section">
+        @if (fact.videoUrl == '') {
+          <img [src]="fact.imageUrl" alt="Football Fact Image" class="img-fluid rounded mt-3" />
+        } @else {
+          <div class="video-container">
+            <iframe
+              [src]="safeVideoUrl"
+              allow="autoplay; fullscreen"
+              allowfullscreen
+            ></iframe>
+          </div>
+        }
+      </div>
+    </div>
+  } @else {
+    <p class="text-center">No fact available for today.</p>
+  }
+</div>

@@ -1,0 +1,39 @@
+<div class="leaderboard-container p-3">
+  <h2 class="text-center mb-3">Leaderboard</h2>
+  @if (topUsers.length > 0) {
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th>Username</th>
+          <th>Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (user of topUsers; track user.id; let i = $index) {
+          <tr>
+            <td>
+              @if (i === 0) {
+                <i class="fas fa-medal" style="color: gold;"></i>
+              } @else if (i === 1) {
+                <i class="fas fa-medal" style="color: silver;"></i>
+              } @else if (i === 2) {
+                <i class="fas fa-medal" style="color: #cd7f32;"></i>
+              } @else {
+                {{ i + 1 }}
+              }
+            </td>
+            <td [ngClass]="{ 'current-user': user.username === currentUserUsername }">
+              {{ user.username }}
+            </td>
+            <td>{{ user.score }}</td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  } @else {
+    <p class="text-center">No one has played today yet. Be the first!</p>
+  }
+</div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">

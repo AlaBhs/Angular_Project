@@ -10,9 +10,17 @@ import { FinalsDetailsComponent } from './pages/ucl/finals-details/finals-detail
 import { TeamPerformancesComponent } from './pages/ucl/team-performances/team-performances.component';
 import { WcComponent } from './pages/wc/wc.component';
 import { WcDataResolver } from './pages/wc/wc-data.resolver';
+import { LoginComponent } from './components/auth/login/login.component';
+import { FootballFactResolver } from './pages/home/football-fact/football-fact.resolver';
+import { QuoteResolver } from './components/auth/login/quote.resolver';
 
 export const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: '',
+     component: HomeComponent ,
+     resolve: {
+        fact: FootballFactResolver, // Resolve data before activating the route
+    },
+  },
   { path: 'timeline', component: TimelineComponent },
   { path: 'trivia', component: TriviaComponent },
   { path: 'hall-of-fame', component: HallOfFameComponent },
@@ -27,5 +35,10 @@ export const routes: Routes = [
   { path: 'ucl/finals', component: FinalsDetailsComponent },
   { path: 'ucl/performances', component: TeamPerformancesComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'login',
+     component: LoginComponent,
+     resolve : {
+      quote : QuoteResolver
+     } },
   { path: '**', redirectTo: '' },
 ];

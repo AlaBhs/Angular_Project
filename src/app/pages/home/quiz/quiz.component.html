@@ -1,0 +1,61 @@
+<div class="quiz-container p-3">
+  @if (!authService.getCurrentUser()) {
+    <div class="alert alert-warning text-center">
+      🚀 Please <a routerLink="/login" class="alert-link">log in</a> to play the daily quiz!
+    </div>
+  } @else if (hasPlayedToday) {
+    <div class="alert alert-info text-center">
+      🎮 You've already played today. Come back tomorrow for a new challenge!
+    </div>
+  } @else if (!quizStarted) {
+    <!-- Start Screen -->
+    <div class="start-screen text-center">
+      <h3>Are you ready to take the daily quiz?</h3>
+      <button class="btn btn-primary mt-3" (click)="startQuiz()">Start Quiz</button>
+    </div>
+  } @else if (questions.length > 0 && !quizEnded && !dayChangedError) {
+    <!-- Quiz Questions -->
+    <h2 class="text-center mb-3">Daily Quiz</h2>
+    <div class="question">
+      <p class="lead">{{ currentQuestion.question }}</p>
+      <ul class="list-group">
+        @for (option of currentQuestion.options; track option) {
+          <li
+            class="list-group-item list-group-item-action"
+            [ngClass]="{
+              'list-group-item-success': isAnswered && option === currentQuestion.correctAnswer,
+              'list-group-item-danger': isAnswered && option === selectedAnswer && !isCorrect,
+              'active': selectedAnswer === option
+            }"
+            (click)="selectAnswer(option)"
+          >
+            {{ option }}
+          </li>
+        }
+      </ul>
+    </div>
+    @if (isAnswered) {
+      <div class="feedback mt-3">
+        @if (isCorrect) {
+          <p class="text-success">Correct! 🎉</p>
+        }
+        @if (!isCorrect) {
+          <p class="text-danger">Incorrect. The correct answer is {{ currentQuestion.correctAnswer }}.</p>
+        }
+      </div>
+    }
+  } @else if (quizEnded) {
+    <!-- Quiz End Screen -->
+    <div class="quiz-end text-center">
+      <h2>Quiz Over!</h2>
+      <p class="score">Your score: <span class="score-value">{{ score }}</span></p>
+    </div>
+  } @else if (dayChangedError) {
+    <!-- Day Changed Error -->
+    <div class="alert alert-danger text-center">
+      The day has changed since you started the quiz. Please refresh the page to get the new quiz.
+    </div>
+  } @else {
+    <p class="text-center">Loading questions...</p>
+  }
+</div>
