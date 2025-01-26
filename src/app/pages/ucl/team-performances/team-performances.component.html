@@ -1,31 +1,66 @@
-<div class="container">
-    <h2>Team Performances</h2>
-    <table class="table table-striped">
-      <thead>
-        <tr>
-          <th>Team</th>
-          <th>Matches</th>
-          <th>Wins</th>
-          <th>Draws</th>
-          <th>Losses</th>
-          <th>Goals</th>
-          <th>Goal Difference</th>
-          <th>Points</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Real Madrid</td>
-          <td>400</td>
-          <td>250</td>
-          <td>90</td>
-          <td>60</td>
-          <td>900:450</td>
-          <td>+450</td>
-          <td>840</td>
-        </tr>
-        <!-- Add more rows here -->
-      </tbody>
-    </table>
+<div class="table-container">
+  <div class="filter-container">
+    <input matInput (keyup)="applyFilter($event)" placeholder="Filter clubs">
   </div>
   
+  <table mat-table [dataSource]="dataSource" matSort class="mat-elevation-z8">
+    <!-- Position Column -->
+    <ng-container matColumnDef="position">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Position </th>
+      <td mat-cell *matCellDef="let club"> {{ club.position }} </td>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Club </th>
+      <td mat-cell *matCellDef="let club"> {{ club.name }} </td>
+    </ng-container>
+
+    <!-- Country Column -->
+    <ng-container matColumnDef="country">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Country </th>
+      <td mat-cell *matCellDef="let club"> {{ club.country }} </td>
+    </ng-container>
+
+    <!-- Other Columns -->
+    <ng-container matColumnDef="participated">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Participated </th>
+      <td mat-cell *matCellDef="let club"> {{ club.participated }} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="titles">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Titles </th>
+      <td mat-cell *matCellDef="let club"> {{ club.titles }} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="played">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Played </th>
+      <td mat-cell *matCellDef="let club"> {{ club.played }} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="win">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Win </th>
+      <td mat-cell *matCellDef="let club"> {{ club.win }} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="draw">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Draw </th>
+      <td mat-cell *matCellDef="let club"> {{ club.draw }} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="loss">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Loss </th>
+      <td mat-cell *matCellDef="let club"> {{ club.loss }} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="goalsFor">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Goals For </th>
+      <td mat-cell *matCellDef="let club"> {{ club.goalsFor }} </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+
+  <mat-paginator [pageSize]="5" showFirstLastButtons></mat-paginator>
+</div>
