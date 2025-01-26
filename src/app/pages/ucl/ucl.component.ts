@@ -4,12 +4,13 @@ import { FootballDataService } from '../../services/football-data.service';
 import { Observable, of } from 'rxjs';
 import { UclTeam } from './dto/ucl-team.dto';
 import { CommonModule } from '@angular/common';
-import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
+import { GroupStageTableComponent } from "./group-stage-table/group-stage-table.component";
+import { TopScorersTableComponent } from "./top-scorers-table/top-scorers-table.component";
 
 @Component({
   selector: 'app-ucl',
   standalone: true,
-  imports: [RouterLink, CommonModule, NgxSkeletonLoaderModule],
+  imports: [RouterLink, CommonModule, GroupStageTableComponent, TopScorersTableComponent],
   templateUrl: './ucl.component.html',
   styleUrl: './ucl.component.css',
 })

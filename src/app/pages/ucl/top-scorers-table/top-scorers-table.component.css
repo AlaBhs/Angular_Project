@@ -1,0 +1,33 @@
+.table-dark th {
+    background-color: #003a70;
+    color: white;
+  }
+  .standings-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .standings-table thead {
+    background: var(--accent-color);
+  }
+  
+  .standings-table th,
+  .standings-table td {
+    padding: 10px;
+  }
+  .standings-table td {
+    background-color: var(--nav-color);
+    color: var(--text-color);
+  }
+  .standings-table tbody tr:nth-child(even) {
+    background: var(--nav-color);
+  }
+  .team-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+  }

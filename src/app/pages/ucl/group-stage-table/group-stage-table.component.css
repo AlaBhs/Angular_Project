@@ -1,0 +1,60 @@
+.finals-8 {
+  background: linear-gradient(to bottom, var(--nav-color), #003a70);
+}
+.finals-16 {
+  background: linear-gradient(to bottom, var(--nav-color), #0084ff);
+}
+.promotion8 {
+  background-color: #003a70;
+  display: block;
+  width: 17px;
+  height: 17px;
+  border-radius: 5px;
+  margin-top: 2px;
+  margin-right: 4px;
+}
+.promotion16 {
+  background-color: #0084ff;
+  display: block;
+  width: 17px;
+  height: 17px;
+  border-radius: 5px;
+  margin-top: 2px;
+  margin-right: 4px;
+}
+.table-dark th {
+  background-color: #003a70;
+  color: white;
+}
+.standings-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.standings-table thead {
+  background: var(--accent-color);
+}
+
+.standings-table th,
+.standings-table td {
+  padding: 10px;
+}
+.standings-table td {
+  background-color: var(--nav-color);
+  color: var(--text-color);
+}
+.standings-table tbody tr:nth-child(even) {
+  background: var(--nav-color);
+}
+.bg_color {
+    background-color: var(--background-color);
+  }
+  .team-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
