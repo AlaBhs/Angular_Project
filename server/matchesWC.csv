@@ -1,0 +1,949 @@
+year,match_time,stage,venue,home_team,away_team,attendance,referee,score
+1930,13 Jul 1930 - 15:00 ,Group 1,Pocitos,France,Mexico,4444.0,LOMBARDI Domingo (URU),4-1
+1930,13 Jul 1930 - 15:00 ,Group 4,Parque Central,USA,Belgium,18346.0,MACIAS Jose (ARG),3-0
+1930,14 Jul 1930 - 12:45 ,Group 2,Parque Central,Yugoslavia,Brazil,24059.0,TEJADA Anibal (URU),2-1
+1930,14 Jul 1930 - 14:50 ,Group 3,Pocitos,Romania,Peru,2549.0,WARNKEN Alberto (CHI),3-1
+1930,15 Jul 1930 - 16:00 ,Group 1,Parque Central,Argentina,France,23409.0,REGO Gilberto (BRA),1-0
+1930,16 Jul 1930 - 14:45 ,Group 1,Parque Central,Chile,Mexico,9249.0,CRISTOPHE Henry (BEL),3-0
+1930,17 Jul 1930 - 12:45 ,Group 2,Parque Central,Yugoslavia,Bolivia,18306.0,MATEUCCI Francisco (URU),4-0
+1930,17 Jul 1930 - 14:45 ,Group 4,Parque Central,USA,Paraguay,18306.0,MACIAS Jose (ARG),3-0
+1930,18 Jul 1930 - 14:30 ,Group 3,Estadio Centenario,Uruguay,Peru,57735.0,LANGENUS Jean (BEL),1-0
+1930,19 Jul 1930 - 12:50 ,Group 1,Estadio Centenario,Chile,France,2000.0,TEJADA Anibal (URU),1-0
+1930,19 Jul 1930 - 15:00 ,Group 1,Estadio Centenario,Argentina,Mexico,42100.0,SAUCEDO Ulises (BOL),6-3
+1930,20 Jul 1930 - 13:00 ,Group 2,Estadio Centenario,Brazil,Bolivia,25466.0,BALWAY Thomas (FRA),4-0
+1930,20 Jul 1930 - 15:00 ,Group 4,Estadio Centenario,Paraguay,Belgium,12000.0,VALLARINO Ricardo (URU),1-0
+1930,21 Jul 1930 - 14:50 ,Group 3,Estadio Centenario,Uruguay,Romania,70022.0,REGO Gilberto (BRA),4-0
+1930,22 Jul 1930 - 14:45 ,Group 1,Estadio Centenario,Argentina,Chile,41459.0,LANGENUS Jean (BEL),3-1
+1930,26 Jul 1930 - 14:45 ,Semi-finals,Estadio Centenario,Argentina,USA,72886.0,LANGENUS Jean (BEL),6-1
+1930,27 Jul 1930 - 14:45 ,Semi-finals,Estadio Centenario,Uruguay,Yugoslavia,79867.0,REGO Gilberto (BRA),6-1
+1930,30 Jul 1930 - 14:15 ,Final,Estadio Centenario,Uruguay,Argentina,68346.0,LANGENUS Jean (BEL),4-2
+1934,01 Jun 1934 - 16:30 ,Quarter-finals,Giovanni Berta,Italy,Spain,43000.0,MERCET Rene (SUI),1-0
+1934,03 Jun 1934 - 16:30 ,Semi-finals,Nazionale PNF,Czechoslovakia,Germany,15000.0,BARLASSINA Rinaldo (ITA),3-1
+1934,03 Jun 1934 - 16:30 ,Semi-finals,San Siro,Italy,Austria,35000.0,EKLIND Ivan (SWE),1-0
+1934,07 Jun 1934 - 18:00 ,Match for third place,Giorgio Ascarelli,Germany,Austria,7000.0,CARRARO Albino (ITA),3-2
+1934,10 Jun 1934 - 17:30 ,Final,Nazionale PNF,Italy,Czechoslovakia,55000.0,EKLIND Ivan (SWE),2-1
+1934,27 May 1934 - 16:30 ,Preliminary round,Stadio Benito Mussolini,Austria,France,16000.0,VAN MOORSEL Johannes (NED),3-2
+1934,27 May 1934 - 16:30 ,Preliminary round,Littorio,Czechoslovakia,Romania,9000.0,LANGENUS Jean (BEL),2-1
+1934,27 May 1934 - 16:30 ,Preliminary round,Giovanni Berta,Germany,Belgium,8000.0,MATTEA Francesco (ITA),5-2
+1934,27 May 1934 - 16:30 ,Preliminary round,Giorgio Ascarelli,Hungary,Egypt,9000.0,BARLASSINA Rinaldo (ITA),4-2
+1934,27 May 1934 - 16:30 ,Preliminary round,Nazionale PNF,Italy,USA,25000.0,MERCET Rene (SUI),7-1
+1934,27 May 1934 - 16:30 ,Preliminary round,Luigi Ferraris,Spain,Brazil,21000.0,BIRLEM Alfred (GER),3-1
+1934,27 May 1934 - 16:30 ,Preliminary round,Littorale,Sweden,Argentina,14000.0,BRAUN Eugen (AUT),3-2
+1934,27 May 1934 - 16:30 ,Preliminary round,San Siro,Switzerland,Netherlands,33000.0,EKLIND Ivan (SWE),3-2
+1934,31 May 1934 - 16:30 ,Quarter-finals,Littorale,Austria,Hungary,23000.0,MATTEA Francesco (ITA),2-1
+1934,31 May 1934 - 16:30 ,Quarter-finals,Stadio Benito Mussolini,Czechoslovakia,Switzerland,12000.0,BERANEK Alois (AUT),3-2
+1934,31 May 1934 - 16:30 ,Quarter-finals,San Siro,Germany,Sweden,3000.0,BARLASSINA Rinaldo (ITA),2-1
+1934,31 May 1934 - 16:30 ,Quarter-finals,Giovanni Berta,Italy,Spain,35000.0,BAERT Louis (BEL),1-1
+1938,04 Jun 1938 - 17:00 ,First round,Parc des Princes,Switzerland,Germany,27152.0,LANGENUS Jean (BEL),1-1
+1938,05 Jun 1938 - 17:00 ,First round,Stade Municipal,Cuba,Romania,7000.0,SCARPI Giuseppe (ITA),3-3
+1938,05 Jun 1938 - 17:00 ,First round,Stade Olympique,France,Belgium,30454.0,WUETHRICH Hans (SUI),3-1
+1938,05 Jun 1938 - 17:00 ,First round,Velodrome Municipale,Hungary,Dutch East Indies,9000.0,CONRIE Roger (FRA),6-0
+1938,05 Jun 1938 - 17:00 ,First round,Stade V�lodrome,Italy,Norway,19000.0,BERANEK Alois (AUT),2-1
+1938,05 Jun 1938 - 17:30 ,First round,Stade de la Meinau,Brazil,Poland,13452.0,EKLIND Ivan (SWE),6-5
+1938,05 Jun 1938 - 18:30 ,First round,Cavee Verte,Czechoslovakia,Netherlands,11000.0,LECLERCQ Lucien (FRA),3-0
+1938,09 Jun 1938 - 18:00 ,First round,Stade Municipal,Cuba,Romania,8000.0,BIRLEM Alfred (GER),2-1
+1938,09 Jun 1938 - 18:00 ,First round,Parc des Princes,Switzerland,Germany,20025.0,EKLIND Ivan (SWE),4-2
+1938,12 Jun 1938 - 17:00 ,Quarter-finals,Stade du Parc Lescure,Brazil,Czechoslovakia,22021.0,VON HERTZKA Pal (HUN),1-1
+1938,12 Jun 1938 - 17:00 ,Quarter-finals,Victor Boucquey,Hungary,Switzerland,15000.0,BARLASSINA Rinaldo (ITA),2-0
+1938,12 Jun 1938 - 17:00 ,Quarter-finals,Stade Olympique,Italy,France,58455.0,BAERT Louis (BEL),3-1
+1938,12 Jun 1938 - 17:00 ,Quarter-finals,Fort Carree,Sweden,Cuba,7000.0,KRIST Gustav (TCH),8-0
+1938,14 Jun 1938 - 18:00 ,Quarter-finals,Stade du Parc Lescure,Brazil,Czechoslovakia,18141.0,CAPDEVILLE Georges (FRA),2-1
+1938,16 Jun 1938 - 18:00 ,Semi-finals,Parc des Princes,Hungary,Sweden,20000.0,LECLERCQ Lucien (FRA),5-1
+1938,16 Jun 1938 - 18:00 ,Semi-finals,Stade V�lodrome,Italy,Brazil,33000.0,WUETHRICH Hans (SUI),2-1
+1938,19 Jun 1938 - 17:00 ,Match for third place,Stade du Parc Lescure,Brazil,Sweden,12000.0,LANGENUS Jean (BEL),4-2
+1938,19 Jun 1938 - 17:00 ,Final,Stade Olympique,Italy,Hungary,45000.0,CAPDEVILLE Georges (FRA),4-2
+1950,01 Jul 1950 - 15:00 ,Group 1,Maracan� - Est�dio Jornalista M�rio Filho,Brazil,Yugoslavia,142429.0,GRIFFITHS Benjamin (WAL),2-0
+1950,02 Jul 1950 - 15:00 ,Group 2,Ilha do Retiro,Chile,USA,8501.0,GARDELLI Mario (BRA),5-2
+1950,02 Jul 1950 - 15:00 ,Group 3,Pacaembu,Italy,Paraguay,25811.0,ELLIS Arthur (ENG),2-0
+1950,02 Jul 1950 - 15:00 ,Group 2,Maracan� - Est�dio Jornalista M�rio Filho,Spain,England,74462.0,GALEATI Giovanni (ITA),1-0
+1950,02 Jul 1950 - 15:00 ,Group 4,Independencia,Uruguay,Bolivia,5284.0,READER George (ENG),8-0
+1950,02 Jul 1950 - 15:40 ,Group 1,Eucaliptos,Switzerland,Mexico,3580.0,EKLIND Ivan (SWE),2-1
+1950,09 Jul 1950 - 15:00 ,Group 6,Maracan� - Est�dio Jornalista M�rio Filho,Brazil,Sweden,138886.0,ELLIS Arthur (ENG),7-1
+1950,09 Jul 1950 - 15:00 ,Group 6,Pacaembu,Uruguay,Spain,44802.0,GRIFFITHS Benjamin (WAL),2-2
+1950,13 Jul 1950 - 15:00 ,Group 6,Maracan� - Est�dio Jornalista M�rio Filho,Brazil,Spain,152772.0,LEAFE Reginald (ENG),6-1
+1950,13 Jul 1950 - 15:00 ,Group 6,Pacaembu,Uruguay,Sweden,7987.0,GALEATI Giovanni (ITA),3-2
+1950,16 Jul 1950 - 15:00 ,Group 6,Pacaembu,Sweden,Spain,11227.0,VAN DER MEER Karel (NED),3-1
+1950,16 Jul 1950 - 15:00 ,Group 6,Maracan� - Est�dio Jornalista M�rio Filho,Uruguay,Brazil,173850.0,READER George (ENG),2-1
+1950,24 Jun 1950 - 15:00 ,Group 1,Maracan� - Est�dio Jornalista M�rio Filho,Brazil,Mexico,81649.0,READER George (ENG),4-0
+1950,25 Jun 1950 - 15:00 ,Group 2,Maracan� - Est�dio Jornalista M�rio Filho,England,Chile,29703.0,VAN DER MEER Karel (NED),2-0
+1950,25 Jun 1950 - 15:00 ,Group 2,Durival de Brito,Spain,USA,9511.0,VIANA Mario (BRA),3-1
+1950,25 Jun 1950 - 15:00 ,Group 3,Pacaembu,Sweden,Italy,36502.0,LUTZ Jean (SUI),3-2
+1950,25 Jun 1950 - 15:00 ,Group 1,Independencia,Yugoslavia,Switzerland,7336.0,GALEATI Giovanni (ITA),3-0
+1950,28 Jun 1950 - 15:00 ,Group 1,Pacaembu,Brazil,Switzerland,42032.0,AZON ROMA Ramon (ESP),2-2
+1950,28 Jun 1950 - 15:00 ,Group 1,Eucaliptos,Yugoslavia,Mexico,11078.0,LEAFE Reginald (ENG),4-1
+1950,29 Jun 1950 - 15:00 ,Group 2,Maracan� - Est�dio Jornalista M�rio Filho,Spain,Chile,19790.0,MALCHER Alberto (BRA),2-0
+1950,29 Jun 1950 - 15:00 ,Group 2,Independencia,USA,England,10151.0,DATTILO Generoso (ITA),1-0
+1950,29 Jun 1950 - 15:30 ,Group 3,Durival de Brito,Sweden,Paraguay,7903.0,MITCHELL Robert (SCO),2-2
+1954,03 Jul 1954 - 17:00 ,Match for third place,Hardturm,Austria,Uruguay,32000.0,WYSSLING Paul (SUI),3-1
+1954,04 Jul 1954 - 17:00 ,Final,Wankdorf Stadium,Germany FR,Hungary,62500.0,LING William (ENG),3-2
+1954,16 Jun 1954 - 18:00 ,Group 3,Hardturm,Austria,Scotland,25000.0,FRANKEN Laurent (BEL),1-0
+1954,16 Jun 1954 - 18:00 ,Group 1,Charmilles,Brazil,Mexico,13470.0,WYSSLING Paul (SUI),5-0
+1954,16 Jun 1954 - 18:00 ,Group 3,Wankdorf Stadium,Uruguay,Czechoslovakia,20500.0,ELLIS Arthur (ENG),2-0
+1954,16 Jun 1954 - 18:00 ,Group 1,La Pontaise,Yugoslavia,France,16000.0,GRIFFITHS Benjamin (WAL),1-0
+1954,17 Jun 1954 - 17:50 ,Group 4,La Pontaise,Switzerland,Italy,43000.0,VIANA Mario (BRA),2-1
+1954,17 Jun 1954 - 18:00 ,Group 2,Wankdorf Stadium,Germany FR,Turkey,28000.0,DA COSTA VIEIRA Jose (POR),4-1
+1954,17 Jun 1954 - 18:00 ,Group 2,Hardturm,Hungary,Korea Republic,13000.0,VINCENTI Raymond (FRA),9-0
+1954,17 Jun 1954 - 18:10 ,Group 4,St. Jakob,England,Belgium,14000.0,SCHMETZER Emil (FRG),4-4
+1954,19 Jun 1954 - 16:50 ,Group 3,St. Jakob,Uruguay,Scotland,34000.0,ORLANDINI Vincenzo (ITA),7-0
+1954,19 Jun 1954 - 17:00 ,Group 3,Hardturm,Austria,Czechoslovakia,26000.0,STEFANOVIC Vasa (YUG),5-0
+1954,19 Jun 1954 - 17:00 ,Group 1,La Pontaise,Brazil,Yugoslavia,24637.0,FAULTLESS Charlie (SCO),1-1
+1954,19 Jun 1954 - 17:10 ,Group 1,Charmilles,France,Mexico,19000.0,ASENSI Manuel (ESP),3-2
+1954,20 Jun 1954 - 16:50 ,Group 2,St. Jakob,Hungary,Germany FR,56000.0,LING William (ENG),8-3
+1954,20 Jun 1954 - 17:00 ,Group 4,Comunale di Cornaredo,Italy,Belgium,24000.0,STEINER Carl (AUT),4-1
+1954,20 Jun 1954 - 17:00 ,Group 2,Charmilles,Turkey,Korea Republic,4000.0,MARINO Esteban (URU),7-0
+1954,20 Jun 1954 - 17:10 ,Group 4,Wankdorf Stadium,England,Switzerland,43500.0,ZSOLT Istvan (HUN),2-0
+1954,23 Jun 1954 - 18:00 ,Group 2,Hardturm,Germany FR,Turkey,17000.0,VINCENTI Raymond (FRA),7-2
+1954,23 Jun 1954 - 18:00 ,Group 4,St. Jakob,Switzerland,Italy,30000.0,GRIFFITHS Benjamin (WAL),4-1
+1954,26 Jun 1954 - 17:00 ,Quarter-finals,La Pontaise,Austria,Switzerland,35000.0,FAULTLESS Charlie (SCO),7-5
+1954,26 Jun 1954 - 17:00 ,Quarter-finals,St. Jakob,Uruguay,England,28000.0,STEINER Carl (AUT),4-2
+1954,27 Jun 1954 - 17:00 ,Quarter-finals,Charmilles,Germany FR,Yugoslavia,17000.0,ZSOLT Istvan (HUN),2-0
+1954,27 Jun 1954 - 17:00 ,Quarter-finals,Wankdorf Stadium,Hungary,Brazil,40000.0,ELLIS Arthur (ENG),4-2
+1954,30 Jun 1954 - 18:00 ,Semi-finals,St. Jakob,Germany FR,Austria,58000.0,ORLANDINI Vincenzo (ITA),6-1
+1954,30 Jun 1954 - 18:00 ,Semi-finals,La Pontaise,Hungary,Uruguay,45000.0,GRIFFITHS Benjamin (WAL),4-2
+1958,08 Jun 1958 - 14:00 ,Group 3,Rasunda Stadium,Sweden,Mexico,34107.0,LATYCHEV Nikolaj (URS),3-0
+1958,08 Jun 1958 - 19:00 ,Group 1,Malmo Stadion,Argentina,Germany FR,31156.0,LEAFE Reginald (ENG),1-3
+1958,08 Jun 1958 - 19:00 ,Group 4,Rimnersvallen,Brazil,Austria,17788.0,GUIGUE Maurice (FRA),3-0
+1958,08 Jun 1958 - 19:00 ,Group 2,Idrottsparken,France,Paraguay,16518.0,GARDEAZABAL Juan (ESP),7-3
+1958,08 Jun 1958 - 19:00 ,Group 3,Jarnvallen,Hungary,Wales,15343.0,CODESAL Jose Maria (URU),1-1
+1958,08 Jun 1958 - 19:00 ,Group 1,Orjans Vall,Northern Ireland,Czechoslovakia,10647.0,SEIPELT Fritz (AUT),1-0
+1958,08 Jun 1958 - 19:00 ,Group 4,Nya Ullevi,Soviet Union,England,49348.0,ZSOLT Istvan (HUN),2-2
+1958,08 Jun 1958 - 19:00 ,Group 2,Arosvallen,Yugoslavia,Scotland,9591.0,WYSSLING Paul (SUI),1-1
+1958,11 Jun 1958 - 19:00 ,Group 1,Orjans Vall,Argentina,Northern Ireland,14174.0,AHLNER Sten (SWE),3-1
+1958,11 Jun 1958 - 19:00 ,Group 4,Nya Ullevi,Brazil,England,40895.0,DUSCH Albert (GER),0-0
+1958,11 Jun 1958 - 19:00 ,Group 1,Olympia Stadium,Germany FR,Czechoslovakia,25000.0,ELLIS Arthur (ENG),2-2
+1958,11 Jun 1958 - 19:00 ,Group 3,Rasunda Stadium,Mexico,Wales,15150.0,LEMESIC Leo (YUG),1-1
+1958,11 Jun 1958 - 19:00 ,Group 2,Idrottsparken,Paraguay,Scotland,11665.0,ORLANDINI Vincenzo (ITA),3-2
+1958,11 Jun 1958 - 19:00 ,Group 4,Ryavallen,Soviet Union,Austria,21239.0,JORGENSEN Carl Frederik (DEN),2-0
+1958,11 Jun 1958 - 19:00 ,Group 2,Arosvallen,Yugoslavia,France,12217.0,GRIFFITHS Benjamin (WAL),3-2
+1958,12 Jun 1958 - 19:00 ,Group 3,Rasunda Stadium,Sweden,Hungary,38850.0,MOWAT Jack (SCO),2-1
+1958,15 Jun 1958 - 14:00 ,Group 3,Rasunda Stadium,Sweden,Wales,30287.0,VAN NUFFEL Lucien (BEL),0-0
+1958,15 Jun 1958 - 19:00 ,Group 4,Nya Ullevi,Brazil,Soviet Union,50928.0,GUIGUE Maurice (FRA),2-0
+1958,15 Jun 1958 - 19:00 ,Group 1,Olympia Stadium,Czechoslovakia,Argentina,16418.0,ELLIS Arthur (ENG),6-1
+1958,15 Jun 1958 - 19:00 ,Group 4,Ryavallen,England,Austria,15872.0,BRONKHORST Jan (NED),2-2
+1958,15 Jun 1958 - 19:00 ,Group 2,Eyravallen,France,Scotland,13554.0,BROZZI Juan (ARG),2-1
+1958,15 Jun 1958 - 19:00 ,Group 1,Malmo Stadion,Germany FR,Northern Ireland,21990.0,FERNANDES CAMPOS Joaquim (POR),2-2
+1958,15 Jun 1958 - 19:00 ,Group 3,Jarnvallen,Hungary,Mexico,13300.0,ERIKSSON Arne (FIN),4-0
+1958,15 Jun 1958 - 19:00 ,Group 2,Tunavallen,Paraguay,Yugoslavia,13103.0,MACKO Martin (TCH),3-3
+1958,17 Jun 1958 - 19:00 ,Group 1,Malmo Stadion,Northern Ireland,Czechoslovakia,6196.0,GUIGUE Maurice (FRA),2-1
+1958,17 Jun 1958 - 19:00 ,Group 4,Nya Ullevi,Soviet Union,England,23182.0,DUSCH Albert (GER),1-0
+1958,17 Jun 1958 - 19:00 ,Group 3,Rasunda Stadium,Wales,Hungary,2823.0,LATYCHEV Nikolaj (URS),2-1
+1958,19 Jun 1958 - 19:00 ,Quarter-finals,Nya Ullevi,Brazil,Wales,25923.0,SEIPELT Fritz (AUT),1-0
+1958,19 Jun 1958 - 19:00 ,Quarter-finals,Idrottsparken,France,Northern Ireland,11800.0,GARDEAZABAL Juan (ESP),4-0
+1958,19 Jun 1958 - 19:00 ,Quarter-finals,Malmo Stadion,Germany FR,Yugoslavia,20055.0,WYSSLING Paul (SUI),1-0
+1958,19 Jun 1958 - 19:00 ,Quarter-finals,Rasunda Stadium,Sweden,Soviet Union,31900.0,LEAFE Reginald (ENG),2-0
+1958,24 Jun 1958 - 19:00 ,Semi-finals,Rasunda Stadium,Brazil,France,27100.0,GRIFFITHS Benjamin (WAL),5-2
+1958,24 Jun 1958 - 19:00 ,Semi-finals,Nya Ullevi,Sweden,Germany FR,49471.0,ZSOLT Istvan (HUN),3-1
+1958,28 Jun 1958 - 17:00 ,Match for third place,Nya Ullevi,France,Germany FR,32483.0,BROZZI Juan (ARG),6-3
+1958,29 Jun 1958 - 15:00 ,Final,Rasunda Stadium,Brazil,Sweden,49737.0,GUIGUE Maurice (FRA),5-2
+1962,02 Jun 1962 - 15:00 ,Group 3,Estadio Sausalito,Brazil,Czechoslovakia,14903.0,SCHWINTE Pierre (FRA),0-0
+1962,02 Jun 1962 - 15:00 ,Group 2,Nacional,Chile,Italy,66057.0,ASTON Ken (ENG),2-0
+1962,02 Jun 1962 - 15:00 ,Group 4,Estadio El Teniente-Codelco,England,Argentina,9794.0,LATYCHEV Nikolaj (URS),3-1
+1962,02 Jun 1962 - 15:00 ,Group 1,Carlos Dittborn,Yugoslavia,Uruguay,8829.0,GALBA Karol (TCH),3-1
+1962,03 Jun 1962 - 15:00 ,Group 2,Nacional,Germany FR,Switzerland,64922.0,HORN Leo (NED),2-1
+1962,03 Jun 1962 - 15:00 ,Group 4,Estadio El Teniente-Codelco,Hungary,Bulgaria,7442.0,GARDEAZABAL Juan (ESP),6-1
+1962,03 Jun 1962 - 15:00 ,Group 1,Carlos Dittborn,Soviet Union,Colombia,8040.0,ETZEL FILHO Joao (BRA),4-4
+1962,03 Jun 1962 - 15:00 ,Group 3,Estadio Sausalito,Spain,Mexico,11875.0,TESANIC Branko (YUG),1-0
+1962,06 Jun 1962 - 15:00 ,Group 3,Estadio Sausalito,Brazil,Spain,18715.0,BUSTAMANTE Sergio (CHI),2-1
+1962,06 Jun 1962 - 15:00 ,Group 2,Nacional,Germany FR,Chile,67224.0,DAVIDSON Bob (SCO),2-0
+1962,06 Jun 1962 - 15:00 ,Group 4,Estadio El Teniente-Codelco,Hungary,Argentina,7945.0,YAMASAKI MALDONADO Arturo (MEX),0-0
+1962,06 Jun 1962 - 15:00 ,Group 1,Carlos Dittborn,Soviet Union,Uruguay,9973.0,JONNI Cesare (ITA),2-1
+1962,07 Jun 1962 - 15:00 ,Group 4,Estadio El Teniente-Codelco,England,Bulgaria,5700.0,BLAVIER Arthur (BEL),0-0
+1962,07 Jun 1962 - 15:00 ,Group 2,Nacional,Italy,Switzerland,59828.0,LATYCHEV Nikolaj (URS),3-0
+1962,07 Jun 1962 - 15:00 ,Group 3,Estadio Sausalito,Mexico,Czechoslovakia,10648.0,DIENST Gottfried (SUI),3-1
+1962,07 Jun 1962 - 15:00 ,Group 1,Carlos Dittborn,Yugoslavia,Colombia,7167.0,ROBLES Carlos (CHI),5-0
+1962,10 Jun 1962 - 14:30 ,Quarter-finals,Estadio Sausalito,Brazil,England,17736.0,SCHWINTE Pierre (FRA),3-1
+1962,10 Jun 1962 - 14:30 ,Quarter-finals,Carlos Dittborn,Chile,Soviet Union,17268.0,HORN Leo (NED),2-1
+1962,10 Jun 1962 - 14:30 ,Quarter-finals,Estadio El Teniente-Codelco,Czechoslovakia,Hungary,11690.0,LATYCHEV Nikolaj (URS),1-0
+1962,10 Jun 1962 - 14:30 ,Quarter-finals,Nacional,Yugoslavia,Germany FR,63324.0,YAMASAKI MALDONADO Arturo (MEX),1-0
+1962,13 Jun 1962 - 14:30 ,Semi-finals,Nacional,Brazil,Chile,76594.0,YAMASAKI MALDONADO Arturo (MEX),4-2
+1962,13 Jun 1962 - 14:30 ,Semi-finals,Estadio Sausalito,Czechoslovakia,Yugoslavia,5890.0,DIENST Gottfried (SUI),3-1
+1962,16 Jun 1962 - 14:30 ,Match for third place,Nacional,Chile,Yugoslavia,66697.0,GARDEAZABAL Juan (ESP),1-0
+1962,17 Jun 1962 - 14:30 ,Final,Nacional,Brazil,Czechoslovakia,68679.0,LATYCHEV Nikolaj (URS),3-1
+1962,30 May 1962 - 15:00 ,Group 4,Estadio El Teniente-Codelco,Argentina,Bulgaria,7134.0,GARDEAZABAL Juan (ESP),1-0
+1962,30 May 1962 - 15:00 ,Group 3,Estadio Sausalito,Brazil,Mexico,10484.0,DIENST Gottfried (SUI),2-0
+1962,30 May 1962 - 15:00 ,Group 2,Nacional,Chile,Switzerland,65006.0,ASTON Ken (ENG),3-1
+1962,30 May 1962 - 15:00 ,Group 1,Carlos Dittborn,Uruguay,Colombia,7908.0,DOROGI Andor (HUN),2-1
+1962,31 May 1962 - 15:00 ,Group 3,Estadio Sausalito,Czechoslovakia,Spain,12700.0,STEINER Carl (AUT),1-0
+1962,31 May 1962 - 15:00 ,Group 2,Nacional,Germany FR,Italy,65440.0,DAVIDSON Bob (SCO),0-0
+1962,31 May 1962 - 15:00 ,Group 4,Estadio El Teniente-Codelco,Hungary,England,7938.0,HORN Leo (NED),2-1
+1962,31 May 1962 - 15:00 ,Group 1,Carlos Dittborn,Soviet Union,Yugoslavia,9622.0,DUSCH Albert (GER),2-0
+1966,11 Jul 1966 - 19:30 ,Group 1,Wembley Stadium,England,Uruguay,87148.0,ZSOLT Istvan (HUN),0-0
+1966,12 Jul 1966 - 19:30 ,Group 3,Goodison Park,Brazil,Bulgaria,47308.0,TSCHENSCHER Kurt (GER),2-0
+1966,12 Jul 1966 - 19:30 ,Group 2,Hillsborough,Germany FR,Switzerland,36127.0,PHILLIPS Hugh (SCO),5-0
+1966,12 Jul 1966 - 19:30 ,Group 4,Ayresome Park,Soviet Union,Korea DPR,23006.0,GARDEAZABAL Juan (ESP),3-0
+1966,13 Jul 1966 - 19:30 ,Group 2,Villa Park,Argentina,Spain,42738.0,RUMENTCHEV Dimitar (BUL),2-1
+1966,13 Jul 1966 - 19:30 ,Group 1,Wembley Stadium,France,Mexico,69237.0,ASHKENAZI Menachem (ISR),1-1
+1966,13 Jul 1966 - 19:30 ,Group 4,Roker Park Ground,Italy,Chile,27199.0,DIENST Gottfried (SUI),2-0
+1966,13 Jul 1966 - 19:30 ,Group 3,Old Trafford Stadium,Portugal,Hungary,29886.0,CALLAGHAN Leo (WAL),3-1
+1966,15 Jul 1966 - 19:30 ,Group 3,Goodison Park,Hungary,Brazil,51387.0,DAGNALL Kenneth (ENG),3-1
+1966,15 Jul 1966 - 19:30 ,Group 4,Ayresome Park,Korea DPR,Chile,13792.0,KANDIL Aly Hussein (EGY),1-1
+1966,15 Jul 1966 - 19:30 ,Group 2,Hillsborough,Spain,Switzerland,32028.0,BAKHRAMOV Tofik (URS),2-1
+1966,15 Jul 1966 - 19:30 ,Group 1,White City,Uruguay,France,45662.0,GALBA Karol (TCH),2-1
+1966,16 Jul 1966 - 15:00 ,Group 2,Villa Park,Germany FR,Argentina,46587.0,ZECEVIC Konstantin (YUG),0-0
+1966,16 Jul 1966 - 15:00 ,Group 3,Old Trafford Stadium,Portugal,Bulgaria,25438.0,CODESAL Jose Maria (URU),3-0
+1966,16 Jul 1966 - 15:00 ,Group 4,Roker Park Ground,Soviet Union,Italy,27793.0,KREITLEIN Rudolf (GER),1-0
+1966,16 Jul 1966 - 19:30 ,Group 1,Wembley Stadium,England,Mexico,92570.0,LO BELLO Concetto (ITA),2-0
+1966,19 Jul 1966 - 16:30 ,Group 1,Wembley Stadium,Uruguay,Mexico,61112.0,LOEOEW Bertil (SWE),0-0
+1966,19 Jul 1966 - 19:30 ,Group 2,Hillsborough,Argentina,Switzerland,32127.0,FERNANDES CAMPOS Joaquim (POR),2-0
+1966,19 Jul 1966 - 19:30 ,Group 4,Ayresome Park,Korea DPR,Italy,17829.0,SCHWINTE Pierre (FRA),1-0
+1966,19 Jul 1966 - 19:30 ,Group 3,Goodison Park,Portugal,Brazil,58479.0,McCABE George (ENG),3-1
+1966,20 Jul 1966 - 19:30 ,Group 1,Wembley Stadium,England,France,98270.0,YAMASAKI MALDONADO Arturo (MEX),2-0
+1966,20 Jul 1966 - 19:30 ,Group 2,Villa Park,Germany FR,Spain,42187.0,MARQUES Armando (BRA),2-1
+1966,20 Jul 1966 - 19:30 ,Group 3,Old Trafford Stadium,Hungary,Bulgaria,24129.0,GOICOECHEA Roberto (ARG),3-1
+1966,20 Jul 1966 - 19:30 ,Group 4,Roker Park Ground,Soviet Union,Chile,16027.0,ADAIR John (NIR),2-1
+1966,23 Jul 1966 - 15:00 ,Quarter-finals,Wembley Stadium,England,Argentina,90584.0,KREITLEIN Rudolf (GER),1-0
+1966,23 Jul 1966 - 15:00 ,Quarter-finals,Hillsborough,Germany FR,Uruguay,40007.0,FINNEY Jim (ENG),4-0
+1966,23 Jul 1966 - 15:00 ,Quarter-finals,Goodison Park,Portugal,Korea DPR,40248.0,ASHKENAZI Menachem (ISR),5-3
+1966,23 Jul 1966 - 15:00 ,Quarter-finals,Roker Park Ground,Soviet Union,Hungary,26844.0,GARDEAZABAL Juan (ESP),2-1
+1966,25 Jul 1966 - 19:30 ,Semi-finals,Goodison Park,Germany FR,Soviet Union,38273.0,LO BELLO Concetto (ITA),2-1
+1966,26 Jul 1966 - 19:30 ,Semi-finals,Wembley Stadium,England,Portugal,94493.0,SCHWINTE Pierre (FRA),2-1
+1966,28 Jul 1966 - 19:30 ,Match for third place,Wembley Stadium,Portugal,Soviet Union,87696.0,DAGNALL Kenneth (ENG),2-1
+1966,30 Jul 1966 - 15:00 ,Final,Wembley Stadium,England,Germany FR,96924.0,DIENST Gottfried (SUI),4-2
+1970,02 Jun 1970 - 16:00 ,Group 3,Jalisco,England,Romania,50560.0,LORAUX Vital (BEL),1-0
+1970,02 Jun 1970 - 16:00 ,Group 4,Nou Camp - Estadio Le�n,Peru,Bulgaria,13765.0,SBARDELLA Antonio (ITA),3-2
+1970,02 Jun 1970 - 16:00 ,Group 2,Cuauhtemoc,Uruguay,Israel,20654.0,DAVIDSON Bob (SCO),2-0
+1970,03 Jun 1970 - 16:00 ,Group 1,Estadio Azteca,Belgium,El Salvador,92205.0,RADULESCU Andrei (ROU),3-0
+1970,03 Jun 1970 - 16:00 ,Group 3,Jalisco,Brazil,Czechoslovakia,52897.0,BARRETO RUIZ Ramon (URU),4-1
+1970,03 Jun 1970 - 16:00 ,Group 4,Nou Camp - Estadio Le�n,Germany FR,Morocco,12942.0,VAN RAVENS Laurens (NED),2-1
+1970,03 Jun 1970 - 16:00 ,Group 2,Luis Dosal,Italy,Sweden,13433.0,TAYLOR John (ENG),1-0
+1970,06 Jun 1970 - 16:00 ,Group 4,Nou Camp - Estadio Le�n,Peru,Morocco,13537.0,BAKHRAMOV Tofik (URS),3-0
+1970,06 Jun 1970 - 16:00 ,Group 3,Jalisco,Romania,Czechoslovakia,56818.0,DE LEO Diego (MEX),2-1
+1970,06 Jun 1970 - 16:00 ,Group 1,Estadio Azteca,Soviet Union,Belgium,95261.0,SCHEURER Ruedi (SUI),4-1
+1970,06 Jun 1970 - 16:00 ,Group 2,Cuauhtemoc,Uruguay,Italy,29968.0,GLOECKNER Rudolf (GDR),0-0
+1970,07 Jun 1970 - 12:00 ,Group 3,Jalisco,Brazil,England,66843.0,KLEIN Abraham (ISR),1-0
+1970,07 Jun 1970 - 12:00 ,Group 4,Nou Camp - Estadio Le�n,Germany FR,Bulgaria,12710.0,ORTIZ DE MENDIBIL Jose Maria (ESP),5-2
+1970,07 Jun 1970 - 12:00 ,Group 1,Estadio Azteca,Mexico,El Salvador,103058.0,KANDIL Aly Hussein (EGY),4-0
+1970,07 Jun 1970 - 12:00 ,Group 2,Luis Dosal,Sweden,Israel,9624.0,TAREKEGN Seyoum (ETH),1-1
+1970,10 Jun 1970 - 16:00 ,Group 3,Jalisco,Brazil,Romania,50804.0,MARSCHALL Ferdinand (AUT),3-2
+1970,10 Jun 1970 - 16:00 ,Group 4,Nou Camp - Estadio Le�n,Germany FR,Peru,17875.0,AGUILAR ELIZALDE Abel (MEX),3-1
+1970,10 Jun 1970 - 16:00 ,Group 1,Estadio Azteca,Soviet Union,El Salvador,89979.0,HORMAZABAL DIAZ Rafael (CHI),2-0
+1970,10 Jun 1970 - 16:00 ,Group 2,Cuauhtemoc,Sweden,Uruguay,18163.0,LANDAUER Henry (USA),1-0
+1970,11 Jun 1970 - 16:00 ,Group 4,Nou Camp - Estadio Le�n,Bulgaria,Morocco,12299.0,SALDANHA RIBEIRO Antonio (POR),1-1
+1970,11 Jun 1970 - 16:00 ,Group 3,Jalisco,England,Czechoslovakia,49292.0,MACHIN Roger (FRA),1-0
+1970,11 Jun 1970 - 16:00 ,Group 2,Luis Dosal,Italy,Israel,9890.0,DE MORAES Ayrton Vieira (BRA),0-0
+1970,11 Jun 1970 - 16:00 ,Group 1,Estadio Azteca,Mexico,Belgium,108192.0,COEREZZA Norberto Angel (ARG),1-0
+1970,14 Jun 1970 - 12:00 ,Quarter-finals,Jalisco,Brazil,Peru,54233.0,LORAUX Vital (BEL),4-2
+1970,14 Jun 1970 - 12:00 ,Quarter-finals,Nou Camp - Estadio Le�n,Germany FR,England,23357.0,COEREZZA Norberto Angel (ARG),3-2
+1970,14 Jun 1970 - 12:00 ,Quarter-finals,Luis Dosal,Italy,Mexico,26851.0,SCHEURER Ruedi (SUI),4-1
+1970,14 Jun 1970 - 12:00 ,Quarter-finals,Estadio Azteca,Uruguay,Soviet Union,26085.0,VAN RAVENS Laurens (NED),1-0
+1970,17 Jun 1970 - 16:00 ,Semi-finals,Jalisco,Brazil,Uruguay,51261.0,ORTIZ DE MENDIBIL Jose Maria (ESP),3-1
+1970,17 June 1970 - 16:00 ,Semi-finals,Estadio Azteca,Italy,Germany FR,102444.0,YAMASAKI MALDONADO Arturo (MEX),4-3
+1970,20 Jun 1970 - 16:00 ,Match for third place,Estadio Azteca,Germany FR,Uruguay,104403.0,SBARDELLA Antonio (ITA),1-0
+1970,21 Jun 1970 - 12:00 ,Final,Estadio Azteca,Brazil,Italy,107412.0,GLOECKNER Rudolf (GDR),4-1
+1970,31 May 1970 - 12:00 ,Group 1,Estadio Azteca,Mexico,Soviet Union,107160.0,TSCHENSCHER Kurt (GER),0-0
+1974,03 Jul 1974 - 17:00 ,Group B,Waldstadion,Poland,Germany FR,62000.0,LINEMAYR Erich (AUT),0-1
+1974,03 Jul 1974 - 19:30 ,Group A,Parkstadion,Argentina,German DR,54254.0,TAYLOR John (ENG),1-1
+1974,03 Jul 1974 - 19:30 ,Group A,Westfalenstadion,Netherlands,Brazil,53700.0,TSCHENSCHER Kurt (GER),2-0
+1974,03 Jul 1974 - 19:30 ,Group B,Rheinstadion,Sweden,Yugoslavia,41300.0,PESTARINO Luis (ARG),2-1
+1974,06 Jul 1974 - 16:00 ,Match for third place,Olympiastadion,Brazil,Poland,77100.0,ANGONESE Aurelio (ITA),0-1
+1974,07 July 1974 - 16:00 ,Final,Olympiastadion,Netherlands,Germany FR,78200.0,TAYLOR John (ENG),1-2
+1974,13 Jun 1974 - 17:00 ,Group 2,Waldstadion,Brazil,Yugoslavia,62000.0,SCHEURER Ruedi (SUI),0-0
+1974,14 Jun 1974 - 16:00 ,Group 1,Olympiastadion,Germany FR,Chile,81100.0,BABACAN Dogan (TUR),1-0
+1974,14 Jun 1974 - 19:30 ,Group 1,Volksparkstadion,German DR,Australia,17000.0,NDIAYE Youssou (SEN),2-0
+1974,14 Jun 1974 - 19:30 ,Group 2,Westfalenstadion,Zaire,Scotland,27000.0,SCHULENBURG Gerhard (GER),0-2
+1974,15 Jun 1974 - 16:00 ,Group 3,Rheinstadion,Sweden,Bulgaria,23800.0,PEREZ NUNEZ Edison A. (PER),0-0
+1974,15 Jun 1974 - 16:00 ,Group 3,Niedersachsenstadion,Uruguay,Netherlands,55100.0,PALOTAI Karoly (HUN),0-2
+1974,15 Jun 1974 - 18:00 ,Group 4,Olympiastadion,Italy,Haiti,53000.0,LLOBREGAT Vicente (VEN),3-1
+1974,15 Jun 1974 - 18:00 ,Group 4,Neckarstadion,Poland,Argentina,32700.0,THOMAS Clive (WAL),3-2
+1974,18 Jun 1974 - 16:00 ,Group 1,Volksparkstadion,Australia,Germany FR,53300.0,KAMEL Mahmoud (EGY),0-3
+1974,18 Jun 1974 - 19:30 ,Group 1,Olympiastadion,Chile,German DR,28300.0,ANGONESE Aurelio (ITA),1-1
+1974,18 Jun 1974 - 19:30 ,Group 2,Waldstadion,Scotland,Brazil,62000.0,VAN GEMERT Arie (NED),0-0
+1974,18 Jun 1974 - 19:30 ,Group 2,Parkstadion,Yugoslavia,Zaire,31700.0,DELGADO Omar (COL),9-0
+1974,19 Jun 1974 - 19:30 ,Group 4,Neckarstadion,Argentina,Italy,70100.0,KAZAKOV Pavel (URS),1-1
+1974,19 Jun 1974 - 19:30 ,Group 3,Niedersachsenstadion,Bulgaria,Uruguay,13400.0,TAYLOR John (ENG),1-1
+1974,19 Jun 1974 - 19:30 ,Group 4,Olympiastadion,Haiti,Poland,25300.0,SUPPIAH George (SIN),0-7
+1974,19 Jun 1974 - 19:30 ,Group 3,Westfalenstadion,Netherlands,Sweden,53700.0,WINSEMANN Werner (CAN),0-0
+1974,22 Jun 1974 - 16:00 ,Group 1,Olympiastadion,Australia,Chile,17400.0,NAMDAR Jafar (IRN),0-0
+1974,22 Jun 1974 - 16:00 ,Group 2,Waldstadion,Scotland,Yugoslavia,56000.0,GONZALEZ ARCHUNDIA Alfonso (MEX),1-1
+1974,22 Jun 1974 - 16:00 ,Group 2,Parkstadion,Zaire,Brazil,36200.0,RAINEA Nicolae (ROU),0-3
+1974,22 June 1974 - 19:30 ,Group 1,Volksparkstadion,German DR,Germany FR,60200.0,BARRETO RUIZ Ramon (URU),1-0
+1974,23 Jun 1974 - 16:00 ,Group 4,Olympiastadion,Argentina,Haiti,25900.0,SANCHEZ IBANEZ Pablo (ESP),4-1
+1974,23 Jun 1974 - 16:00 ,Group 3,Westfalenstadion,Bulgaria,Netherlands,53300.0,BOSKOVIC Tony (AUS),1-4
+1974,23 Jun 1974 - 16:00 ,Group 4,Neckarstadion,Poland,Italy,70100.0,WEYLAND Hans Joachim (FRG),2-1
+1974,23 Jun 1974 - 16:00 ,Group 3,Rheinstadion,Sweden,Uruguay,28300.0,LINEMAYR Erich (AUT),3-0
+1974,26 Jun 1974 - 16:00 ,Group B,Rheinstadion,Yugoslavia,Germany FR,67385.0,MARQUES Armando (BRA),0-2
+1974,26 Jun 1974 - 19:30 ,Group A,Niedersachsenstadion,Brazil,German DR,59863.0,THOMAS Clive (WAL),1-0
+1974,26 Jun 1974 - 19:30 ,Group A,Parkstadion,Netherlands,Argentina,56548.0,DAVIDSON Bob (SCO),4-0
+1974,26 Jun 1974 - 19:30 ,Group B,Neckarstadion,Sweden,Poland,44955.0,BARRETO RUIZ Ramon (URU),0-1
+1974,30 Jun 1974 - 16:00 ,Group A,Niedersachsenstadion,Argentina,Brazil,39400.0,LORAUX Vital (BEL),1-2
+1974,30 Jun 1974 - 16:00 ,Group A,Parkstadion,German DR,Netherlands,68348.0,SCHEURER Ruedi (SUI),0-2
+1974,30 Jun 1974 - 16:00 ,Group B,Waldstadion,Poland,Yugoslavia,58000.0,GLOECKNER Rudolf (GDR),2-1
+1974,30 Jun 1974 - 19:30 ,Group B,Rheinstadion,Germany FR,Sweden,67800.0,KAZAKOV Pavel (URS),4-2
+1978,01 Jun 1978 - 15:00 ,Group 2,El Monumental - Estadio Monumental Antonio Vespuci,Germany FR,Poland,67579.0,COEREZZA Norberto Angel (ARG),0-0
+1978,02 Jun 1978 - 13:45 ,Group 1,Estadio Jos� Mar�a Minella,Italy,France,42373.0,RAINEA Nicolae (ROU),2-1
+1978,02 Jun 1978 - 16:45 ,Group 2,Arroyito - Estadio Dr. Lisandro de la Torre,Tunisia,Mexico,17396.0,GORDON John (SCO),3-1
+1978,02 Jun 1978 - 19:15 ,Group 1,El Monumental - Estadio Monumental Antonio Vespuci,Argentina,Hungary,71615.0,GARRIDO Antonio (POR),2-1
+1978,03 Jun 1978 - 13:45 ,Group 3,Jose Amalfitani,Austria,Spain,40841.0,PALOTAI Karoly (HUN),2-1
+1978,03 Jun 1978 - 13:45 ,Group 3,Estadio Jos� Mar�a Minella,Sweden,Brazil,32569.0,THOMAS Clive (WAL),1-1
+1978,03 Jun 1978 - 16:45 ,Group 4,San Martin,Netherlands,IR Iran,33431.0,GONZALEZ ARCHUNDIA Alfonso (MEX),3-0
+1978,03 Jun 1978 - 16:45 ,Group 4,Estadio Ol�mpico Chateau Carreras,Peru,Scotland,37927.0,ERIKSSON Ulf (SWE),3-1
+1978,06 Jun 1978 - 13:45 ,Group 1,Estadio Jos� Mar�a Minella,Italy,Hungary,26533.0,BARRETO RUIZ Ramon (URU),3-1
+1978,06 Jun 1978 - 16:45 ,Group 2,Estadio Ol�mpico Chateau Carreras,Germany FR,Mexico,35258.0,BOUZO Farouk (SYR),6-0
+1978,06 Jun 1978 - 16:45 ,Group 2,Arroyito - Estadio Dr. Lisandro de la Torre,Poland,Tunisia,9624.0,MARTINEZ Angel (ESP),1-0
+1978,06 Jun 1978 - 19:15 ,Group 1,El Monumental - Estadio Monumental Antonio Vespuci,Argentina,France,71666.0,DUBACH Jean (SUI),2-1
+1978,07 Jun 1978 - 13:45 ,Group 3,Jose Amalfitani,Austria,Sweden,41424.0,CORVER Charles (NED),1-0
+1978,07 Jun 1978 - 13:45 ,Group 3,Estadio Jos� Mar�a Minella,Brazil,Spain,34771.0,GONELLA Sergio (ITA),0-0
+1978,07 Jun 1978 - 16:45 ,Group 4,San Martin,Netherlands,Peru,28125.0,PROKOP Adolf (GDR),0-0
+1978,07 Jun 1978 - 16:45 ,Group 4,Estadio Ol�mpico Chateau Carreras,Scotland,IR Iran,7938.0,NDIAYE Youssou (SEN),1-1
+1978,10 Jun 1978 - 15:10 ,Group 1,Estadio Jos� Mar�a Minella,France,Hungary,23127.0,COELHO Arnaldo (BRA),3-1
+1978,10 Jun 1978 - 16:45 ,Group 2,Estadio Ol�mpico Chateau Carreras,Germany FR,Tunisia,30667.0,OROZCO GUERRERO Cesar (PER),0-0
+1978,10 Jun 1978 - 16:45 ,Group 2,Arroyito - Estadio Dr. Lisandro de la Torre,Poland,Mexico,22651.0,NAMDAR Jafar (IRN),3-1
+1978,10 Jun 1978 - 19:15 ,Group 1,El Monumental - Estadio Monumental Antonio Vespuci,Italy,Argentina,71712.0,KLEIN Abraham (ISR),1-0
+1978,11 Jun 1978 - 13:45 ,Group 3,Estadio Jos� Mar�a Minella,Brazil,Austria,35221.0,WURTZ Robert (FRA),1-0
+1978,11 Jun 1978 - 13:45 ,Group 3,Jose Amalfitani,Spain,Sweden,42132.0,BIWERSI Ferdinand (GER),1-0
+1978,11 Jun 1978 - 16:45 ,Group 4,Estadio Ol�mpico Chateau Carreras,Peru,Iran,21262.0,JARGUZ Alojzy (POL),4-1
+1978,11 Jun 1978 - 16:45 ,Group 4,San Martin,Scotland,Netherlands,35130.0,LINEMAYR Erich (AUT),3-2
+1978,14 Jun 1978 - 13:45 ,Group A,El Monumental - Estadio Monumental Antonio Vespuci,Germany FR,Italy,67547.0,MAKSIMOVIC Dusan (SCG),0-0
+1978,14 Jun 1978 - 13:45 ,Group A,Estadio Ol�mpico Chateau Carreras,Netherlands,Austria,25050.0,GORDON John (SCO),5-1
+1978,14 Jun 1978 - 16:45 ,Group B,San Martin,Brazil,Peru,31278.0,RAINEA Nicolae (ROU),3-0
+1978,14 Jun 1978 - 19:15 ,Group B,Arroyito - Estadio Dr. Lisandro de la Torre,Argentina,Poland,37091.0,ERIKSSON Ulf (SWE),2-0
+1978,18 Jun 1978 - 13:45 ,Group B,San Martin,Poland,Peru,35288.0,PARTRIDGE Pat (ENG),1-0
+1978,18 Jun 1978 - 16:45 ,Group A,Estadio Ol�mpico Chateau Carreras,Germany FR,Netherlands,40750.0,BARRETO RUIZ Ramon (URU),2-2
+1978,18 Jun 1978 - 16:45 ,Group A,El Monumental - Estadio Monumental Antonio Vespuci,Italy,Austria,66695.0,RION Francis (BEL),1-0
+1978,18 Jun 1978 - 19:15 ,Group B,Arroyito - Estadio Dr. Lisandro de la Torre,Argentina,Brazil,37326.0,PALOTAI Karoly (HUN),0-0
+1978,21 Jun 1978 - 13:45 ,Group A,Estadio Ol�mpico Chateau Carreras,Austria,Germany FR,38318.0,KLEIN Abraham (ISR),3-2
+1978,21 Jun 1978 - 13:45 ,Group A,El Monumental - Estadio Monumental Antonio Vespuci,Netherlands,Italy,67433.0,MARTINEZ Angel (ESP),2-1
+1978,21 Jun 1978 - 16:45 ,Group B,San Martin,Brazil,Poland,39586.0,SILVAGNO CAVANNA Juan (CHI),3-1
+1978,21 Jun 1978 - 19:15 ,Group B,Arroyito - Estadio Dr. Lisandro de la Torre,Argentina,Peru,37315.0,WURTZ Robert (FRA),6-0
+1978,24 Jun 1978 - 15:00 ,Match for third place,El Monumental - Estadio Monumental Antonio Vespuci,Brazil,Italy,69659.0,KLEIN Abraham (ISR),2-1
+1978,25 Jun 1978 - 15:00 ,Final,El Monumental - Estadio Monumental Antonio Vespuci,Argentina,Netherlands,71483.0,GONELLA Sergio (ITA),3-1
+1982,01 Jul 1982 - 17:15 ,Group 4,Vicente Calderon,Austria,Northern Ireland,20000.0,PROKOP Adolf (GDR),2-2
+1982,01 Jul 1982 - 21:00 ,Group 1,Camp Nou,Belgium,Soviet Union,45000.0,VAUTROT Michel (FRA),0-1
+1982,02 Jul 1982 - 17:15 ,Group 3,Sarria,Argentina,Brazil,44000.0,RUBIO VAZQUEZ Mario (MEX),1-3
+1982,02 Jul 1982 - 21:00 ,Group 2,Santiago Bernabeu,Germany FR,Spain,90089.0,CASARIN Paolo (ITA),2-1
+1982,04 Jul 1982 - 17:15 ,Group 4,Vicente Calderon,France,Northern Ireland,37000.0,JARGUZ Alojzy (POL),4-1
+1982,04 Jul 1982 - 21:00 ,Group 1,Camp Nou,Poland,Soviet Union,65000.0,VALENTINE Robert (SCO),0-0
+1982,05 Jul 1982 - 17:15 ,Group 3,Sarria,Italy,Brazil,44000.0,KLEIN Abraham (ISR),3-2
+1982,05 Jul 1982 - 21:00 ,Group 2,Santiago Bernabeu,Spain,England,75000.0,PONNET Alexis (BEL),0-0
+1982,08 Jul 1982 - 17:15 ,Semi-finals,Camp Nou,Poland,Italy,50000.0,CARDELLINO DE SAN VICENTE Juan (URU),0-2
+1982,08 Jul 1982 - 21:00 ,Semi-finals,Ramon Sanchez Pizjuan,Germany FR,France,70000.0,CORVER Charles (NED),(5) 3-3 (4)
+1982,10 Jul 1982 - 20:00 ,Match for third place,Jose Rico Perez,Poland,France,28000.0,GARRIDO Antonio (POR),3-2
+1982,11 Jul 1982 - 20:00 ,Final,Santiago Bernabeu,Italy,Germany FR,90000.0,COELHO Arnaldo (BRA),3-1
+1982,13 Jun 1982 - 20:00 ,Group 3,Camp Nou,Argentina,Belgium,95000.0,CHRISTOV Vojtech (TCH),0-1
+1982,14 Jun 1982 - 17:15 ,Group 1,Estadio Municipal de Bala�dos,Italy,Poland,33000.0,VAUTROT Michel (FRA),0-0
+1982,14 Jun 1982 - 21:00 ,Group 6,Ramon Sanchez Pizjuan,Brazil,Soviet Union,68000.0,LAMO CASTILLO Augusto (ESP),2-1
+1982,15 Jun 1982 - 17:15 ,Group 1,Riazor,Peru,Cameroon,11000.0,WOEHRER Franz (AUT),0-0
+1982,15 Jun 1982 - 21:00 ,Group 3,Nuevo Estadio,Hungary,El Salvador,23000.0,AL DOY Ebrahim (BHR),10-1
+1982,15 Jun 1982 - 21:00 ,Group 6,La Rosaleda,Scotland,New Zealand,36000.0,SOCHA David (USA),5-2
+1982,16 Jun 1982 - 17:15 ,Group 4,San Mames,England,France,44172.0,GARRIDO Antonio (POR),3-1
+1982,16 Jun 1982 - 17:15 ,Group 2,El Molinon,Germany FR,Algeria,42000.0,LABO REVOREDO Enrique (PER),1-2
+1982,16 Jun 1982 - 21:00 ,Group 5,Luis Casanova,Spain,Honduras,49562.0,ITHURRALDE Arturo Andres (ARG),1-1
+1982,17 Jun 1982 - 17:15 ,Group 2,Carlos Tartiere,Chile,Austria,22500.0,CARDELLINO DE SAN VICENTE Juan (URU),0-1
+1982,17 Jun 1982 - 17:45 ,Group 4,Jose Zorrilla,Czechoslovakia,Kuwait,25000.0,DWOMOH Benjamin (GHA),1-1
+1982,17 Jun 1982 - 21:00 ,Group 5,La Romareda,Yugoslavia,Northern Ireland,25000.0,FREDRIKSSON Erik (SWE),0-0
+1982,18 Jun 1982 - 17:15 ,Group 1,Estadio Municipal de Bala�dos,Italy,Peru,25000.0,ESCHWEILER Walter (GER),1-1
+1982,18 Jun 1982 - 21:00 ,Group 3,Jose Rico Perez,Argentina,Hungary,32093.0,LACARNE Belaid (ALG),4-1
+1982,18 Jun 1982 - 21:00 ,Group 6,Benito Villamarin,Brazil,Scotland,47379.0,SILES Jesus Paulino (CRC),4-1
+1982,19 Jun 1982 - 19:15 ,Group 1,Riazor,Poland,Cameroon,19000.0,PONNET Alexis (BEL),0-0
+1982,19 Jun 1982 - 21:00 ,Group 3,Nuevo Estadio,Belgium,El Salvador,15000.0,MOFFATT Malcolm (NIR),1-0
+1982,19 Jun 1982 - 21:00 ,Group 6,La Rosaleda,Soviet Union,New Zealand,19000.0,EL GHOUL Yusef Mohamed (LBY),3-0
+1982,20 Jun 1982 - 17:15 ,Group 4,San Mames,England,Czechoslovakia,41123.0,CORVER Charles (NED),2-0
+1982,20 Jun 1982 - 17:15 ,Group 2,El Molinon,Germany FR,Chile,42000.0,GALLER Bruno (SUI),4-1
+1982,20 Jun 1982 - 21:00 ,Group 5,Luis Casanova,Spain,Yugoslavia,48000.0,LUND-SORENSEN Henning (DEN),2-1
+1982,21 Jun 1982 - 17:15 ,Group 2,Carlos Tartiere,Algeria,Austria,22000.0,BOSKOVIC Tony (AUS),0-2
+1982,21 Jun 1982 - 17:15 ,Group 4,Jose Zorrilla,France,Kuwait,30043.0,STUPAR Miroslav (URS),4-1
+1982,21 Jun 1982 - 21:00 ,Group 5,La Romareda,Honduras,Northern Ireland,15000.0,CHAN Thomson Tam Sun (HKG),1-1
+1982,22 Jun 1982 - 17:15 ,Group 1,Riazor,Poland,Peru,25000.0,RUBIO VAZQUEZ Mario (MEX),5-1
+1982,22 Jun 1982 - 21:00 ,Group 3,Nuevo Estadio,Belgium,Hungary,37000.0,WHITE Clive (ENG),1-1
+1982,22 Jun 1982 - 21:00 ,Group 6,La Rosaleda,Soviet Union,Scotland,45000.0,RAINEA Nicolae (ROU),2-2
+1982,23 Jun 1982 - 17:15 ,Group 1,Estadio Municipal de Bala�dos,Italy,Cameroon,20000.0,DOTCHEV Bogdan (BUL),1-1
+1982,23 Jun 1982 - 21:00 ,Group 3,Jose Rico Perez,Argentina,El Salvador,32500.0,BARRANCOS Luis (BOL),2-0
+1982,23 Jun 1982 - 21:00 ,Group 6,Benito Villamarin,Brazil,New Zealand,43000.0,MATOVINOVIC Damir (CRO),4-0
+1982,24 Jun 1982 - 17:15 ,Group 2,Carlos Tartiere,Algeria,Chile,16000.0,MENDEZ MOLINA Romulo (GUA),3-2
+1982,24 Jun 1982 - 17:15 ,Group 4,Jose Zorrilla,France,Czechoslovakia,28000.0,CASARIN Paolo (ITA),1-1
+1982,24 Jun 1982 - 21:00 ,Group 5,La Romareda,Honduras,Yugoslavia,25000.0,CASTRO Gaston (CHI),0-1
+1982,25 Jun 1982 - 17:15 ,Group 4,San Mames,England,Kuwait,39700.0,ARISTIZABAL MURCIA Gilberto (COL),1-0
+1982,25 Jun 1982 - 17:15 ,Group 2,El Molinon,Germany FR,Austria,41000.0,VALENTINE Robert (SCO),1-0
+1982,25 Jun 1982 - 21:00 ,Group 5,Luis Casanova,Northern Ireland,Spain,49562.0,ORTIZ Hector (PAR),1-0
+1982,28 Jun 1982 - 17:15 ,Group 4,Vicente Calderon,Austria,France,37000.0,PALOTAI Karoly (HUN),0-1
+1982,28 Jun 1982 - 21:00 ,Group 1,Camp Nou,Poland,Belgium,65000.0,SILES Jesus Paulino (CRC),3-0
+1982,29 Jun 1982 - 17:15 ,Group 3,Sarria,Italy,Argentina,43000.0,RAINEA Nicolae (ROU),2-1
+1982,29 Jun 1982 - 21:00 ,Group 2,Santiago Bernabeu,Germany FR,England,75000.0,COELHO Arnaldo (BRA),0-0
+1986,01 Jun 1986 - 12:00 ,Group D,Jalisco,Spain,Brazil,35748.0,BAMBRIDGE Christopher (AUS),0-1
+1986,01 Jun 1986 - 16:00 ,Group C,Nou Camp - Estadio Le�n,Canada,France,65500.0,SILVA ARCE Hernan (CHI),0-1
+1986,02 Jun 1986 - 12:00 ,Group A,Estadio Ol�mpico Universitario,Argentina,Korea Republic,60000.0,SANCHEZ ARMINIO Victoriano (ESP),3-1
+1986,02 Jun 1986 - 12:00 ,Group C,Estadio Irapuato,Soviet Union,Hungary,16500.0,AGNOLIN Luigi (ITA),6-0
+1986,02 Jun 1986 - 16:00 ,Group F,Estadio Universitario,Morocco,Poland,19900.0,MARTINEZ BAZAN Jose Luis (URU),0-0
+1986,03 Jun 1986 - 12:00 ,Group D,Tres de Marzo,Algeria,Northern Ireland,22000.0,BUTENKO Valeri (RUS),1-1
+1986,03 Jun 1986 - 12:00 ,Group B,Estadio Azteca,Belgium,Mexico,110000.0,ESPOSITO Carlos (ARG),1-2
+1986,03 Jun 1986 - 16:00 ,Group F,Tecnologico,Portugal,England,23000.0,ROTH Volker (GER),1-0
+1986,04 Jun 1986 - 12:00 ,Group B,Bombonera - Estadio Nemesio Diez,Paraguay,Iraq,24000.0,PICON-ACKONG Edwin (MRI),1-0
+1986,04 Jun 1986 - 12:00 ,Group E,Estadio Corregidora,Uruguay,Germany FR,30500.0,CHRISTOV Vojtech (TCH),1-1
+1986,04 Jun 1986 - 16:00 ,Group E,Neza,Scotland,Denmark,18000.0,NEMETH Lajos (HUN),0-1
+1986,05 Jun 1986 - 12:00 ,Group C,Nou Camp - Estadio Le�n,France,Soviet Union,36540.0,ARPPI FILHO Romualdo (BRA),1-1
+1986,05 Jun 1986 - 12:00 ,Group A,Cuauhtemoc,Italy,Argentina,32000.0,KEIZER Jan (NED),1-1
+1986,05 Jun 1986 - 16:00 ,Group A,Estadio Ol�mpico Universitario,Korea Republic,Bulgaria,45000.0,AL SHANAR Fallaj Khuzam (KSA),1-1
+1986,06 Jun 1986 - 12:00 ,Group D,Jalisco,Brazil,Algeria,48000.0,MENDEZ MOLINA Romulo (GUA),1-0
+1986,06 Jun 1986 - 12:00 ,Group C,Estadio Irapuato,Hungary,Canada,13800.0,AL SHARIF Jamal (SYR),2-0
+1986,06 Jun 1986 - 16:00 ,Group F,Tecnologico,England,Morocco,20200.0,GONZALEZ ROA Gabriel (PAR),0-0
+1986,07 Jun 1986 - 12:00 ,Group B,Estadio Azteca,Mexico,Paraguay,114600.0,COURTNEY George (ENG),1-1
+1986,07 Jun 1986 - 12:00 ,Group D,Tres de Marzo,Northern Ireland,Spain,28000.0,BRUMMEIER Horst (AUT),1-2
+1986,07 Jun 1986 - 16:00 ,Group F,Estadio Universitario,Poland,Portugal,19915.0,BENNACEUR Ali (TUN),1-0
+1986,08 Jun 1986 - 12:00 ,Group E,Estadio Corregidora,Germany FR,Scotland,30000.0,IGNA Ioan (ROU),2-1
+1986,08 Jun 1986 - 12:00 ,Group B,Bombonera - Estadio Nemesio Diez,Iraq,Belgium,20000.0,DIAZ PALACIO Jesus (COL),1-2
+1986,08 Jun 1986 - 16:00 ,Group E,Neza,Denmark,Uruguay,26500.0,MARQUEZ RAMIREZ Antonio (MEX),6-1
+1986,09 Jun 1986 - 12:00 ,Group C,Nou Camp - Estadio Le�n,Hungary,France,31420.0,SILVA VALENTE Carlos Alberto (POR),0-3
+1986,09 Jun 1986 - 12:00 ,Group C,Estadio Irapuato,Soviet Union,Canada,14200.0,TRAORE Idrissa (MLI),2-0
+1986,10 Jun 1986 - 12:00 ,Group A,Estadio Ol�mpico Universitario,Argentina,Bulgaria,65000.0,ULLOA MORERA Berny (CRC),2-0
+1986,10 Jun 1986 - 12:00 ,Group A,Cuauhtemoc,Korea Republic,Italy,20000.0,SOCHA David (USA),2-3
+1986,11 Jun 1986 - 12:00 ,Group B,Estadio Azteca,Iraq,Mexico,103763.0,PETROVIC Zoran (SRB),0-1
+1986,11 Jun 1986 - 12:00 ,Group B,Bombonera - Estadio Nemesio Diez,Paraguay,Belgium,16000.0,DOTCHEV Bogdan (BUL),2-2
+1986,11 Jun 1986 - 16:00 ,Group F,Tecnologico,England,Poland,22700.0,DAINA Andre (SUI),3-0
+1986,11 Jun 1986 - 16:00 ,Group F,Tres de Marzo,Portugal,Morocco,28000.0,SNODDY Alan (NIR),1-3
+1986,12 Jun 1986 - 12:00 ,Group D,Tecnologico,Algeria,Spain,23980.0,TAKADA Shizuo (JPN),0-3
+1986,12 Jun 1986 - 12:00 ,Group D,Jalisco,Northern Ireland,Brazil,51000.0,KIRSCHEN Siegfried (GER),0-3
+1986,13 Jun 1986 - 12:00 ,Group E,Estadio Corregidora,Denmark,Germany FR,36000.0,PONNET Alexis (BEL),2-0
+1986,13 Jun 1986 - 12:00 ,Group E,Neza,Scotland,Uruguay,20000.0,QUINIOU Joel (FRA),0-0
+1986,15 Jun 1986 - 12:00 ,Round of 16,Estadio Azteca,Mexico,Bulgaria,114580.0,ARPPI FILHO Romualdo (BRA),2-0
+1986,15 Jun 1986 - 16:00 ,Round of 16,Nou Camp - Estadio Le�n,Soviet Union,Belgium,32277.0,FREDRIKSSON Erik (SWE),3-4
+1986,16 Jun 1986 - 12:00 ,Round of 16,Jalisco,Brazil,Poland,45000.0,ROTH Volker (GER),4-0
+1986,16 Jun 1986 - 16:00 ,Round of 16,Cuauhtemoc,Argentina,Uruguay,26000.0,AGNOLIN Luigi (ITA),1-0
+1986,17 Jun 1986 - 12:00 ,Round of 16,Estadio Ol�mpico Universitario,Italy,France,70000.0,ESPOSITO Carlos (ARG),0-2
+1986,17 Jun 1986 - 16:00 ,Round of 16,Estadio Universitario,Morocco,Germany FR,19800.0,PETROVIC Zoran (SRB),0-1
+1986,18 Jun 1986 - 12:00 ,Round of 16,Estadio Azteca,England,Paraguay,98728.0,AL SHARIF Jamal (SYR),3-0
+1986,18 Jun 1986 - 16:00 ,Round of 16,Estadio Corregidora,Denmark,Spain,38500.0,KEIZER Jan (NED),1-5
+1986,21 Jun 1986 - 12:00 ,Quarter-finals,Jalisco,Brazil,France,65000.0,IGNA Ioan (ROU),(3) 1-1 (4)
+1986,21 Jun 1986 - 16:00 ,Quarter-finals,Estadio Universitario,Germany FR,Mexico,41700.0,DIAZ PALACIO Jesus (COL),(4) 0-0 (1)
+1986,22 Jun 1986 - 12:00 ,Quarter-finals,Estadio Azteca,Argentina,England,114580.0,BENNACEUR Ali (TUN),2-1
+1986,22 Jun 1986 - 16:00 ,Quarter-finals,Cuauhtemoc,Spain,Belgium,45000.0,KIRSCHEN Siegfried (GER),(4) 1-1 (5)
+1986,25 Jun 1986 - 12:00 ,Semi-finals,Jalisco,France,Germany FR,45000.0,AGNOLIN Luigi (ITA),0-2
+1986,25 Jun 1986 - 16:00 ,Semi-finals,Estadio Azteca,Argentina,Belgium,114500.0,MARQUEZ RAMIREZ Antonio (MEX),2-0
+1986,28 Jun 1986 - 12:00 ,Match for third place,Cuauhtemoc,France,Belgium,21000.0,COURTNEY George (ENG),4-2
+1986,29 Jun 1986 - 12:00 ,Final,Estadio Azteca,Argentina,Germany FR,114600.0,ARPPI FILHO Romualdo (BRA),3-2
+1986,31 May 1986 - 12:00 ,Group A,Estadio Azteca,Bulgaria,Italy,96000.0,FREDRIKSSON Erik (SWE),1-1
+1990,01 Jul 1990 - 17:00 ,Quarter-finals,Giuseppe Meazza,Germany FR,Czechoslovakia,73347.0,KOHL Helmut (AUT),1-0
+1990,01 Jul 1990 - 21:00 ,Quarter-finals,San Paolo,England,Cameroon,55205.0,CODESAL MENDEZ Edgardo (MEX),3-2
+1990,03 Jul 1990 - 20:00 ,Semi-finals,San Paolo,Italy,Argentina,59978.0,VAUTROT Michel (FRA),(3) 1-1 (4)
+1990,04 Jul 1990 - 20:00 ,Semi-finals,Stadio delle Alpi,Germany FR,England,62628.0,RAMIZ WRIGHT Jose (BRA),(4) 1-1 (3)
+1990,07 Jul 1990 - 20:00 ,Match for third place,Stadio San Nicola,Italy,England,51426.0,QUINIOU Joel (FRA),2-1
+1990,08 Jul 1990 - 20:00 ,Final,Stadio Olimpico,Germany FR,Argentina,73603.0,CODESAL MENDEZ Edgardo (MEX),1-0
+1990,08 Jun 1990 - 18:00 ,Group B,Giuseppe Meazza,Argentina,Cameroon,73780.0,VAUTROT Michel (FRA),0-1
+1990,09 Jun 1990 - 17:00 ,Group B,Stadio San Nicola,Soviet Union,Romania,42907.0,CARDELLINO DE SAN VICENTE Juan (URU),0-2
+1990,09 Jun 1990 - 17:00 ,Group D,Renato Dall Ara,"rn"">United Arab Emirates",Colombia,30791.0,COURTNEY George (ENG),0-2
+1990,09 Jun 1990 - 21:00 ,Group A,Stadio Olimpico,Italy,Austria,73303.0,RAMIZ WRIGHT Jose (BRA),1-0
+1990,10 Jun 1990 - 17:00 ,Group A,Comunale,USA,Czechoslovakia,33266.0,ROETHLISBERGER Kurt (SUI),1-5
+1990,10 Jun 1990 - 21:00 ,Group C,Stadio delle Alpi,Brazil,Sweden,62628.0,LANESE Tullio (ITA),2-1
+1990,10 Jun 1990 - 21:00 ,Group D,Giuseppe Meazza,Germany FR,Yugoslavia,74765.0,MIKKELSEN Peter (DEN),4-1
+1990,11 Jun 1990 - 17:00 ,Group C,Luigi Ferraris,Costa Rica,Scotland,30867.0,LOUSTAU Juan (ARG),1-0
+1990,11 Jun 1990 - 21:00 ,Group F,Sant Elia,England,"rn"">Republic of Ireland",35238.0,SCHMIDHUBER Aron (GER),1-1
+1990,12 Jun 1990 - 17:00 ,Group E,Marc Antonio Bentegodi,Belgium,Korea Republic,32790.0,MAURO Vincent (USA),2-0
+1990,12 Jun 1990 - 21:00 ,Group F,Della Favorita,Netherlands,Egypt,33288.0,SORIANO ALADREN Emilio (ESP),1-1
+1990,13 Jun 1990 - 17:00 ,Group E,Dacia Arena,Uruguay,Spain,35713.0,KOHL Helmut (AUT),0-0
+1990,13 Jun 1990 - 21:00 ,Group B,San Paolo,Argentina,Soviet Union,55759.0,FREDRIKSSON Erik (SWE),2-0
+1990,14 Jun 1990 - 17:00 ,Group B,Stadio San Nicola,Cameroon,Romania,38687.0,SILVA ARCE Hernan (CHI),2-1
+1990,14 Jun 1990 - 17:00 ,Group D,Renato Dall Ara,Yugoslavia,Colombia,32257.0,AGNOLIN Luigi (ITA),1-0
+1990,14 Jun 1990 - 21:00 ,Group A,Stadio Olimpico,Italy,USA,73423.0,CODESAL MENDEZ Edgardo (MEX),1-0
+1990,15 Jun 1990 - 17:00 ,Group A,Comunale,Austria,Czechoslovakia,38962.0,SMITH George (SCO),0-1
+1990,15 Jun 1990 - 21:00 ,Group D,Giuseppe Meazza,Germany FR,"rn"">United Arab Emirates",71169.0,SPIRIN Alexey (RUS),5-1
+1990,16 Jun 1990 - 17:00 ,Group C,Stadio delle Alpi,Brazil,Costa Rica,58007.0,JOUINI Neji (TUN),1-0
+1990,16 Jun 1990 - 21:00 ,Group F,Sant Elia,England,Netherlands,35267.0,PETROVIC Zoran (SRB),0-0
+1990,16 Jun 1990 - 21:00 ,Group C,Luigi Ferraris,Sweden,Scotland,31823.0,MACIEL Carlos (PAR),1-2
+1990,17 Jun 1990 - 17:00 ,Group F,Della Favorita,"rn"">Republic of Ireland",Egypt,33288.0,VAN LANGENHOVE Marcel (BEL),0-0
+1990,17 Jun 1990 - 21:00 ,Group E,Marc Antonio Bentegodi,Belgium,Uruguay,33759.0,KIRSCHEN Siegfried (GER),3-1
+1990,17 Jun 1990 - 21:00 ,Group E,Dacia Arena,Korea Republic,Spain,32733.0,JACOME GUERRERO Elias V. (ECU),1-3
+1990,18 Jun 1990 - 21:00 ,Group B,San Paolo,Argentina,Romania,52733.0,SILVA VALENTE Carlos Alberto (POR),1-1
+1990,18 Jun 1990 - 21:00 ,Group B,Stadio San Nicola,Cameroon,Soviet Union,37307.0,RAMIZ WRIGHT Jose (BRA),0-4
+1990,19 Jun 1990 - 17:00 ,Group D,Giuseppe Meazza,Germany FR,Colombia,72510.0,SNODDY Alan (NIR),1-1
+1990,19 Jun 1990 - 17:00 ,Group D,Renato Dall Ara,Yugoslavia,"rn"">United Arab Emirates",27833.0,TAKADA Shizuo (JPN),4-1
+1990,19 Jun 1990 - 21:00 ,Group A,Comunale,Austria,USA,34857.0,AL SHARIF Jamal (SYR),2-1
+1990,19 Jun 1990 - 21:00 ,Group A,Stadio Olimpico,Italy,Czechoslovakia,73303.0,QUINIOU Joel (FRA),2-0
+1990,20 Jun 1990 - 21:00 ,Group C,Stadio delle Alpi,Brazil,Scotland,62502.0,KOHL Helmut (AUT),1-0
+1990,20 Jun 1990 - 21:00 ,Group C,Luigi Ferraris,Sweden,Costa Rica,30223.0,PETROVIC Zoran (SRB),1-2
+1990,21 Jun 1990 - 17:00 ,Group E,Marc Antonio Bentegodi,Belgium,Spain,35950.0,LOUSTAU Juan (ARG),1-2
+1990,21 Jun 1990 - 17:00 ,Group E,Friuli,Korea Republic,Uruguay,29039.0,LANESE Tullio (ITA),0-1
+1990,21 Jun 1990 - 21:00 ,Group F,Sant Elia,England,Egypt,34959.0,ROETHLISBERGER Kurt (SUI),1-0
+1990,21 Jun 1990 - 21:00 ,Group F,Della Favorita,"rn"">Republic of Ireland",Netherlands,33288.0,VAUTROT Michel (FRA),1-1
+1990,23 Jun 1990 - 17:00 ,Round of 16,San Paolo,Cameroon,Colombia,50026.0,LANESE Tullio (ITA),2-1
+1990,23 Jun 1990 - 21:00 ,Round of 16,Stadio San Nicola,Czechoslovakia,Costa Rica,47673.0,KIRSCHEN Siegfried (GER),4-1
+1990,24 Jun 1990 - 17:00 ,Round of 16,Stadio delle Alpi,Brazil,Argentina,61381.0,QUINIOU Joel (FRA),0-1
+1990,24 Jun 1990 - 21:00 ,Round of 16,Giuseppe Meazza,Germany FR,Netherlands,74559.0,LOUSTAU Juan (ARG),2-1
+1990,25 Jun 1990 - 17:00 ,Round of 16,Luigi Ferraris,"rn"">Republic of Ireland",Romania,31818.0,RAMIZ WRIGHT Jose (BRA),(5) 0-0 (4)
+1990,25 Jun 1990 - 21:00 ,Round of 16,Stadio Olimpico,Italy,Uruguay,73303.0,COURTNEY George (ENG),2-0
+1990,26 Jun 1990 - 17:00 ,Round of 16,Marc Antonio Bentegodi,Spain,Yugoslavia,35500.0,SCHMIDHUBER Aron (GER),1-2
+1990,26 Jun 1990 - 21:00 ,Round of 16,Renato Dall Ara,England,Belgium,34520.0,MIKKELSEN Peter (DEN),1-0
+1990,30 Jun 1990 - 17:00 ,Quarter-finals,Comunale,Yugoslavia,Argentina,38971.0,ROETHLISBERGER Kurt (SUI),(2) 0-0 (3)
+1990,30 Jun 1990 - 21:00 ,Quarter-finals,Stadio Olimpico,Italy,"rn"">Republic of Ireland",73303.0,SILVA VALENTE Carlos Alberto (POR),1-0
+1994,02 Jul 1994 - 12:00 ,Round of 16,Soldier Field,Germany,Belgium,60246.0,ROETHLISBERGER Kurt (SUI),3-2
+1994,02 Jul 1994 - 16:30 ,Round of 16,RFK Stadium,Spain,Switzerland,53121.0,VAN DER ENDE Mario (NED),3-0
+1994,03 Jul 1994 - 12:00 ,Round of 16,Cotton Bowl,Saudi Arabia,Sweden,60277.0,MARSIGLIA Renato (BRA),1-3
+1994,03 Jul 1994 - 13:30 ,Round of 16,Rose Bowl,Romania,Argentina,90469.0,PAIRETTO Pierluigi (ITA),3-2
+1994,04 Jul 1994 - 12:00 ,Round of 16,Citrus Bowl,Netherlands,"rn"">Republic of Ireland",61355.0,MIKKELSEN Peter (DEN),2-0
+1994,04 Jul 1994 - 12:30 ,Round of 16,Stanford Stadium,Brazil,USA,84147.0,QUINIOU Joel (FRA),1-0
+1994,05 Jul 1994 - 13:00 ,Round of 16,Foxboro Stadium,Nigeria,Italy,54367.0,BRIZIO CARTER Arturo (MEX),1-2
+1994,05 Jul 1994 - 16:30 ,Round of 16,Giants Stadium,Mexico,Bulgaria,71030.0,AL SHARIF Jamal (SYR),(1) 1-1 (3)
+1994,09 Jul 1994 - 12:00 ,Quarter-finals,Foxboro Stadium,Italy,Spain,53400.0,PUHL Sandor (HUN),2-1
+1994,09 Jul 1994 - 14:30 ,Quarter-finals,Cotton Bowl,Netherlands,Brazil,63500.0,BADILLA Rodrigo (CRC),2-3
+1994,10 Jul 1994 - 12:00 ,Quarter-finals,Giants Stadium,Bulgaria,Germany,72000.0,TORRES CADENA Jose Joaquin (COL),2-1
+1994,10 Jul 1994 - 12:30 ,Quarter-finals,Stanford Stadium,Romania,Sweden,83500.0,DON Philip (ENG),(4) 2-2 (5)
+1994,13 Jul 1994 - 16:00 ,Semi-finals,Giants Stadium,Bulgaria,Italy,74110.0,QUINIOU Joel (FRA),1-2
+1994,13 Jul 1994 - 16:30 ,Semi-finals,Rose Bowl,Sweden,Brazil,91856.0,TORRES CADENA Jose Joaquin (COL),0-1
+1994,16 Jul 1994 - 12:30 ,Match for third place,Rose Bowl,Sweden,Bulgaria,91500.0,BUJSAIM Ali (UAE),4-0
+1994,17 Jul 1994 - 12:30 ,Final,Rose Bowl,Brazil,Italy,94194.0,PUHL Sandor (HUN),(3) 0-0 (2)
+1994,17 Jun 1994 - 15:00 ,Group C,Soldier Field,Germany,Bolivia,63117.0,BRIZIO CARTER Arturo (MEX),1-0
+1994,17 Jun 1994 - 19:30 ,Group C,Cotton Bowl,Spain,Korea Republic,56247.0,MIKKELSEN Peter (DEN),2-2
+1994,18 Jun 1994 - 11:30 ,Group A,Pontiac Silverdome,USA,Switzerland,73425.0,LAMOLINA Francisco Oscar (ARG),1-1
+1994,18 Jun 1994 - 16:00 ,Group E,Giants Stadium,Italy,"rn"">Republic of Ireland",75338.0,VAN DER ENDE Mario (NED),0-1
+1994,18 Jun 1994 - 19:30 ,Group A,Rose Bowl,Colombia,Romania,91856.0,AL SHARIF Jamal (SYR),1-3
+1994,19 Jun 1994 - 12:30 ,Group F,Citrus Bowl,Belgium,Morocco,61219.0,TORRES CADENA Jose Joaquin (COL),1-0
+1994,19 Jun 1994 - 16:00 ,Group E,RFK Stadium,Norway,Mexico,52395.0,PUHL Sandor (HUN),1-0
+1994,19 Jun 1994 - 19:30 ,Group B,Rose Bowl,Cameroon,Sweden,93194.0,TEJADA NORIEGA Alberto (PER),2-2
+1994,20 Jun 1994 - 16:00 ,Group B,Stanford Stadium,Brazil,Russia,81061.0,LIM KEE CHONG An Yan (MRI),2-0
+1994,20 Jun 1994 - 19:30 ,Group F,RFK Stadium,Netherlands,Saudi Arabia,50535.0,DIAZ VEGA Manuel (ESP),2-1
+1994,21 Jun 1994 - 12:30 ,Group D,Foxboro Stadium,Argentina,Greece,54456.0,ANGELES Arturo (USA),4-0
+1994,21 Jun 1994 - 16:00 ,Group C,Soldier Field,Germany,Spain,63113.0,FILIPPI Ernesto (URU),1-1
+1994,21 Jun 1994 - 19:30 ,Group D,Cotton Bowl,Nigeria,Bulgaria,44132.0,BADILLA Rodrigo (CRC),3-0
+1994,22 Jun 1994 - 16:00 ,Group A,Pontiac Silverdome,Romania,Switzerland,61428.0,JOUINI Neji (TUN),1-4
+1994,22 Jun 1994 - 19:30 ,Group A,Rose Bowl,USA,Colombia,93869.0,BALDAS Fabio (ITA),2-1
+1994,23 Jun 1994 - 16:00 ,Group E,Giants Stadium,Italy,Norway,74624.0,KRUG Hellmut (GER),1-0
+1994,23 Jun 1994 - 19:30 ,Group C,Foxboro Stadium,Korea Republic,Bolivia,54453.0,MOTTRAM Leslie (SCO),0-0
+1994,24 Jun 1994 - 12:30 ,Group E,Citrus Bowl,Mexico,"rn"">Republic of Ireland",60790.0,ROETHLISBERGER Kurt (SUI),2-1
+1994,24 Jun 1994 - 16:00 ,Group B,Stanford Stadium,Brazil,Cameroon,83401.0,BRIZIO CARTER Arturo (MEX),3-0
+1994,24 Jun 1994 - 19:30 ,Group B,Pontiac Silverdome,Sweden,Russia,71528.0,QUINIOU Joel (FRA),3-1
+1994,25 Jun 1994 - 12:30 ,Group F,Citrus Bowl,Belgium,Netherlands,62387.0,MARSIGLIA Renato (BRA),1-0
+1994,25 Jun 1994 - 12:30 ,Group F,Giants Stadium,Saudi Arabia,Morocco,76322.0,DON Philip (ENG),2-1
+1994,25 Jun 1994 - 16:00 ,Group D,Foxboro Stadium,Argentina,Nigeria,54453.0,KARLSSON Bo (SWE),2-1
+1994,26 Jun 1994 - 12:30 ,Group D,Soldier Field,Bulgaria,Greece,63160.0,BUJSAIM Ali (UAE),4-0
+1994,26 Jun 1994 - 16:00 ,Group A,Stanford Stadium,Switzerland,Colombia,83401.0,MIKKELSEN Peter (DEN),0-2
+1994,26 Jun 1994 - 16:00 ,Group A,Rose Bowl,USA,Romania,93869.0,VAN DER ENDE Mario (NED),0-1
+1994,27 Jun 1994 - 16:00 ,Group C,Soldier Field,Bolivia,Spain,63089.0,BADILLA Rodrigo (CRC),1-3
+1994,27 Jun 1994 - 16:00 ,Group C,Cotton Bowl,Germany,Korea Republic,63998.0,QUINIOU Joel (FRA),3-2
+1994,28 Jun 1994 - 12:30 ,Group E,RFK Stadium,Italy,Mexico,52535.0,LAMOLINA Francisco Oscar (ARG),1-1
+1994,28 Jun 1994 - 12:30 ,Group E,Giants Stadium,"rn"">Republic of Ireland",Norway,72404.0,TORRES CADENA Jose Joaquin (COL),0-0
+1994,28 Jun 1994 - 16:00 ,Group B,Pontiac Silverdome,Brazil,Sweden,77217.0,PUHL Sandor (HUN),1-1
+1994,28 Jun 1994 - 16:00 ,Group B,Stanford Stadium,Russia,Cameroon,74914.0,AL SHARIF Jamal (SYR),6-1
+1994,29 Jun 1994 - 12:30 ,Group F,RFK Stadium,Belgium,Saudi Arabia,52959.0,KRUG Hellmut (GER),0-1
+1994,29 Jun 1994 - 12:30 ,Group F,Citrus Bowl,Morocco,Netherlands,60578.0,TEJADA NORIEGA Alberto (PER),1-2
+1994,30 Jun 1994 - 19:30 ,Group D,Cotton Bowl,Argentina,Bulgaria,63998.0,JOUINI Neji (TUN),0-2
+1994,30 Jun 1994 - 19:30 ,Group D,Foxboro Stadium,Greece,Nigeria,53001.0,MOTTRAM Leslie (SCO),0-2
+1998,03 Jul 1998 - 16:30 ,Quarter-finals,Stade de France,Italy,France,77000.0,DALLAS Hugh (SCO),(3) 0-0 (4)
+1998,03 Jul 1998 - 21:00 ,Quarter-finals,La Beaujoire,Brazil,Denmark,35500.0,EL GHANDOUR Gamal (EGY),3-2
+1998,04 Jul 1998 - 16:30 ,Quarter-finals,Stade V�lodrome,Netherlands,Argentina,55000.0,BRIZIO CARTER Arturo (MEX),2-1
+1998,04 Jul 1998 - 21:00 ,Quarter-finals,Stade de Gerland,Germany,Croatia,39100.0,PEDERSEN Rune (NOR),0-3
+1998,07 Jul 1998 - 21:00 ,Semi-finals,Stade V�lodrome,Brazil,Netherlands,54000.0,BUJSAIM Ali (UAE),(4) 1-1 (2)
+1998,08 Jul 1998 - 21:00 ,Semi-finals,Stade de France,France,Croatia,76000.0,GARCIA ARANDA Jose Maria (ESP),2-1
+1998,10 Jun 1998 - 17:30 ,Group A,Stade de France,Brazil,Scotland,80000.0,GARCIA ARANDA Jose Maria (ESP),2-1
+1998,10 Jun 1998 - 21:00 ,Group A,La Mosson,Morocco,Norway,29800.0,ANPRASERT Pirom (THA),2-2
+1998,11 Jul 1998 - 21:00 ,Match for third place,Parc des Princes,Netherlands,Croatia,45500.0,GONZALEZ CHAVEZ Epifanio (PAR),1-2
+1998,11 Jun 1998 - 17:30 ,Group B,Stade du Parc Lescure,Italy,Chile,31800.0,BOUCHARDEAU Lucien (NIG),2-2
+1998,11 Jun 1998 - 21:00 ,Group B,Stade Municipal,Cameroon,Austria,33500.0,GONZALEZ CHAVEZ Epifanio (PAR),1-1
+1998,12 Jul 1998 - 21:00 ,Final,Stade de France,Brazil,France,80000.0,BELQOLA Said (MAR),0-3
+1998,12 Jun 1998 - 14:30 ,Group D,La Mosson,Paraguay,Bulgaria,29800.0,ALZEID Abdulrahman (KSA),0-0
+1998,12 Jun 1998 - 17:30 ,Group C,Stade Felix Bollaert,Saudi Arabia,Denmark,38100.0,CASTRILLI Javier (ARG),0-1
+1998,12 Jun 1998 - 21:00 ,Group C,Stade V�lodrome,France,South Africa,55000.0,REZENDE Marcio (BRA),3-0
+1998,13 Jun 1998 - 14:30 ,Group D,La Beaujoire,Spain,Nigeria,35500.0,BAHARMAST Esse (USA),2-3
+1998,13 Jun 1998 - 17:30 ,Group E,Stade de Gerland,Korea Republic,Mexico,39100.0,BENKO Gunter (AUT),1-3
+1998,13 Jun 1998 - 21:00 ,Group E,Stade de France,Netherlands,Belgium,77000.0,COLLINA Pierluigi (ITA),0-0
+1998,14 Jun 1998 - 14:30 ,Group H,Stade Municipal,Argentina,Japan,33500.0,VAN DER ENDE Mario (NED),1-0
+1998,14 Jun 1998 - 17:30 ,Group F,Stade Geoffroy Guichard,Yugoslavia,Iran,30600.0,TEJADA NORIEGA Alberto (PER),1-0
+1998,14 Jun 1998 - 21:00 ,Group H,Stade Felix Bollaert,Jamaica,Croatia,38100.0,MELO PEREIRA Vitor (POR),1-3
+1998,15 Jun 1998 - 14:30 ,Group G,Stade V�lodrome,England,Tunisia,55000.0,OKADA Masayoshi (JPN),2-0
+1998,15 Jun 1998 - 17:30 ,Group G,Stade de Gerland,Romania,Colombia,39100.0,LIM KEE CHONG An Yan (MRI),1-0
+1998,15 Jun 1998 - 21:00 ,Group F,Parc des Princes,Germany,USA,45500.0,BELQOLA Said (MAR),2-0
+1998,16 Jun 1998 - 17:30 ,Group A,Stade du Parc Lescure,Scotland,Norway,31800.0,VAGNER Laszlo (HUN),1-1
+1998,16 Jun 1998 - 21:00 ,Group A,La Beaujoire,Brazil,Morocco,35500.0,LEVNIKOV Nikolai (RUS),3-0
+1998,17 Jun 1998 - 17:30 ,Group B,Stade Geoffroy Guichard,Chile,Austria,30600.0,EL GHANDOUR Gamal (EGY),1-1
+1998,17 Jun 1998 - 21:00 ,Group B,La Mosson,Italy,Cameroon,29800.0,LENNIE Edward (AUS),3-0
+1998,18 Jun 1998 - 17:30 ,Group C,Stade Municipal,South Africa,Denmark,33500.0,TORO RENDON John (COL),1-1
+1998,18 Jun 1998 - 21:00 ,Group C,Stade de France,France,Saudi Arabia,80000.0,BRIZIO CARTER Arturo (MEX),4-0
+1998,19 Jun 1998 - 17:30 ,Group D,Parc des Princes,Nigeria,Bulgaria,45500.0,SANCHEZ YANTEN Mario (CHI),1-0
+1998,19 Jun 1998 - 21:00 ,Group D,Stade Geoffroy Guichard,Spain,Paraguay,30600.0,McLEOD Ian (RSA),0-0
+1998,20 Jun 1998 - 14:30 ,Group H,La Beaujoire,Japan,Croatia,35500.0,RAMDHAN Ramesh (TRI),0-1
+1998,20 Jun 1998 - 17:30 ,Group E,Stade du Parc Lescure,Belgium,Mexico,31800.0,DALLAS Hugh (SCO),2-2
+1998,20 Jun 1998 - 21:00 ,Group E,Stade V�lodrome,Netherlands,Korea Republic,55000.0,WOJCIK Ryszard (POL),5-0
+1998,21 Jun 1998 - 14:30 ,Group F,Stade Felix Bollaert,Germany,Yugoslavia,38100.0,NIELSEN Kim Milton (DEN),2-2
+1998,21 Jun 1998 - 17:30 ,Group H,Parc des Princes,Argentina,Jamaica,45500.0,PEDERSEN Rune (NOR),5-0
+1998,21 Jun 1998 - 21:00 ,Group F,Stade de Gerland,USA,Iran,39100.0,MEIER Urs (SUI),1-2
+1998,22 Jun 1998 - 17:30 ,Group G,La Mosson,Colombia,Tunisia,29800.0,HEYNEMANN Bernd (GER),1-0
+1998,22 Jun 1998 - 21:00 ,Group G,Stade Municipal,Romania,England,33500.0,BATTA Marc (FRA),2-1
+1998,23 Jun 1998 - 16:00 ,Group B,La Beaujoire,Chile,Cameroon,35500.0,VAGNER Laszlo (HUN),1-1
+1998,23 Jun 1998 - 16:00 ,Group B,Stade de France,Italy,Austria,80000.0,DURKIN Paul (ENG),2-1
+1998,23 Jun 1998 - 21:00 ,Group A,Stade V�lodrome,Brazil,Norway,55000.0,BAHARMAST Esse (USA),1-2
+1998,23 Jun 1998 - 21:00 ,Group A,Stade Geoffroy Guichard,Scotland,Morocco,30600.0,BUJSAIM Ali (UAE),0-3
+1998,24 Jun 1998 - 16:00 ,Group C,Stade de Gerland,France,Denmark,39100.0,COLLINA Pierluigi (ITA),2-1
+1998,24 Jun 1998 - 16:00 ,Group C,Stade du Parc Lescure,South Africa,Saudi Arabia,31800.0,SANCHEZ YANTEN Mario (CHI),2-2
+1998,24 Jun 1998 - 21:00 ,Group D,Stade Municipal,Nigeria,Paraguay,33500.0,ANPRASERT Pirom (THA),1-3
+1998,24 Jun 1998 - 21:00 ,Group D,Stade Felix Bollaert,Spain,Bulgaria,38100.0,VAN DER ENDE Mario (NED),6-1
+1998,25 Jun 1998 - 16:00 ,Group E,Parc des Princes,Belgium,Korea Republic,45500.0,REZENDE Marcio (BRA),1-1
+1998,25 Jun 1998 - 16:00 ,Group E,Stade Geoffroy Guichard,Netherlands,Mexico,30600.0,ALZEID Abdulrahman (KSA),2-2
+1998,25 Jun 1998 - 21:00 ,Group F,La Mosson,Germany,Iran,29800.0,GONZALEZ CHAVEZ Epifanio (PAR),2-0
+1998,25 Jun 1998 - 21:00 ,Group F,La Beaujoire,USA,Yugoslavia,35500.0,EL GHANDOUR Gamal (EGY),0-1
+1998,26 Jun 1998 - 16:00 ,Group H,Stade du Parc Lescure,Argentina,Croatia,31800.0,BELQOLA Said (MAR),1-0
+1998,26 Jun 1998 - 16:00 ,Group H,Stade de Gerland,Japan,Jamaica,39100.0,BENKO Gunter (AUT),1-2
+1998,26 Jun 1998 - 21:00 ,Group G,Stade Felix Bollaert,Colombia,England,38100.0,BRIZIO CARTER Arturo (MEX),0-2
+1998,26 Jun 1998 - 21:00 ,Group G,Stade de France,Romania,Tunisia,77000.0,LENNIE Edward (AUS),1-1
+1998,27 Jun 1998 - 16:30 ,Round of 16,Stade V�lodrome,Italy,Norway,55000.0,HEYNEMANN Bernd (GER),1-0
+1998,27 Jun 1998 - 21:00 ,Round of 16,Parc des Princes,Brazil,Chile,45500.0,BATTA Marc (FRA),4-1
+1998,28 Jun 1998 - 16:30 ,Round of 16,Stade Felix Bollaert,France,Paraguay,31800.0,BUJSAIM Ali (UAE),1-0
+1998,28 Jun 1998 - 21:00 ,Round of 16,Stade de France,Nigeria,Denmark,77000.0,MEIER Urs (SUI),1-4
+1998,29 Jun 1998 - 16:30 ,Round of 16,La Mosson,Germany,Mexico,29800.0,MELO PEREIRA Vitor (POR),2-1
+1998,29 Jun 1998 - 21:00 ,Round of 16,Stade Municipal,Netherlands,Yugoslavia,33500.0,GARCIA ARANDA Jose Maria (ESP),2-1
+1998,30 Jun 1998 - 16:30 ,Round of 16,Stade du Parc Lescure,Romania,Croatia,31800.0,CASTRILLI Javier (ARG),0-1
+1998,30 Jun 1998 - 21:00 ,Round of 16,Stade Geoffroy Guichard,Argentina,England,30600.0,NIELSEN Kim Milton (DEN),(4) 2-2 (3)
+2002,01 Jun 2002 - 15:30 ,Group E,Niigata Stadium Big Swan,"rn"">Republic of Ireland",Cameroon,33679.0,KAMIKAWA Toru (JPN),1-1
+2002,01 Jun 2002 - 18:00 ,Group A,Munsu Football Stadium,Uruguay,Denmark,30157.0,MANE Saad (KUW),1-2
+2002,01 Jun 2002 - 20:30 ,Group E,Sapporo Dome,Germany,Saudi Arabia,32218.0,AQUINO Ubaldo (PAR),8-0
+2002,02 Jun 2002 - 14:30 ,Group F,Kashima Stadium,Argentina,Nigeria,34050.0,VEISSIERE Gilles (FRA),1-0
+2002,02 Jun 2002 - 16:30 ,Group B,Busan Asiad Main Stadium,Paraguay,South Africa,25186.0,MICHEL Lubos (SVK),2-2
+2002,02 Jun 2002 - 18:30 ,Group F,Saitama Stadium 2002,England,Sweden,52721.0,SIMON Carlos (BRA),1-1
+2002,02 Jun 2002 - 20:30 ,Group B,Gwangju World Cup Stadium,Spain,Slovenia,28598.0,GUEZZAZ Mohammed (MAR),3-1
+2002,03 Jun 2002 - 15:30 ,Group G,Niigata Stadium Big Swan,Croatia,Mexico,32239.0,JUN Lu (CHN),0-1
+2002,03 Jun 2002 - 20:30 ,Group G,Sapporo Dome,Italy,Ecuador,31081.0,HALL Brian (USA),2-0
+2002,03 June 2002 - 18:00 ,Group C,Munsu Football Stadium,Brazil,Turkey,33842.0,KIM Young Joo (KOR),2-1
+2002,04 Jun 2002 - 20:30 ,Group D,Busan Asiad Main Stadium,Korea Republic,Poland,48760.0,RUIZ Oscar (COL),2-0
+2002,04 June 2002 - 15:30 ,Group C,Gwangju World Cup Stadium,China PR,Costa Rica,27217.0,VASSARAS Kyros (GRE),0-2
+2002,04 June 2002 - 18:00 ,Group H,Saitama Stadium 2002,Japan,Belgium,55256.0,MATTUS William (CRC),2-2
+2002,05 Jun 2002 - 15:30 ,Group H,Kobe Wing Stadium,Russia,Tunisia,30957.0,PRENDERGAST Peter (JAM),2-0
+2002,05 Jun 2002 - 18:00 ,Group D,Suwon World Cup Stadium,USA,Portugal,37306.0,MORENO Byron (ECU),3-2
+2002,05 Jun 2002 - 20:30 ,Group E,Kashima Stadium,Germany,"rn"">Republic of Ireland",35854.0,NIELSEN Kim Milton (DEN),1-1
+2002,06 Jun 2002 - 15:30 ,Group A,Daegu World Cup Stadium,Denmark,Senegal,43500.0,BATRES Carlos (GUA),1-1
+2002,06 Jun 2002 - 18:00 ,Group E,Saitama Stadium 2002,Cameroon,Saudi Arabia,52328.0,HAUGE Terje (NOR),1-0
+2002,06 Jun 2002 - 20:30 ,Group A,Busan Asiad Main Stadium,France,Uruguay,38289.0,RAMOS RIZO Felipe (MEX),0-0
+2002,07 Jun 2002 - 15:30 ,Group F,Kobe Wing Stadium,Sweden,Nigeria,36194.0,ORTUBE Rene (BOL),2-1
+2002,07 Jun 2002 - 20:30 ,Group F,Sapporo Dome,Argentina,England,35927.0,COLLINA Pierluigi (ITA),0-1
+2002,07 June 2002 - 18:00 ,Group B,Jeonju World Cup Stadium,Spain,Paraguay,24000.0,EL GHANDOUR Gamal (EGY),3-1
+2002,08 Jun 2002 - 15:30 ,Group B,Daegu World Cup Stadium,South Africa,Slovenia,47226.0,SANCHEZ Angel (ARG),1-0
+2002,08 Jun 2002 - 20:30 ,Group C,Jeju World Cup Stadium,Brazil,China PR,36750.0,FRISK Anders (SWE),4-0
+2002,08 June 2002 - 18:00 ,Group G,Kashima Stadium,Italy,Croatia,36472.0,POLL Graham (ENG),1-2
+2002,09 Jun 2002 - 15:30 ,Group G,Miyagi Stadium,Mexico,Ecuador,45610.0,DAAMI Mourad (TUN),2-1
+2002,09 Jun 2002 - 18:00 ,Group C,Incheon Football Stadium,Costa Rica,Turkey,42299.0,CODJIA Coffi (BEN),1-1
+2002,09 Jun 2002 - 20:30 ,Group H,International Stadium Yokohama,Japan,Russia,66108.0,MERK Markus (GER),1-0
+2002,10 Jun 2002 - 15:30 ,Group D,Daegu World Cup Stadium,Korea Republic,USA,60778.0,MEIER Urs (SUI),1-1
+2002,10 Jun 2002 - 18:00 ,Group H,Oita Stadium Big Eye,Tunisia,Belgium,39700.0,SHIELD Mark (AUS),1-1
+2002,10 Jun 2002 - 20:30 ,Group D,Jeonju World Cup Stadium,Portugal,Poland,31000.0,DALLAS Hugh (SCO),4-0
+2002,11 Jun 2002 - 15:30 ,Group A,Incheon Football Stadium,Denmark,France,48100.0,MELO PEREIRA Vitor (POR),2-0
+2002,11 Jun 2002 - 20:30 ,Group E,Shizuoka Stadium Ecopa,Cameroon,Germany,47085.0,LOPEZ NIETO Antonio (ESP),0-2
+2002,11 Jun 2002 - 20:30 ,Group E,International Stadium Yokohama,Saudi Arabia,"rn"">Republic of Ireland",65320.0,NDOYE Falla (SEN),0-3
+2002,11 June 2002 - 15:30 ,Group A,Suwon World Cup Stadium,Senegal,Uruguay,33681.0,WEGEREEF Jan (NED),3-3
+2002,12 Jun 2002 - 15:30 ,Group F,Osaka Nagai Stadium,Nigeria,England,44864.0,HALL Brian (USA),0-0
+2002,12 Jun 2002 - 15:30 ,Group F,Miyagi Stadium,Sweden,Argentina,45777.0,BUJSAIM Ali (UAE),1-1
+2002,12 Jun 2002 - 20:30 ,Group B,Jeju World Cup Stadium,Slovenia,Paraguay,30176.0,RAMOS RIZO Felipe (MEX),1-3
+2002,12 Jun 2002 - 20:30 ,Group B,Daejeon World Cup Stadium,South Africa,Spain,31024.0,MANE Saad (KUW),2-3
+2002,13 Jun 2002 - 15:30 ,Group C,Suwon World Cup Stadium,Costa Rica,Brazil,38524.0,EL GHANDOUR Gamal (EGY),2-5
+2002,13 Jun 2002 - 15:30 ,Group C,Seoul World Cup Stadium,Turkey,China PR,43605.0,RUIZ Oscar (COL),3-0
+2002,13 Jun 2002 - 20:30 ,Group G,International Stadium Yokohama,Ecuador,Croatia,65862.0,MATTUS William (CRC),1-0
+2002,13 Jun 2002 - 20:30 ,Group G,Oita Stadium Big Eye,Mexico,Italy,39291.0,SIMON Carlos (BRA),1-1
+2002,14 Jun 2002 - 15:30 ,Group H,Shizuoka Stadium Ecopa,Belgium,Russia,46640.0,NIELSEN Kim Milton (DEN),3-2
+2002,14 Jun 2002 - 15:30 ,Group H,Osaka Nagai Stadium,Tunisia,Japan,45213.0,VEISSIERE Gilles (FRA),0-2
+2002,14 Jun 2002 - 20:30 ,Group D,Daejeon World Cup Stadium,Poland,USA,26482.0,LU Jun (CHN),3-1
+2002,14 Jun 2002 - 20:30 ,Group D,Incheon Football Stadium,Portugal,Korea Republic,50239.0,SANCHEZ Angel (ARG),0-1
+2002,15 Jun 2002 - 15:30 ,Round of 16,Jeju World Cup Stadium,Germany,Paraguay,25176.0,BATRES Carlos (GUA),1-0
+2002,15 Jun 2002 - 20:30 ,Round of 16,Niigata Stadium Big Swan,Denmark,England,40582.0,MERK Markus (GER),0-3
+2002,16 Jun 2002 - 15:30 ,Round of 16,Oita Stadium Big Eye,Sweden,Senegal,39747.0,AQUINO Ubaldo (PAR),1-2
+2002,16 Jun 2002 - 20:30 ,Round of 16,Suwon World Cup Stadium,Spain,"rn"">Republic of Ireland",38926.0,FRISK Anders (SWE),(3) 1-1 (2)
+2002,17 Jun 2002 - 20:30 ,Round of 16,Kobe Wing Stadium,Brazil,Belgium,40440.0,PRENDERGAST Peter (JAM),2-0
+2002,17 June 2002 - 15:30 ,Round of 16,Jeonju World Cup Stadium,Mexico,USA,36380.0,MELO PEREIRA Vitor (POR),0-2
+2002,18 Jun 2002 - 15:30 ,Round of 16,Miyagi Stadium,Japan,Turkey,45666.0,COLLINA Pierluigi (ITA),0-1
+2002,18 Jun 2002 - 20:30 ,Round of 16,Daejeon World Cup Stadium,Korea Republic,Italy,38588.0,MORENO Byron (ECU),2-1
+2002,21 Jun 2002 - 15:30 ,Quarter-finals,Shizuoka Stadium Ecopa,England,Brazil,47436.0,RAMOS RIZO Felipe (MEX),1-2
+2002,21 Jun 2002 - 20:30 ,Quarter-finals,Munsu Football Stadium,Germany,USA,37337.0,DALLAS Hugh (SCO),1-0
+2002,22 Jun 2002 - 15:30 ,Quarter-finals,Gwangju World Cup Stadium,Spain,Korea Republic,42114.0,EL GHANDOUR Gamal (EGY),(3) 0-0 (5)
+2002,22 Jun 2002 - 20:30 ,Quarter-finals,Osaka Nagai Stadium,Senegal,Turkey,44233.0,RUIZ Oscar (COL),0-1
+2002,25 Jun 2002 - 20:30 ,Semi-finals,Seoul World Cup Stadium,Germany,Korea Republic,65256.0,MEIER Urs (SUI),1-0
+2002,26 Jun 2002 - 20:30 ,Semi-finals,Saitama Stadium 2002,Brazil,Turkey,61058.0,NIELSEN Kim Milton (DEN),1-0
+2002,29 Jun 2002 - 20:00 ,Third place,Daegu World Cup Stadium,Korea Republic,Turkey,63483.0,MANE Saad (KUW),2-3
+2002,30 Jun 2002 - 20:00 ,Final,International Stadium Yokohama,Germany,Brazil,69029.0,COLLINA Pierluigi (ITA),0-2
+2002,31 May 2002 - 20:30 ,Group A,Seoul World Cup Stadium,France,Senegal,62561.0,BUJSAIM Ali (UAE),0-1
+2006,01 Jul 2006 - 17:00 ,Quarter-finals,"FIFA World Cup Stadium, Gelsenkirchen",England,Portugal,52000.0,ELIZONDO Horacio (ARG),(1) 0-0 (3)
+2006,01 Jul 2006 - 21:00 ,Quarter-finals,"FIFA World Cup Stadium, Frankfurt",Brazil,France,48000.0,MEDINA CANTALEJO Luis (ESP),0-1
+2006,04 Jul 2006 - 21:00 ,Semi-finals,"FIFA World Cup Stadium, Dortmund",Germany,Italy,65000.0,ARCHUNDIA Benito (MEX),0-2
+2006,05 Jul 2006 - 21:00 ,Semi-finals,"FIFA World Cup Stadium, Munich",Portugal,France,66000.0,LARRIONDA Jorge (URU),0-1
+2006,08 Jul 2006 - 21:00 ,Third place,Gottlieb-Daimler-Stadion,Germany,Portugal,52000.0,KAMIKAWA Toru (JPN),3-1
+2006,09 Jul 2006 - 20:00 ,Final,Olympiastadion,Italy,France,69000.0,ELIZONDO Horacio (ARG),(5) 1-1 (3)
+2006,09 Jun 2006 - 18:00 ,Group A,"FIFA World Cup Stadium, Munich",Germany,Costa Rica,66000.0,ELIZONDO Horacio (ARG),4-2
+2006,09 Jun 2006 - 21:00 ,Group A,"FIFA World Cup Stadium, Gelsenkirchen",Poland,Ecuador,52000.0,KAMIKAWA Toru (JPN),0-2
+2006,10 Jun 2006 - 15:00 ,Group B,"FIFA World Cup Stadium, Frankfurt",England,Paraguay,48000.0,RODRIGUEZ Marco (MEX),1-0
+2006,10 Jun 2006 - 18:00 ,Group B,"FIFA World Cup Stadium, Dortmund","rn"">Trinidad and Tobago",Sweden,62959.0,MAIDIN Shamsul (SIN),0-0
+2006,10 Jun 2006 - 21:00 ,Group C,"FIFA World Cup Stadium, Hamburg",Argentina,C�te d'Ivoire,49480.0,DE BLEECKERE Frank (BEL),2-1
+2006,11 Jun 2006 - 15:00 ,Group C,Zentralstadion,"rn"">Serbia and Montenegro",Netherlands,43000.0,MERK Markus (GER),0-1
+2006,11 Jun 2006 - 18:00 ,Group D,Franken-Stadion,Mexico,Iran,41000.0,ROSETTI Roberto (ITA),3-1
+2006,11 Jun 2006 - 21:00 ,Group D,"FIFA World Cup Stadium, Cologne",Angola,Portugal,45000.0,LARRIONDA Jorge (URU),0-1
+2006,12 Jun 2006 - 15:00 ,Group F,Fritz-Walter-Stadion,Australia,Japan,46000.0,ABD EL FATAH Essam (EGY),3-1
+2006,12 Jun 2006 - 18:00 ,Group E,"FIFA World Cup Stadium, Gelsenkirchen",USA,Czech Republic,52000.0,AMARILLA Carlos (PAR),0-3
+2006,12 Jun 2006 - 21:00 ,Group E,"FIFA World Cup Stadium, Hanover",Italy,Ghana,43000.0,SIMON Carlos (BRA),2-0
+2006,13 Jun 2006 - 15:00 ,Group G,"FIFA World Cup Stadium, Frankfurt",Korea Republic,Togo,48000.0,POLL Graham (ENG),2-1
+2006,13 Jun 2006 - 18:00 ,Group G,Gottlieb-Daimler-Stadion,France,Switzerland,52000.0,IVANOV Valentin (RUS),0-0
+2006,13 Jun 2006 - 21:00 ,Group F,Olympiastadion,Brazil,Croatia,72000.0,ARCHUNDIA Benito (MEX),1-0
+2006,14 Jun 2006 - 15:00 ,Group H,Zentralstadion,Spain,Ukraine,43000.0,BUSACCA Massimo (SUI),4-0
+2006,14 Jun 2006 - 18:00 ,Group H,"FIFA World Cup Stadium, Munich",Tunisia,Saudi Arabia,66000.0,SHIELD Mark (AUS),2-2
+2006,14 Jun 2006 - 21:00 ,Group A,"FIFA World Cup Stadium, Dortmund",Germany,Poland,65000.0,MEDINA CANTALEJO Luis (ESP),1-0
+2006,15 Jun 2006 - 15:00 ,Group A,"FIFA World Cup Stadium, Hamburg",Ecuador,Costa Rica,50000.0,CODJIA Coffi (BEN),3-0
+2006,15 Jun 2006 - 18:00 ,Group B,Franken-Stadion,England,"rn"">Trinidad and Tobago",41000.0,KAMIKAWA Toru (JPN),2-0
+2006,15 Jun 2006 - 21:00 ,Group B,Olympiastadion,Sweden,Paraguay,72000.0,MICHEL Lubos (SVK),1-0
+2006,16 Jun 2006 - 15:00 ,Group C,"FIFA World Cup Stadium, Gelsenkirchen",Argentina,"rn"">Serbia and Montenegro",52000.0,ROSETTI Roberto (ITA),6-0
+2006,16 Jun 2006 - 18:00 ,Group C,Gottlieb-Daimler-Stadion,Netherlands,C�te d'Ivoire,52000.0,RUIZ Oscar (COL),2-1
+2006,16 Jun 2006 - 21:00 ,Group D,"FIFA World Cup Stadium, Hanover",Mexico,Angola,43000.0,MAIDIN Shamsul (SIN),0-0
+2006,17 Jun 2006 - 15:00 ,Group D,"FIFA World Cup Stadium, Frankfurt",Portugal,IR Iran,48000.0,POULAT Eric (FRA),2-0
+2006,17 Jun 2006 - 18:00 ,Group E,"FIFA World Cup Stadium, Cologne",Czech Republic,Ghana,45000.0,ELIZONDO Horacio (ARG),0-2
+2006,17 Jun 2006 - 21:00 ,Group E,Fritz-Walter-Stadion,Italy,USA,46000.0,LARRIONDA Jorge (URU),1-1
+2006,18 Jun 2006 - 15:00 ,Group F,Franken-Stadion,Japan,Croatia,41000.0,DE BLEECKERE Frank (BEL),0-0
+2006,18 Jun 2006 - 18:00 ,Group F,"FIFA World Cup Stadium, Munich",Brazil,Australia,66000.0,MERK Markus (GER),2-0
+2006,18 Jun 2006 - 21:00 ,Group G,Zentralstadion,France,Korea Republic,43000.0,ARCHUNDIA Benito (MEX),1-1
+2006,19 Jun 2006 - 15:00 ,Group G,"FIFA World Cup Stadium, Dortmund",Togo,Switzerland,65000.0,AMARILLA Carlos (PAR),0-2
+2006,19 Jun 2006 - 18:00 ,Group H,"FIFA World Cup Stadium, Hamburg",Saudi Arabia,Ukraine,50000.0,POLL Graham (ENG),0-4
+2006,19 Jun 2006 - 21:00 ,Group H,Gottlieb-Daimler-Stadion,Spain,Tunisia,52000.0,SIMON Carlos (BRA),3-1
+2006,20 Jun 2006 - 16:00 ,Group A,"FIFA World Cup Stadium, Hanover",Costa Rica,Poland,43000.0,MAIDIN Shamsul (SIN),1-2
+2006,20 Jun 2006 - 16:00 ,Group A,Olympiastadion,Ecuador,Germany,72000.0,IVANOV Valentin (RUS),0-3
+2006,20 Jun 2006 - 21:00 ,Group B,Fritz-Walter-Stadion,Paraguay,"rn"">Trinidad and Tobago",46000.0,ROSETTI Roberto (ITA),2-0
+2006,20 Jun 2006 - 21:00 ,Group B,"FIFA World Cup Stadium, Cologne",Sweden,England,45000.0,BUSACCA Massimo (SUI),2-2
+2006,21 Jun 2006 - 16:00 ,Group D,Zentralstadion,Iran,Angola,38000.0,SHIELD Mark (AUS),1-1
+2006,21 Jun 2006 - 16:00 ,Group D,"FIFA World Cup Stadium, Gelsenkirchen",Portugal,Mexico,52000.0,MICHEL Lubos (SVK),2-1
+2006,21 Jun 2006 - 21:00 ,Group C,"FIFA World Cup Stadium, Munich",C�te d'Ivoire,"rn"">Serbia and Montenegro",66000.0,RODRIGUEZ Marco (MEX),3-2
+2006,21 Jun 2006 - 21:00 ,Group C,"FIFA World Cup Stadium, Frankfurt",Netherlands,Argentina,48000.0,MEDINA CANTALEJO Luis (ESP),0-0
+2006,22 Jun 2006 - 16:00 ,Group E,"FIFA World Cup Stadium, Hamburg",Czech Republic,Italy,50000.0,ARCHUNDIA Benito (MEX),0-2
+2006,22 Jun 2006 - 16:00 ,Group E,Franken-Stadion,Ghana,USA,41000.0,MERK Markus (GER),2-1
+2006,22 Jun 2006 - 21:00 ,Group F,Gottlieb-Daimler-Stadion,Croatia,Australia,52000.0,POLL Graham (ENG),2-2
+2006,22 Jun 2006 - 21:00 ,Group F,"FIFA World Cup Stadium, Dortmund",Japan,Brazil,65000.0,POULAT Eric (FRA),1-4
+2006,23 Jun 2006 - 16:00 ,Group H,Fritz-Walter-Stadion,Saudi Arabia,Spain,46000.0,CODJIA Coffi (BEN),0-1
+2006,23 Jun 2006 - 16:00 ,Group H,Olympiastadion,Ukraine,Tunisia,72000.0,AMARILLA Carlos (PAR),1-0
+2006,23 Jun 2006 - 21:00 ,Group G,"FIFA World Cup Stadium, Hanover",Switzerland,Korea Republic,43000.0,ELIZONDO Horacio (ARG),2-0
+2006,23 Jun 2006 - 21:00 ,Group G,"FIFA World Cup Stadium, Cologne",Togo,France,45000.0,LARRIONDA Jorge (URU),0-2
+2006,24 Jun 2006 - 17:00 ,Round of 16,"FIFA World Cup Stadium, Munich",Germany,Sweden,66000.0,SIMON Carlos (BRA),2-0
+2006,24 Jun 2006 - 21:00 ,Round of 16,Zentralstadion,Argentina,Mexico,43000.0,BUSACCA Massimo (SUI),2-1
+2006,25 Jun 2006 - 17:00 ,Round of 16,Gottlieb-Daimler-Stadion,England,Ecuador,52000.0,DE BLEECKERE Frank (BEL),1-0
+2006,25 Jun 2006 - 21:00 ,Round of 16,Franken-Stadion,Portugal,Netherlands,41000.0,IVANOV Valentin (RUS),1-0
+2006,26 Jun 2006 - 17:00 ,Round of 16,Fritz-Walter-Stadion,Italy,Australia,46000.0,MEDINA CANTALEJO Luis (ESP),1-0
+2006,26 Jun 2006 - 21:00 ,Round of 16,"FIFA World Cup Stadium, Cologne",Switzerland,Ukraine,45000.0,ARCHUNDIA Benito (MEX),(0) 0-0 (3)
+2006,27 Jun 2006 - 17:00 ,Round of 16,"FIFA World Cup Stadium, Dortmund",Brazil,Ghana,65000.0,MICHEL Lubos (SVK),3-0
+2006,27 Jun 2006 - 21:00 ,Round of 16,"FIFA World Cup Stadium, Hanover",Spain,France,43000.0,ROSETTI Roberto (ITA),1-3
+2006,30 Jun 2006 - 17:00 ,Quarter-finals,Olympiastadion,Germany,Argentina,72000.0,MICHEL Lubos (SVK),(4) 1-1 (2)
+2006,30 Jun 2006 - 21:00 ,Quarter-finals,"FIFA World Cup Stadium, Hamburg",Italy,Ukraine,50000.0,DE BLEECKERE Frank (BEL),3-0
+2010,02 Jul 2010 - 16:00 ,Quarter-finals,Port Elizabeth Stadium,Netherlands,Brazil,40186.0,NISHIMURA Yuichi (JPN),2-1
+2010,02 Jul 2010 - 20:30 ,Quarter-finals,Soccer City Stadium,Uruguay,Ghana,84017.0,Oleg�rio BENQUEREN�A (POR),(4) 1-1 (2)
+2010,03 Jul 2010 - 16:00 ,Quarter-finals,Cape Town Stadium,Argentina,Germany,64100.0,Ravshan IRMATOV (UZB),0-4
+2010,03 Jul 2010 - 20:30 ,Quarter-finals,Ellis Park Stadium,Paraguay,Spain,55359.0,BATRES Carlos (GUA),0-1
+2010,06 Jul 2010 - 20:30 ,Semi-finals,Cape Town Stadium,Uruguay,Netherlands,62479.0,Ravshan IRMATOV (UZB),2-3
+2010,07 Jul 2010 - 20:30 ,Semi-finals,Durban Stadium,Germany,Spain,60960.0,KASSAI Viktor (HUN),0-1
+2010,10 Jul 2010 - 20:30 ,Match for third place,Port Elizabeth Stadium,Uruguay,Germany,36254.0,ARCHUNDIA Benito (MEX),2-3
+2010,11 Jul 2010 - 20:30 ,Final,Soccer City Stadium,Netherlands,Spain,84490.0,WEBB Howard (ENG),0-1
+2010,11 Jun 2010 - 16:00 ,Group A,Soccer City Stadium,South Africa,Mexico,84490.0,Ravshan IRMATOV (UZB),1-1
+2010,11 Jun 2010 - 20:30 ,Group A,Cape Town Stadium,Uruguay,France,64100.0,NISHIMURA Yuichi (JPN),0-0
+2010,12 Jun 2010 - 13:30 ,Group B,Port Elizabeth Stadium,Korea Republic,Greece,31513.0,HESTER Michael (NZL),2-0
+2010,12 Jun 2010 - 16:00 ,Group B,Ellis Park Stadium,Argentina,Nigeria,55686.0,Wolfgang STARK (GER),1-0
+2010,12 Jun 2010 - 20:30 ,Group C,Royal Bafokeng Sports Palace,England,USA,38646.0,SIMON Carlos (BRA),1-1
+2010,13 Jun 2010 - 13:30 ,Group C,Peter Mokaba Stadium,Algeria,Slovenia,30325.0,BATRES Carlos (GUA),0-1
+2010,13 Jun 2010 - 16:00 ,Group D,Loftus Versfeld Stadium,Serbia,Ghana,38833.0,BALDASSI Hector (ARG),0-1
+2010,13 Jun 2010 - 20:30 ,Group D,Durban Stadium,Germany,Australia,62660.0,RODRIGUEZ Marco (MEX),4-0
+2010,14 Jun 2010 - 13:30 ,Group E,Soccer City Stadium,Netherlands,Denmark,83465.0,St�phane LANNOY (FRA),2-0
+2010,14 Jun 2010 - 16:00 ,Group E,Free State Stadium,Japan,Cameroon,30620.0,Oleg�rio BENQUEREN�A (POR),1-0
+2010,14 Jun 2010 - 20:30 ,Group F,Cape Town Stadium,Italy,Paraguay,62869.0,ARCHUNDIA Benito (MEX),1-1
+2010,15 Jun 2010 - 13:30 ,Group F,Royal Bafokeng Sports Palace,New Zealand,Slovakia,23871.0,DAMON Jerome (RSA),1-1
+2010,15 Jun 2010 - 16:00 ,Group G,Port Elizabeth Stadium,C�te d'Ivoire,Portugal,37034.0,LARRIONDA Jorge (URU),0-0
+2010,15 Jun 2010 - 20:30 ,Group G,Ellis Park Stadium,Brazil,Korea DPR,54331.0,KASSAI Viktor (HUN),2-1
+2010,16 Jun 2010 - 13:30 ,Group H,Mbombela Stadium,Honduras,Chile,32664.0,MAILLET Eddy (SEY),0-1
+2010,16 Jun 2010 - 16:00 ,Group H,Durban Stadium,Spain,Switzerland,62453.0,WEBB Howard (ENG),0-1
+2010,16 Jun 2010 - 20:30 ,Group A,Loftus Versfeld Stadium,South Africa,Uruguay,42658.0,BUSACCA Massimo (SUI),0-3
+2010,17 Jun 2010 - 13:30 ,Group B,Soccer City Stadium,Argentina,Korea Republic,82174.0,DE BLEECKERE Frank (BEL),4-1
+2010,17 Jun 2010 - 16:00 ,Group B,Free State Stadium,Greece,Nigeria,31593.0,RUIZ Oscar (COL),2-1
+2010,17 Jun 2010 - 20:30 ,Group A,Peter Mokaba Stadium,France,Mexico,35370.0,AL GHAMDI Khalil (KSA),0-2
+2010,18 Jun 2010 - 13:30 ,Group D,Port Elizabeth Stadium,Germany,Serbia,38294.0,Alberto UNDIANO MALLENCO (ESP),0-1
+2010,18 Jun 2010 - 16:00 ,Group C,Ellis Park Stadium,Slovenia,USA,45573.0,Koman COULIBALY (MLI),2-2
+2010,18 Jun 2010 - 20:30 ,Group C,Cape Town Stadium,England,Algeria,64100.0,Ravshan IRMATOV (UZB),0-0
+2010,19 Jun 2010 - 13:30 ,Group E,Durban Stadium,Netherlands,Japan,62010.0,BALDASSI Hector (ARG),1-0
+2010,19 Jun 2010 - 16:00 ,Group D,Royal Bafokeng Sports Palace,Ghana,Australia,34812.0,ROSETTI Roberto (ITA),1-1
+2010,19 Jun 2010 - 20:30 ,Group E,Loftus Versfeld Stadium,Cameroon,Denmark,38074.0,LARRIONDA Jorge (URU),1-2
+2010,20 Jun 2010 - 13:30 ,Group F,Free State Stadium,Slovakia,Paraguay,26643.0,MAILLET Eddy (SEY),0-2
+2010,20 Jun 2010 - 16:00 ,Group F,Mbombela Stadium,Italy,New Zealand,38229.0,BATRES Carlos (GUA),1-1
+2010,20 Jun 2010 - 20:30 ,Group G,Soccer City Stadium,Brazil,C�te d'Ivoire,84455.0,St�phane LANNOY (FRA),3-1
+2010,21 Jun 2010 - 13:30 ,Group G,Cape Town Stadium,Portugal,Korea DPR,63644.0,POZO Pablo (CHI),7-0
+2010,21 Jun 2010 - 16:00 ,Group H,Port Elizabeth Stadium,Chile,Switzerland,34872.0,AL GHAMDI Khalil (KSA),1-0
+2010,21 Jun 2010 - 20:30 ,Group H,Ellis Park Stadium,Spain,Honduras,54386.0,NISHIMURA Yuichi (JPN),2-0
+2010,22 Jun 2010 - 16:00 ,Group A,Free State Stadium,France,South Africa,39415.0,RUIZ Oscar (COL),1-2
+2010,22 Jun 2010 - 16:00 ,Group A,Royal Bafokeng Sports Palace,Mexico,Uruguay,33425.0,KASSAI Viktor (HUN),0-1
+2010,22 Jun 2010 - 20:30 ,Group B,Peter Mokaba Stadium,Greece,Argentina,38891.0,Ravshan IRMATOV (UZB),0-2
+2010,22 Jun 2010 - 20:30 ,Group B,Durban Stadium,Nigeria,Korea Republic,61874.0,Oleg�rio BENQUEREN�A (POR),2-2
+2010,23 Jun 2010 - 16:00 ,Group C,Port Elizabeth Stadium,Slovenia,England,36893.0,Wolfgang STARK (GER),0-1
+2010,23 Jun 2010 - 16:00 ,Group C,Loftus Versfeld Stadium,USA,Algeria,35827.0,DE BLEECKERE Frank (BEL),1-0
+2010,23 Jun 2010 - 20:30 ,Group D,Mbombela Stadium,Australia,Serbia,37836.0,LARRIONDA Jorge (URU),2-1
+2010,23 Jun 2010 - 20:30 ,Group D,Soccer City Stadium,Ghana,Germany,83391.0,SIMON Carlos (BRA),0-1
+2010,24 Jun 2010 - 16:00 ,Group F,Peter Mokaba Stadium,Paraguay,New Zealand,34850.0,NISHIMURA Yuichi (JPN),0-0
+2010,24 Jun 2010 - 16:00 ,Group F,Ellis Park Stadium,Slovakia,Italy,53412.0,WEBB Howard (ENG),3-2
+2010,24 Jun 2010 - 20:30 ,Group E,Cape Town Stadium,Cameroon,Netherlands,63093.0,POZO Pablo (CHI),1-2
+2010,24 Jun 2010 - 20:30 ,Group E,Royal Bafokeng Sports Palace,Denmark,Japan,27967.0,DAMON Jerome (RSA),1-3
+2010,25 Jun 2010 - 16:00 ,Group G,Mbombela Stadium,Korea DPR,C�te d'Ivoire,34763.0,Alberto UNDIANO MALLENCO (ESP),0-3
+2010,25 Jun 2010 - 16:00 ,Group G,Durban Stadium,Portugal,Brazil,62712.0,ARCHUNDIA Benito (MEX),0-0
+2010,25 Jun 2010 - 20:30 ,Group H,Loftus Versfeld Stadium,Chile,Spain,41958.0,RODRIGUEZ Marco (MEX),1-2
+2010,25 Jun 2010 - 20:30 ,Group H,Free State Stadium,Switzerland,Honduras,28042.0,BALDASSI Hector (ARG),0-0
+2010,26 Jun 2010 - 16:00 ,Round of 16,Port Elizabeth Stadium,Uruguay,Korea Republic,30597.0,Wolfgang STARK (GER),2-1
+2010,26 Jun 2010 - 20:30 ,Round of 16,Royal Bafokeng Sports Palace,USA,Ghana,34976.0,KASSAI Viktor (HUN),1-2
+2010,27 Jun 2010 - 16:00 ,Round of 16,Free State Stadium,Germany,England,40510.0,LARRIONDA Jorge (URU),4-1
+2010,27 Jun 2010 - 20:30 ,Round of 16,Soccer City Stadium,Argentina,Mexico,84377.0,ROSETTI Roberto (ITA),3-1
+2010,28 Jun 2010 - 16:00 ,Round of 16,Durban Stadium,Netherlands,Slovakia,61962.0,Alberto UNDIANO MALLENCO (ESP),2-1
+2010,28 Jun 2010 - 20:30 ,Round of 16,Ellis Park Stadium,Brazil,Chile,54096.0,WEBB Howard (ENG),3-0
+2010,29 Jun 2010 - 16:00 ,Round of 16,Loftus Versfeld Stadium,Paraguay,Japan,36742.0,DE BLEECKERE Frank (BEL),(5) 0-0 (3)
+2010,29 Jun 2010 - 20:30 ,Round of 16,Cape Town Stadium,Spain,Portugal,62955.0,BALDASSI Hector (ARG),1-0
+2014,01 Jul 2014 - 13:00 ,Round of 16,Arena de Sao Paulo,Argentina,Switzerland,63255.0,ERIKSSON Jonas (SWE),1-0
+2014,01 Jul 2014 - 17:00 ,Round of 16,Arena Fonte Nova,Belgium,USA,51227.0,HAIMOUDI Djamel (ALG),2-1
+2014,04 Jul 2014 - 13:00 ,Quarter-finals,Estadio do Maracana,France,Germany,74240.0,PITANA Nestor (ARG),0-1
+2014,04 Jul 2014 - 17:00 ,Quarter-finals,Estadio Castelao,Brazil,Colombia,60342.0,Carlos VELASCO CARBALLO (ESP),2-1
+2014,05 Jul 2014 - 13:00 ,Quarter-finals,Estadio Nacional,Argentina,Belgium,68551.0,Nicola RIZZOLI (ITA),1-0
+2014,05 Jul 2014 - 17:00 ,Quarter-finals,Arena Fonte Nova,Netherlands,Costa Rica,51179.0,Ravshan IRMATOV (UZB),(4) 0-0 (3)
+2014,08 Jul 2014 - 17:00 ,Semi-finals,Estadio Mineirao,Brazil,Germany,58141.0,RODRIGUEZ Marco (MEX),1-7
+2014,09 Jul 2014 - 17:00 ,Semi-finals,Arena de Sao Paulo,Netherlands,Argentina,63267.0,C�neyt �AKIR (TUR),(2) 0-0 (4)
+2014,12 Jul 2014 - 17:00 ,Play-off for third place,Estadio Nacional,Brazil,Netherlands,68034.0,HAIMOUDI Djamel (ALG),0-3
+2014,12 Jun 2014 - 17:00 ,Group A,Arena de Sao Paulo,Brazil,Croatia,62103.0,NISHIMURA Yuichi (JPN),3-1
+2014,13 Jul 2014 - 16:00 ,Final,Estadio do Maracana,Germany,Argentina,74738.0,Nicola RIZZOLI (ITA),1-0
+2014,13 Jun 2014 - 13:00 ,Group A,Estadio das Dunas,Mexico,Cameroon,39216.0,ROLDAN Wilmar (COL),1-0
+2014,13 Jun 2014 - 16:00 ,Group B,Arena Fonte Nova,Spain,Netherlands,48173.0,Nicola RIZZOLI (ITA),1-5
+2014,13 Jun 2014 - 18:00 ,Group B,Arena Pantanal,Chile,Australia,40275.0,Noumandiez DOUE (CIV),3-1
+2014,14 Jun 2014 - 13:00 ,Group C,Estadio Mineirao,Colombia,Greece,57174.0,GEIGER Mark (USA),3-0
+2014,14 Jun 2014 - 16:00 ,Group D,Estadio Castelao,Uruguay,Costa Rica,58679.0,BRYCH Felix (GER),1-3
+2014,14 Jun 2014 - 18:00 ,Group D,Arena Amazonia,England,Italy,39800.0,Bj�rn KUIPERS (NED),1-2
+2014,14 Jun 2014 - 22:00 ,Group C,Arena Pernambuco,C�te d'Ivoire,Japan,40267.0,OSSES Enrique (CHI),2-1
+2014,15 Jun 2014 - 13:00 ,Group E,Estadio Nacional,Switzerland,Ecuador,68351.0,Ravshan IRMATOV (UZB),2-1
+2014,15 Jun 2014 - 16:00 ,Group E,Estadio Beira-Rio,France,Honduras,43012.0,RICCI Sandro (BRA),3-0
+2014,15 Jun 2014 - 19:00 ,Group F,Estadio do Maracana,Argentina,"rn"">Bosnia and Herzegovina",74738.0,AGUILAR Joel (SLV),2-1
+2014,16 Jun 2014 - 13:00 ,Group G,Arena Fonte Nova,Germany,Portugal,51081.0,MAZIC Milorad (SRB),4-0
+2014,16 Jun 2014 - 16:00 ,Group F,Arena da Baixada,IR Iran,Nigeria,39081.0,VERA Carlos (ECU),0-0
+2014,16 Jun 2014 - 19:00 ,Group G,Estadio das Dunas,Ghana,USA,39760.0,ERIKSSON Jonas (SWE),1-2
+2014,17 Jun 2014 - 13:00 ,Group H,Estadio Mineirao,Belgium,Algeria,56800.0,RODRIGUEZ Marco (MEX),2-1
+2014,17 Jun 2014 - 16:00 ,Group A,Estadio Castelao,Brazil,Mexico,60342.0,C�neyt �AKIR (TUR),0-0
+2014,17 Jun 2014 - 18:00 ,Group H,Arena Pantanal,Russia,Korea Republic,37603.0,PITANA Nestor (ARG),1-1
+2014,18 Jun 2014 - 13:00 ,Group B,Estadio Beira-Rio,Australia,Netherlands,42877.0,HAIMOUDI Djamel (ALG),2-3
+2014,18 Jun 2014 - 16:00 ,Group B,Estadio do Maracana,Spain,Chile,74101.0,GEIGER Mark (USA),0-2
+2014,18 Jun 2014 - 18:00 ,Group A,Arena Amazonia,Cameroon,Croatia,39982.0,PROENCA Pedro (POR),0-4
+2014,19 Jun 2014 - 13:00 ,Group C,Estadio Nacional,Colombia,C�te d'Ivoire,68748.0,WEBB Howard (ENG),2-1
+2014,19 Jun 2014 - 16:00 ,Group D,Arena de Sao Paulo,Uruguay,England,62575.0,Carlos VELASCO CARBALLO (ESP),2-1
+2014,19 Jun 2014 - 19:00 ,Group C,Estadio das Dunas,Japan,Greece,39485.0,AGUILAR Joel (SLV),0-0
+2014,20 Jun 2014 - 13:00 ,Group D,Arena Pernambuco,Italy,Costa Rica,40285.0,OSSES Enrique (CHI),0-1
+2014,20 Jun 2014 - 16:00 ,Group E,Arena Fonte Nova,Switzerland,France,51003.0,Bj�rn KUIPERS (NED),2-5
+2014,20 Jun 2014 - 19:00 ,Group E,Arena da Baixada,Honduras,Ecuador,39224.0,Ben WILLIAMS (AUS),1-2
+2014,21 Jun 2014 - 13:00 ,Group F,Estadio Mineirao,Argentina,IR Iran,57698.0,MAZIC Milorad (SRB),1-0
+2014,21 Jun 2014 - 16:00 ,Group G,Estadio Castelao,Germany,Ghana,59621.0,RICCI Sandro (BRA),2-2
+2014,21 Jun 2014 - 18:00 ,Group F,Arena Pantanal,Nigeria,"rn"">Bosnia and Herzegovina",40499.0,Peter O'LEARY (NZL),1-0
+2014,22 Jun 2014 - 13:00 ,Group H,Estadio do Maracana,Belgium,Russia,73819.0,BRYCH Felix (GER),1-0
+2014,22 Jun 2014 - 16:00 ,Group H,Estadio Beira-Rio,Korea Republic,Algeria,42732.0,ROLDAN Wilmar (COL),2-4
+2014,22 Jun 2014 - 18:00 ,Group G,Arena Amazonia,USA,Portugal,40123.0,PITANA Nestor (ARG),2-2
+2014,23 Jun 2014 - 13:00 ,Group B,Arena da Baixada,Australia,Spain,39375.0,SHUKRALLA Nawaf (BHR),0-3
+2014,23 Jun 2014 - 13:00 ,Group B,Arena de Sao Paulo,Netherlands,Chile,62996.0,Bakary GASSAMA (GAM),2-0
+2014,23 Jun 2014 - 17:00 ,Group A,Estadio Nacional,Cameroon,Brazil,69112.0,ERIKSSON Jonas (SWE),1-4
+2014,23 Jun 2014 - 17:00 ,Group A,Arena Pernambuco,Croatia,Mexico,41212.0,Ravshan IRMATOV (UZB),1-3
+2014,24 Jun 2014 - 13:00 ,Group D,Estadio Mineirao,Costa Rica,England,57823.0,HAIMOUDI Djamel (ALG),0-0
+2014,24 Jun 2014 - 13:00 ,Group D,Estadio das Dunas,Italy,Uruguay,39706.0,RODRIGUEZ Marco (MEX),0-1
+2014,24 Jun 2014 - 16:00 ,Group C,Arena Pantanal,Japan,Colombia,40340.0,PROENCA Pedro (POR),1-4
+2014,24 Jun 2014 - 17:00 ,Group C,Estadio Castelao,Greece,C�te d'Ivoire,59095.0,VERA Carlos (ECU),2-1
+2014,25 Jun 2014 - 13:00 ,Group F,Estadio Beira-Rio,Nigeria,Argentina,43285.0,Nicola RIZZOLI (ITA),2-3
+2014,25 Jun 2014 - 13:00 ,Group F,Arena Fonte Nova,"rn"">Bosnia and Herzegovina",IR Iran,48011.0,Carlos VELASCO CARBALLO (ESP),3-1
+2014,25 Jun 2014 - 16:00 ,Group E,Arena Amazonia,Honduras,Switzerland,40322.0,PITANA Nestor (ARG),0-3
+2014,25 Jun 2014 - 17:00 ,Group E,Estadio do Maracana,Ecuador,France,73749.0,Noumandiez DOUE (CIV),0-0
+2014,26 Jun 2014 - 13:00 ,Group G,Estadio Nacional,Portugal,Ghana,67540.0,SHUKRALLA Nawaf (BHR),2-1
+2014,26 Jun 2014 - 13:00 ,Group G,Arena Pernambuco,USA,Germany,41876.0,Ravshan IRMATOV (UZB),0-1
+2014,26 Jun 2014 - 17:00 ,Group H,Arena da Baixada,Algeria,Russia,39311.0,C�neyt �AKIR (TUR),1-1
+2014,26 Jun 2014 - 17:00 ,Group H,Arena de Sao Paulo,Korea Republic,Belgium,61397.0,Ben WILLIAMS (AUS),0-1
+2014,28 Jun 2014 - 13:00 ,Round of 16,Estadio Mineirao,Brazil,Chile,57714.0,WEBB Howard (ENG),(3) 1-1 (2)
+2014,28 Jun 2014 - 17:00 ,Round of 16,Estadio do Maracana,Colombia,Uruguay,73804.0,Bj�rn KUIPERS (NED),2-0
+2014,29 Jun 2014 - 13:00 ,Round of 16,Estadio Castelao,Netherlands,Mexico,58817.0,PROENCA Pedro (POR),2-1
+2014,29 Jun 2014 - 17:00 ,Round of 16,Arena Pernambuco,Costa Rica,Greece,41242.0,Ben WILLIAMS (AUS),(5) 1-1 (3)
+2014,30 Jun 2014 - 13:00 ,Round of 16,Estadio Nacional,France,Nigeria,67882.0,GEIGER Mark (USA),2-0
+2014,30 Jun 2014 - 17:00 ,Round of 16,Estadio Beira-Rio,Germany,Algeria,0.0,RICCI Sandro (BRA),2-1
+2018,14 Jun 2018 - 18:00 ,Group A,"Luzhniki Stadium, Moscow",Russia,Saudi Arabia,78011.0,Néstor Pitana,5-0
+2018,15 Jun 2018 - 15:00 ,Group A,"Central Stadium, Yekaterinburg",Egypt,Uruguay,27015.0,Björn Kuipers,0-1
+2018,15 Jun 2018 - 18:00 ,Group B,"Krestovsky Stadium, Saint Petersburg",Morocco,Iran,62048.0,Cüneyt Çakır,0-1
+2018,15 Jun 2018 - 21:00 ,Group B,"Fisht Olympic Stadium, Sochi",Portugal,Spain,43466.0,Gianluca Rocchi,3-3
+2018,16 Jun 2018 - 13:00 ,Group C,"Kazan Arena, Kazan",France,Australia,41279.0,Andrés Cunha,2-1
+2018,16 Jun 2018 - 16:00 ,Group D,"Spartak Stadium, Moscow",Argentina,Iceland,44190.0,Szymon Marciniak,1-1
+2018,16 Jun 2018 - 19:00 ,Group C,"Mordovia Arena, Saransk",Peru,Denmark,40344.0,Bakary Gassama,0-1
+2018,16 Jun 2018 - 21:00 ,Group D,"Kaliningrad Stadium, Kaliningrad",Croatia,Nigeria,31042.0,Sandro Ricci,2-0
+2018,17 Jun 2018 - 15:00 ,Group E,"Samara Arena, Samara",Costa Rica,Serbia,41432.0,Malang Diedhiou,0-1
+2018,17 Jun 2018 - 18:00 ,Group F,"Luzhniki Stadium, Moscow",Germany,Mexico,78011.0,Alireza Faghani,0-1
+2018,17 Jun 2018 - 21:00 ,Group E,"Rostov Arena, Rostov-on-Don",Brazil,Switzerland,43258.0,César Ramos,1-1
+2018,18 Jun 2018 - 15:00 ,Group F,"Nizhny Novgorod Stadium, Nizhny Novgorod",Sweden,South Korea,42300.0,Joel Aguilar,1-0
+2018,18 Jun 2018 - 18:00 ,Group G,"Fisht Olympic Stadium, Sochi",Belgium,Panama,43257.0,Janny Sikazwe,3-0
+2018,18 Jun 2018 - 21:00 ,Group G,"Volgograd Arena, Volgograd",Tunisia,England,41064.0,Wilmar Roldán,1-2
+2018,19 Jun 2018 - 15:00 ,Group H,"Mordovia Arena, Saransk",Colombia,Japan,40542.0,Damir Skomina,1-2
+2018,19 Jun 2018 - 18:00 ,Group H,"Spartak Stadium, Moscow",Poland,Senegal,43258.0,Nawaf Shukralla,1-2
+2018,19 Jun 2018 - 21:00 ,Group A,"Krestovsky Stadium, Saint Petersburg",Russia,Egypt,64368.0,Enrique Cáceres,3-1
+2018,20 Jun 2018 - 15:00 ,Group B,"Luzhniki Stadium, Moscow",Portugal,Morocco,78311.0,Mark Geiger,1-0
+2018,20 Jun 2018 - 18:00 ,Group A,"Rostov Arena, Rostov-on-Don",Uruguay,Saudi Arabia,25872.0,Clement Turpin,1-0
+2018,20 Jun 2018 - 21:00 ,Group B,"Kazan Arena, Kazan",Iran,Spain,62148.0,Andrés Cunha,0-1
+2018,21 Jun 2018 - 15:00 ,Group C,"Samara Arena, Samara",Denmark,Australia,40060.0,Antonio Mateu Lahoz,1-1
+2018,21 Jun 2018 - 18:00 ,Group C,"Central Stadium, Yekaterinburg",France,Peru,42300.0,Mohammed Abdulla,1-0
+2018,21 Jun 2018 - 21:00 ,Group D,"Nizhny Novgorod Stadium, Nizhny Novgorod",Argentina,Croatia,44190.0,Ravshan Irmatov,0-3
+2018,22 Jun 2018 - 15:00 ,Group E,"Krestovsky Stadium, Saint Petersburg",Brazil,Costa Rica,43258.0,Björn Kuipers,2-0
+2018,22 Jun 2018 - 18:00 ,Group D,"Volgograd Arena, Volgograd",Nigeria,Iceland,40344.0,Matthew Conger,2-0
+2018,22 Jun 2018 - 21:00 ,Group E,"Kaliningrad Stadium, Kaliningrad",Serbia,Switzerland,41310.0,Felix Brych,1-2
+2018,23 Jun 2018 - 15:00 ,Group G,"Spartak Stadium, Moscow",Belgium,Tunisia,44473.0,Jair Marrufo,5-2
+2018,23 Jun 2018 - 18:00 ,Group F,"Rostov Arena, Rostov-on-Don",South Korea,Mexico,43718.0,Milorad Mažić,1-2
+2018,23 Jun 2018 - 21:00 ,Group F,"Fisht Olympic Stadium, Sochi",Germany,Sweden,43887.0,Szymon Marciniak,2-1
+2018,24 Jun 2018 - 15:00 ,Group G,"Nizhny Novgorod Stadium, Nizhny Novgorod",England,Panama,43206.0,Ghead Grisha,6-1
+2018,24 Jun 2018 - 18:00 ,Group H,"Central Stadium, Yekaterinburg",Japan,Senegal,45261.0,Gianluca Rocchi,2-2
+2018,24 Jun 2018 - 21:00 ,Group H,"Kazan Arena, Kazan",Poland,Colombia,42308.0,César Ramos,0-3
+2018,30 Jun 2018 - 17:00 ,Round of 16,"Kazan Arena, Kazan",France,Argentina,42786.0,Alireza Faghani,4-3
+2018,30 Jun 2018 - 21:00 ,Round of 16,"Fisht Olympic Stadium, Sochi",Uruguay,Portugal,44198.0,César Ramos,2-1
+2018,01 Jul 2018 - 17:00 ,Round of 16,"Luzhniki Stadium, Moscow",Spain,Russia,78011.0,Björn Kuipers,1-1 (3-4 pens)
+2018,01 Jul 2018 - 21:00 ,Round of 16,"Nizhny Novgorod Stadium, Nizhny Novgorod",Croatia,Denmark,40851.0,Néstor Pitana,1-1 (3-2 pens)
+2018,02 Jul 2018 - 17:00 ,Round of 16,"Samara Arena, Samara",Brazil,Mexico,41831.0,Gianluca Rocchi,2-0
+2018,02 Jul 2018 - 21:00 ,Round of 16,"Rostov Arena, Rostov-on-Don",Belgium,Japan,41987.0,Malang Diedhiou,3-2
+2018,03 Jul 2018 - 17:00 ,Round of 16,"Krestovsky Stadium, Saint Petersburg",Sweden,Switzerland,64268.0,Damir Skomina,1-0
+2018,03 Jul 2018 - 21:00 ,Round of 16,"Spartak Stadium, Moscow",Colombia,England,44190.0,Mark Geiger,1-1 (3-4 pens)
+2018,06 Jul 2018 - 17:00 ,Quarter-finals,"Nizhny Novgorod Stadium, Nizhny Novgorod",Uruguay,France,43870.0,Néstor Pitana,0-2
+2018,06 Jul 2018 - 21:00 ,Quarter-finals,"Kazan Arena, Kazan",Brazil,Belgium,42873.0,Milorad Mažić,1-2
+2018,07 Jul 2018 - 17:00 ,Quarter-finals,"Samara Arena, Samara",Sweden,England,39261.0,Björn Kuipers,0-2
+2018,07 Jul 2018 - 21:00 ,Quarter-finals,"Fisht Olympic Stadium, Sochi",Russia,Croatia,44873.0,Sandro Ricci,2-2 (3-4 pens)
+2018,10 Jul 2018 - 21:00 ,Semi-finals,"Krestovsky Stadium, Saint Petersburg",France,Belgium,64386.0,Andrés Cunha,1-0
+2018,11 Jul 2018 - 21:00 ,Semi-finals,"Luzhniki Stadium, Moscow",Croatia,England,78011.0,Cüneyt Çakır,2-1 (a.e.t.)
+2018,14 Jul 2018 - 17:00 ,Third-place,"Krestovsky Stadium, Saint Petersburg",Belgium,England,64306.0,Alireza Faghani,2-0
+2018,15 Jul 2018 - 18:00 ,Final,"Luzhniki Stadium, Moscow",France,Croatia,78011.0,Néstor Pitana,4-2
+2022,20 Nov 2022 - 19:00 ,Group A,Al Bayt Stadium,Qatar,Ecuador,67372.0,Daniele Orsato,0–2
+2022,21 Nov 2022 - 16:00 ,Group B,Khalifa International Stadium,England,IR Iran,45334.0,Raphael Claus,6–2
+2022,21 Nov 2022 - 19:00 ,Group A,Al Thumama Stadium,Senegal,Netherlands,41721.0,Wilton Sampaio,0–2
+2022,21 Nov 2022 - 22:00 ,Group B,Ahmed bin Ali Stadium,United States,Wales,43418.0,Abdulrahman Ibrahim Al Jassim,1–1
+2022,22 Nov 2022 - 13:00 ,Group C,Lusail Iconic Stadium,Argentina,Saudi Arabia,88012.0,Slavko Vinčič,1–2
+2022,22 Nov 2022 - 16:00 ,Group D,Education City Stadium,Denmark,Tunisia,42925.0,César Arturo Ramos,0–0
+2022,22 Nov 2022 - 19:00 ,Group C,Stadium 974,Mexico,Poland,39369.0,Chris Beath,0–0
+2022,22 Nov 2022 - 22:00 ,Group D,Al Janoub Stadium,France,Australia,40875.0,Victor Gomes,4–1
+2022,23 Nov 2022 - 13:00 ,Group F,Al Bayt Stadium,Morocco,Croatia,59407.0,Fernando Rapallini,0–0
+2022,23 Nov 2022 - 16:00 ,Group E,Khalifa International Stadium,Germany,Japan,42608.0,Iván Barton,1–2
+2022,23 Nov 2022 - 19:00 ,Group E,Al Thumama Stadium,Spain,Costa Rica,40013.0,Mohammed Abdulla Hassan,7–0
+2022,23 Nov 2022 - 22:00 ,Group F,Ahmed bin Ali Stadium,Belgium,Canada,40432.0,Janny Sikazwe,1–0
+2022,24 Nov 2022 - 13:00 ,Group G,Al Janoub Stadium,Switzerland,Cameroon,39089.0,Facundo Tello,1–0
+2022,24 Nov 2022 - 16:00 ,Group H,Education City Stadium,Uruguay,Korea Republic,41663.0,Clément Turpin,0–0
+2022,24 Nov 2022 - 19:00 ,Group H,Stadium 974,Portugal,Ghana,42662.0,Ismail Elfath,3–2
+2022,24 Nov 2022 - 22:00 ,Group G,Lusail Iconic Stadium,Brazil,Serbia,88103.0,Alireza Faghani,2–0
+2022,25 Nov 2022 - 13:00 ,Group B,Ahmed bin Ali Stadium,Wales,IR Iran,40875.0,Mario Escobar,0–2
+2022,25 Nov 2022 - 16:00 ,Group A,Al Thumama Stadium,Qatar,Senegal,41797.0,Antonio Matéu,1–3
+2022,25 Nov 2022 - 19:00 ,Group A,Khalifa International Stadium,Netherlands,Ecuador,44833.0,Mustapha Ghorbal,1–1
+2022,25 Nov 2022 - 22:00 ,Group B,Al Bayt Stadium,England,United States,68463.0,Jesús Valenzuela,0–0
+2022,26 Nov 2022 - 13:00 ,Group D,Al Janoub Stadium,Tunisia,Australia,41823.0,Daniel Siebert,0–1
+2022,26 Nov 2022 - 16:00 ,Group C,Education City Stadium,Poland,Saudi Arabia,44259.0,Wilton Sampaio,2–0
+2022,26 Nov 2022 - 19:00 ,Group D,Stadium 974,France,Denmark,42860.0,Szymon Marciniak,2–1
+2022,26 Nov 2022 - 22:00 ,Group C,Lusail Iconic Stadium,Argentina,Mexico,88966.0,Daniele Orsato,2–0
+2022,27 Nov 2022 - 13:00 ,Group E,Ahmed bin Ali Stadium,Japan,Costa Rica,41479.0,Michael Oliver,0–1
+2022,27 Nov 2022 - 16:00 ,Group F,Al Thumama Stadium,Belgium,Morocco,43738.0,César Arturo Ramos,0–2
+2022,27 Nov 2022 - 19:00 ,Group F,Khalifa International Stadium,Croatia,Canada,44374.0,Andrés Matonte,4–1
+2022,27 Nov 2022 - 22:00 ,Group E,Al Bayt Stadium,Spain,Germany,68895.0,Danny Makkelie,1–1
+2022,28 Nov 2022 - 13:00 ,Group G,Al Janoub Stadium,Cameroon,Serbia,39789.0,Mohammed Abdulla Hassan,3–3
+2022,28 Nov 2022 - 16:00 ,Group H,Education City Stadium,Korea Republic,Ghana,43983.0,Anthony Taylor,2–3
+2022,28 Nov 2022 - 19:00 ,Group G,Stadium 974,Brazil,Switzerland,43649.0,Iván Barton,1–0
+2022,28 Nov 2022 - 22:00 ,Group H,Lusail Iconic Stadium,Portugal,Uruguay,88668.0,Alireza Faghani,2–0
+2022,29 Nov 2022 - 18:00 ,Group A,Khalifa International Stadium,Ecuador,Senegal,44569.0,Clément Turpin,1–2
+2022,29 Nov 2022 - 18:00 ,Group A,Al Bayt Stadium,Netherlands,Qatar,66784.0,Bakary Papa Gassama,2–0
+2022,29 Nov 2022 - 22:00 ,Group B,Al Thumama Stadium,IR Iran,United States,42127.0,Antonio Matéu,0–1
+2022,29 Nov 2022 - 22:00 ,Group B,Ahmed bin Ali Stadium,Wales,England,44297.0,Slavko Vinčič,0–3
+2022,30 Nov 2022 - 18:00 ,Group D,Al Janoub Stadium,Australia,Denmark,41232.0,Mustapha Ghorbal,1–0
+2022,30 Nov 2022 - 18:00 ,Group D,Education City Stadium,Tunisia,France,43627.0,Matt Conger,1–0
+2022,30 Nov 2022 - 22:00 ,Group C,Stadium 974,Poland,Argentina,44089.0,Danny Makkelie,0–2
+2022,30 Nov 2022 - 22:00 ,Group C,Lusail Iconic Stadium,Saudi Arabia,Mexico,84985.0,Michael Oliver,1–2
+2022,01 Dec 2022 - 18:00 ,Group F,Al Thumama Stadium,Canada,Morocco,43102.0,Raphael Claus,1–2
+2022,01 Dec 2022 - 18:00 ,Group F,Ahmed bin Ali Stadium,Croatia,Belgium,43984.0,Anthony Taylor,0–0
+2022,01 Dec 2022 - 22:00 ,Group E,Al Bayt Stadium,Costa Rica,Germany,67054.0,Stéphanie Frappart,2–4
+2022,01 Dec 2022 - 22:00 ,Group E,Khalifa International Stadium,Japan,Spain,44851.0,Victor Gomes,2–1
+2022,02 Dec 2022 - 18:00 ,Group H,Al Janoub Stadium,Ghana,Uruguay,43443.0,Daniel Siebert,0–2
+2022,02 Dec 2022 - 18:00 ,Group H,Education City Stadium,Korea Republic,Portugal,44097.0,Facundo Tello,2–1
+2022,02 Dec 2022 - 22:00 ,Group G,Lusail Iconic Stadium,Cameroon,Brazil,85986.0,Ismail Elfath,1–0
+2022,02 Dec 2022 - 22:00 ,Group G,Stadium 974,Serbia,Switzerland,41378.0,Fernando Rapallini,2–3
+2022,03 Dec 2022 - 18:00 ,Round of 16,Khalifa International Stadium,Netherlands,United States,44846.0,Wilton Sampaio,3–1
+2022,03 Dec 2022 - 22:00 ,Round of 16,Ahmed bin Ali Stadium,Argentina,Australia,45032.0,Szymon Marciniak,2–1
+2022,04 Dec 2022 - 18:00 ,Round of 16,Al Thumama Stadium,France,Poland,40989.0,Jesús Valenzuela,3–1
+2022,04 Dec 2022 - 22:00 ,Round of 16,Al Bayt Stadium,England,Senegal,65985.0,Iván Barton,3–0
+2022,05 Dec 2022 - 18:00 ,Round of 16,Al Janoub Stadium,Japan,Croatia,42523.0,Ismail Elfath,(1) 1–1 (3)
+2022,05 Dec 2022 - 22:00 ,Round of 16,Stadium 974,Brazil,Korea Republic,43847.0,Clément Turpin,4–1
+2022,06 Dec 2022 - 18:00 ,Round of 16,Education City Stadium,Morocco,Spain,44667.0,Fernando Rapallini,(3) 0–0 (0)
+2022,06 Dec 2022 - 22:00 ,Round of 16,Lusail Iconic Stadium,Portugal,Switzerland,83720.0,César Arturo Ramos,6–1
+2022,09 Dec 2022 - 18:00 ,Quarter-Final,Education City Stadium,Croatia,Brazil,43893.0,Michael Oliver,(4) 1–1 (2)
+2022,09 Dec 2022 - 22:00 ,Quarter-Final,Lusail Iconic Stadium,Netherlands,Argentina,88235.0,Antonio Matéu,(3) 2–2 (4)
+2022,10 Dec 2022 - 18:00 ,Quarter-Final,Al Thumama Stadium,Morocco,Portugal,44198.0,Facundo Tello,1–0
+2022,10 Dec 2022 - 22:00 ,Quarter-Final,Al Bayt Stadium,England,France,68895.0,Wilton Sampaio,1–2
+2022,13 Dec 2022 - 22:00 ,Semi-Final,Lusail Iconic Stadium,Argentina,Croatia,88966.0,Daniele Orsato,3–0
+2022,14 Dec 2022 - 22:00 ,Semi-Final,Al Bayt Stadium,France,Morocco,68294.0,César Arturo Ramos,2–0
+2022,17 Dec 2022 - 18:00 ,Third-Place Playoff,Khalifa International Stadium,Croatia,Morocco,44137.0,Abdulrahman Ibrahim Al Jassim,2–1
+2022,18 Dec 2022 - 18:00 ,Final,Lusail Iconic Stadium,Argentina,France,88966.0,Szymon Marciniak,(4) 3–3 (2)

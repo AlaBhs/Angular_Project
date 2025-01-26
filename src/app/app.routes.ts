@@ -8,6 +8,8 @@ import { UclComponent } from './pages/ucl/ucl.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { FinalsDetailsComponent } from './pages/ucl/finals-details/finals-details.component';
 import { TeamPerformancesComponent } from './pages/ucl/team-performances/team-performances.component';
+import { WcComponent } from './pages/wc/wc.component';
+import { WcDataResolver } from './pages/wc/wc-data.resolver';
 import { LoginComponent } from './components/auth/login/login.component';
 import { FootballFactResolver } from './pages/home/football-fact/football-fact.resolver';
 import { QuoteResolver } from './components/auth/login/quote.resolver';
@@ -23,6 +25,12 @@ export const routes: Routes = [
   { path: 'trivia', component: TriviaComponent },
   { path: 'hall-of-fame', component: HallOfFameComponent },
   { path: 'on-this-day', component: OnThisDayComponent },
+  { path: 'wc',
+    component: WcComponent,
+    // resolve: {
+    //   questions: WcDataResolver,  // Use the resolver to prefetch questions data
+    // },
+  },
   { path: 'ucl', component: UclComponent },
   { path: 'ucl/finals', component: FinalsDetailsComponent },
   { path: 'ucl/performances', component: TeamPerformancesComponent },
