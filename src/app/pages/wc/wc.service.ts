@@ -13,7 +13,8 @@ export class WcService {
 
   private selectedYearSubject = new BehaviorSubject<number | null>(null);
   selectedYear$ = this.selectedYearSubject.asObservable();
-
+  filter : any ;
+  sort : any;
 
   private groqService: any;
   private csvUrl = 'https://raw.githubusercontent.com/NouiraTaher/FootballTrivia/refs/heads/main/worldcups.csv';
@@ -55,5 +56,9 @@ export class WcService {
 fetchKnockOutMatchesByYear(year: number): Observable<any> {
   return this.http.get(`${this.wcMatchesUrl}&filterColumns=year&filterValues=${year}&excludeColumn=stage&excludeValues=group,preliminary`);
   ;
+}
+store(filterValue: string, sortOption: string) {
+  this.filter = filterValue;
+  this.sort = sortOption;
 }
 }
