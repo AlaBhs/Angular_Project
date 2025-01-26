@@ -5,7 +5,7 @@ import { WcListComponent } from './wc-list/wc-list.component';
 import {WcService} from './wc.service';
 import { WcStatComponent } from './wc-stat/wc-stat.component';
 import { ActivatedRoute } from '@angular/router';
-import { distinctUntilChanged, map, Observable, of, startWith, debounceTime, combineLatest, BehaviorSubject } from 'rxjs';
+import { distinctUntilChanged, map, Observable, of, startWith, debounceTime, combineLatest, BehaviorSubject, filter } from 'rxjs';
 import { CarouselComponent } from './carousel/carousel.component';
 import { WcMatchesComponent } from './wc-matches/wc-matches.component';
 @Component({
@@ -19,6 +19,7 @@ import { WcMatchesComponent } from './wc-matches/wc-matches.component';
 export class WcComponent implements OnInit {
 searchTerm: any;
 formBuilder = inject(FormBuilder);
+selectedYear$: Observable<number | null> | undefined;
 
 
   
@@ -29,7 +30,10 @@ qs : string[] = ['x','y','z','w'];
   sortControl = new FormControl('');
   filteredAndSortedWcs$: Observable<any[]> | undefined;
   
-  constructor(@Inject(WcService) private worldCupService : WcService , private route : ActivatedRoute) { }
+  constructor(@Inject(WcService) private worldCupService : WcService , private route : ActivatedRoute) {
+    this.selectedYear$ = this.worldCupService.selectedYear$;
+
+   }
   ngOnInit(): void {
     
   
@@ -41,15 +45,22 @@ qs : string[] = ['x','y','z','w'];
     //   }
     //   console.log(this.qs)
     // })
-
+    this.selectedYear$?.subscribe((year) => {
+      if(year !== null)
+      this.worldCupService.store(this.filterControl.value as string, this.sortControl.value as string);
+    });
     this.worldCupService.getWorldCups().subscribe(data => {
+  
     this.worldCups = data;
     this.filteredAndSortedWcs$ = combineLatest([
-      this.filterControl.valueChanges.pipe(startWith('')), // Start with empty string for initial value
-      this.sortControl.valueChanges.pipe(startWith(''))
+      this.filterControl.valueChanges.pipe(startWith(this.filterControl.value)), // Start with empty string for initial value
+      this.sortControl.valueChanges.pipe(startWith(this.sortControl.value))
     ]).pipe(
       map(([filterValue, sortOption]) => {
-        // Apply filtering
+         if((filterValue == '')&&(sortOption == ''))
+         {filterValue = this.worldCupService.filter ;
+          sortOption = this.worldCupService.sort;
+         }
         let filteredArray = this.filterWorldCups(filterValue || '');
 
         // Apply sorting
@@ -58,7 +69,7 @@ qs : string[] = ['x','y','z','w'];
     );
 })
 
-  
+
   }
   generateStats()
   {
@@ -96,5 +107,3 @@ qs : string[] = ['x','y','z','w'];
 
 
 }
-
-

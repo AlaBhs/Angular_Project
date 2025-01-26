@@ -5,21 +5,21 @@
             <h1 class="text-4xl font-bold mb-4">
                 FIFA, <span class="text-yellow-400">World Cup</span><br>Competition
             </h1>
-        <p class="text-sm mt-10 text-gray-300">
-          The World Cup is the pinnacle of international football, bringing together the best teams from across
-          the globe to compete for ultimate glory. Known for its electrifying matches and legendary moments, the
-          competition represents the dreams of players and fans alike, uniting the football world with its rich
-          heritage and unparalleled prestige.
-        </p>
-      </div>
+            <p class="text-sm mt-10 text-gray-300">
+                The World Cup is the pinnacle of international football, bringing together the best teams from across
+                the globe to compete for ultimate glory. Known for its electrifying matches and legendary moments, the
+                competition represents the dreams of players and fans alike, uniting the football world with its rich
+                heritage and unparalleled prestige.
+            </p>
+        </div>
     </div>
-  
+
     <!-- Second Column: Image -->
     <div class="flex-auto w-2/5 ">
-      <img src="assets/images/fifawc.png" alt="World Cup Logo" class="opacity-85 w-auto h-auto">
+        <img src="assets/images/fifawc.png" alt="World Cup Logo" class="opacity-85 w-auto h-auto">
     </div>
-  </div>
-  
+</div>
+
 
 <div class="flex items-center justify-center mt-10">
     <!-- Yellow line with dots -->
@@ -36,28 +36,31 @@
 <div class="flex items-center justify-center mt-10">
     <!-- Container for two lines -->
     <div class="flex items-center w-full">
-      <!-- Left line with dot -->
-      <div class="flex-1 flex items-center justify-end">
-        <div class="w-1/2 border-t-2 border-yellow-500"></div>
-        <div class="w-2 h-2 rounded-full bg-yellow-500 ml-2"></div>
-      </div>
-  
-      <!-- Empty space in the center -->
-      <div class="w-10 mx-20"></div>
-  
-      <!-- Right line with dot -->
-      <div class="flex-1 flex items-center justify-start">
-        <div class="w-2 h-2 rounded-full bg-yellow-500 mr-2"></div>
-        <div class="w-1/2 border-t-2 border-yellow-500"></div>
-      </div>
+        <!-- Left line with dot -->
+        <div class="flex-1 flex items-center justify-end">
+            <div class="w-1/2 border-t-2 border-yellow-500"></div>
+            <div class="w-2 h-2 rounded-full bg-yellow-500 ml-2"></div>
+        </div>
+
+        <!-- Empty space in the center -->
+        <div class="w-10 mx-20"></div>
+
+        <!-- Right line with dot -->
+        <div class="flex-1 flex items-center justify-start">
+            <div class="w-2 h-2 rounded-full bg-yellow-500 mr-2"></div>
+            <div class="w-1/2 border-t-2 border-yellow-500"></div>
+        </div>
     </div>
-  </div>
-  
+</div>
+
 
 
 <div class="container mx-auto">
     <!-- Center the text and make the font bolder -->
-    <h3 class="mt-20 mb-5 text-center text-3xl font-semibold  text-white">All-time Stats & Records</h3>
+    <h3 class="mt-20 mb-5 text-center text-3xl font-semibold text-white">
+        <span class="text-yellow-400">All-time</span> Stats & Records
+      </h3>
+      
     <div class="grid grid-cols-4 mt-20 h-32 gap-4">
         <div *ngFor="let question of qs">
             <app-wc-stat [question]="question"></app-wc-stat>
@@ -76,6 +79,9 @@
 
 
 <div class="container mx-auto my-20  flex-col">
+
+    <div *ngIf="!(selectedYear$ | async) else selected">
+
     <!-- World Cup List Section -->
     <div class="flex flex-row justify-center items-center ">
         <h1 class="text-3xl text-yellow-400 font-bold flex-none">World Cups from 1930 to the present</h1>
@@ -114,15 +120,16 @@
 
 
     </div>
-    <app-wc-list [worldCups]="(filteredAndSortedWcs$ | async) || []"></app-wc-list>
 
-    <app-wc-matches> </app-wc-matches>
+    <app-wc-list  [worldCups]="(filteredAndSortedWcs$ | async) || []"></app-wc-list>
 
 </div>
 
 
+<ng-template #selected>
+    <app-wc-matches *ngIf="selectedYear$ | async"></app-wc-matches>
+</ng-template>
 
 
 
-
-
+</div>   
