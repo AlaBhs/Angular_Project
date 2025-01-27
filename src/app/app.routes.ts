@@ -10,6 +10,7 @@ import { FinalsDetailsComponent } from './pages/ucl/finals-details/finals-detail
 import { TeamPerformancesComponent } from './pages/ucl/team-performances/team-performances.component';
 import { WcComponent } from './pages/wc/wc.component';
 import { WcDataResolver } from './pages/wc/wc-data.resolver';
+import { ClubDetailsViewComponent } from './pages/ucl/club-details-view/club-details-view.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -25,7 +26,11 @@ export const routes: Routes = [
   },
   { path: 'ucl', component: UclComponent },
   { path: 'ucl/finals', component: FinalsDetailsComponent },
-  { path: 'ucl/performances', component: TeamPerformancesComponent },
+  { path: 'ucl/performances', component: TeamPerformancesComponent, 
+    children: [
+      { path: ':id', component: ClubDetailsViewComponent },
+    ],
+  },
   { path: 'contact', component: ContactComponent },
   { path: '**', redirectTo: '' },
 ];
