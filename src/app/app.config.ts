@@ -12,7 +12,13 @@ export const appConfig: ApplicationConfig = {
     provideZoneChangeDetection({ eventCoalescing: true }),
     provideClientHydration(),
     provideHttpClient(withFetch()),
-    importProvidersFrom(HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService, {dataEncapsulation : false})),
+    importProvidersFrom(
+      HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService, {
+        dataEncapsulation: false,
+        passThruUnknownUrl: true, // This allows requests to unknown URLs to pass through
+        apiBase: 'api/' // Only intercept requests that start with '/api/'
+      })
+    ),
     provideRouter(routes),
   ],
 };
