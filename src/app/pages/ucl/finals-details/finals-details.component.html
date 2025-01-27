@@ -1,40 +1,42 @@
-<div class="container mt-5">
-    <h2 class="text-center mb-4">Champions League Finals</h2>
+<div class="container text-center mt-6 mb-6 ">
+    <img class="bg_ucl" src="assets/images/ball.png" />
+  <img class="bg_ucl_2" src="assets/images/ball.png" />
+    <h1 class="text-3xl text-yellow-400 font-bold flex-none mt-5">UEFA Champions League Finals from 1955 to the present</h1>
+    <div class="flex flex-row justify-center items-center ">
+        <div class="ml-10 p-4 ">
+            <div class="relative">
+                <!-- Custom styled select box -->
+                <select class="p-3 border border-gray-700 font-bold text-black rounded-lg appearance-none"
+                    [formControl]="sortControl">
+                    <option value="" disabled selected hidden class="text-gray-500">Sort by</option>
+                    <option value="oldest" class="text-black">Oldest</option>
+                    <option value="newest" class="text-black">Newest</option>
+                    <option value="mostGoals" class="text-black">Most Goals</option>
+                    <option value="mostAttendance" class="text-black">Most Attendance</option>
+                </select>
 
-    <div class="table-responsive shadow rounded">
-        <table class="table table-hover table-bordered text-center align-middle">
-            <thead class="table-dark">
-                <tr>
-                    <th>Season</th>
-                    <th>Winner</th>
-                    <th>Score</th>
-                    <th>Runner-Up</th>
-                    <th>Venue</th>
-                    <th>Attendance</th>
-                    <th>Notes</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>2022-23</td>
-                    <td> Manchester City</td>
-                    <td>1-0</td>
-                    <td> Inter Milan</td>
-                    <td>Istanbul, Turkey</td>
-                    <td>72,000</td>
-                    <td>First UCL title for Manchester City</td>
-                </tr>
-                <tr>
-                    <td>2021-22</td>
-                    <td>Real Madrid</td>
-                    <td>1-0</td>
-                    <td>Liverpool</td>
-                    <td>Paris, France</td>
-                    <td>75,000</td>
-                    <td>14th UCL title for Real Madrid</td>
-                </tr>
-                <!-- Add more rows as needed -->
-            </tbody>
-        </table>
+                <!-- Add an optional custom "arrow" icon to enhance the dropdown UI -->
+                <div class="absolute right-3 top-1/2 transform -translate-y-1/2 pointer-events-none">
+                    <svg class="w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                        fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </div>
+            </div>
+
+        </div>
+        <div class="search-bar font-bold text-black ml-10 flex-none rounded-lg p-4 ">
+            <form class="flex items-center">
+                <input type="text"
+                    class="form-control  p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 placeholder-gray-500 text-sm"
+                    [formControl]="filterControl" placeholder="🔍 Search by year or winner..." />
+            </form>
+        </div>
+
+
+
     </div>
 </div>
+<app-finals-list  [finals]="finals || []"></app-finals-list>

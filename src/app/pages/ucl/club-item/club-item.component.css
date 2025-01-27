@@ -1,0 +1,49 @@
+figure {
+  height: 150px;
+  width: 100%;
+  display: grid;
+  border-radius: 1rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+figure > * {
+  grid-area: 1/1;
+  transition: 0.4s;
+}
+figure img {
+  width: 100%;
+  position: relative;
+  top: -10px;
+}
+figure figcaption {
+  display: grid;
+  align-items: start;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #0000;
+  padding: 1.55rem 1.5rem;
+  background: var(--c, rgba(0, 0, 0, 0.842));
+  clip-path: inset(0 var(--_i, 100%) 0 0);
+  -webkit-mask: linear-gradient(#000 0 0), linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  -webkit-mask-clip: text, padding-box;
+  margin: -1px;
+}
+figure:hover figcaption {
+  --_i: 0%;
+  background: var(--c, rgba(0, 0, 0, 0.842)) !important;
+}
+figure.selected figcaption{
+  --_i: 0%;
+  background: var(--c, rgba(0, 0, 0, 0.842)) !important;
+}
+figure.default-wallpaper figcaption{
+  --_i: 0%;
+  color: var(--primary-color) ;
+  background: var(--c, rgba(0, 0, 0, 0.479));
+}
+figure:hover img {
+  transform: scale(1.2);
+}

@@ -1,0 +1,56 @@
+<div class="relative z-10 grid grid-cols-6 gap-4 mb-3" style="height: 200px; padding: 20px;">
+    <!-- First Column with 2 rows -->
+    <div class="absolute inset-0 bg-cover bg-center opacity-10 rounded-lg"
+        style="background-image: url('assets/images/finals-bg.jpg'); z-index: -1;">
+    </div>
+    <div class=" col-span-6">
+        <!-- Row 1: Year, Host, Hosted By, and Winner aligned -->
+        <div class="flex items-center justify-between">
+            <div>
+                <h3 class="text-3xl font-extrabold">{{ final.year }}<p class="text-gray-300 text-lg font-semibold">{{
+                        final.country }}, {{ final.city }}, at {{ final.stadium }} Stadium</p>
+                </h3> <!-- Year more prominent -->
+
+            </div>
+            <div class="grid grid-cols-11 items-center w-full">
+                <div class="col-span-1 flex justify-center">
+                    <div class="flag-placeholder w-7 h-7 bg-gray-600 rounded-full overflow-hidden">
+                        <img alt="Flag" class="w-full h-full object-cover" [src]="flagImage(final.host)">
+                    </div>
+                </div>
+                <h1 class="col-span-4 text-4xl text-center">
+                    {{ final.winner }}
+                </h1>
+                <span class="col-span-1 text-center text-gray-400">vs</span>
+                <h1 class="col-span-4 text-4xl text-center">
+                    {{ final.opponent }}
+                </h1>
+                <div class="col-span-1 flex justify-center">
+                    <div class="flag-placeholder w-7 h-7 bg-gray-600 rounded-full overflow-hidden">
+                        <img alt="Flag" class="w-full h-full object-cover" [src]="flagImage(final.opponentCountry)">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Row 2: Goals Scored, Score, Attendance, and Opponent -->
+        <div class="flex space-x-4 mb-2">
+
+            <div class="flex-1">
+               
+            </div>
+            <div class="flex-1 grid grid-cols-5">
+                <h1 class="text-gray-400 col-start-2 text-white text-4xl">{{ final.score }}</h1>
+            </div>
+        </div>
+
+        <!-- Row 4: Attendance -->
+        <div class="flex space-x-4 mt-2">
+            <div class="flex-1 flex flex-row gap-4">
+                <p class="text-gray-400">Attendance: <span class="text-white">{{ final.attendance }}</span></p><p class="text-gray-400">Winner: <span class="text-white">{{ final.winner }}</span></p>
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -1,23 +1,78 @@
-.table-container {
-    margin: 20px;
-    overflow: auto;
-  }
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  th, td {
-    text-align: left;
-    padding: 8px;
-  }
-  
-  th {
-    background-color: #f2f2f2;
-  }
-  
-  .mat-elevation-z8 {
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
-  }
-  
+.master-details-container {
+  display: flex;
+  gap: 1rem;
+}
+.form-control:focus {
+  border-color: var(--primary-color) !important;
+  box-shadow: 0 0 0 0.15rem rgba(236, 253, 105, 0.664);
+}
+
+.master-view {
+  width: 388px;
+  background: rgba(var(--bs-body-color-rgb), 0.8);
+  padding: 1rem;
+  border-radius: 1rem;
+  height: 600px;
+  overflow-y: auto;
+}
+.bg_ucl {
+  position: fixed;
+  z-index: -1;
+  right: 0vw;
+  bottom: 0vw;
+  width: 1300px;
+  pointer-events: none;
+  filter: brightness(30%) blur(1px);
+}
+.primary-span {
+  color: var(--primary-color);
+}
+.club-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.club-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.club-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+/* Custom Scrollbar Styles */
+.scroll-content {
+  overflow-y: auto; /* Enable scrolling */
+  max-height: 600px; /* Adjust as needed */
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: rgba(255, 255, 255, 0.3) transparent; /* For Firefox */
+}
+
+/* For Webkit Browsers */
+.scroll-content::-webkit-scrollbar {
+  width: 8px; /* Adjust scrollbar width */
+  height: 8px; /* Adjust scrollbar height */
+}
+
+.scroll-content::-webkit-scrollbar-track {
+  background: transparent; /* Make the track transparent */
+}
+
+.scroll-content::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3); /* Light color for the thumb */
+  border-radius: 4px; /* Rounded edges for smooth appearance */
+}
+
+.scroll-content::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.6); /* Slightly brighter on hover */
+}
