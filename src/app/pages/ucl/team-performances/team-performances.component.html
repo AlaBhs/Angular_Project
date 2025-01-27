@@ -1,66 +1,57 @@
-<div class="table-container">
-  <div class="filter-container">
-    <input matInput (keyup)="applyFilter($event)" placeholder="Filter clubs">
+<div class="container text-center mt-4 mb-4">
+  <img class="bg_ucl" src="assets/images/perf-team-bg.png" />
+  <h1 class="mb-3">UEFA Champions League Team <span class="primary-span">Performances</span> </h1>
+  <p>Discover the statistics of top-performing teams in the Champions League.</p>
+
+  <div class="master-details-container container mb-4 mt-4">
+    <!-- Master View: List of Clubs -->
+    <div class="master-view scroll-content">
+      <div class="d-flex mb-3">
+        <input type="search" placeholder="Search for Club" aria-label="Search" class="form-control me-2"
+          [(ngModel)]="searchByName" (input)="onSearchChange()">
+        <input type="search" placeholder="Filter by Country" aria-label="Search" class="form-control me-2"
+          list="european-countries" [(ngModel)]="selectedCountry" (input)="filterClubs()">
+        <datalist id="european-countries">
+          <option value="GER">Germany</option>
+          <option value="ITA">Italy</option>
+          <option value="ENG">England</option>
+          <option value="ESP">Spain</option>
+          <option value="FRA">France</option>
+          <option value="POR">Portugal</option>
+          <option value="NLD">Netherlands</option>
+          <option value="BEL">Belgium</option>
+          <option value="RUS">Russia</option>
+          <option value="TUR">Turkey</option>
+          <option value="UKR">Ukraine</option>
+          <option value="SWE">Sweden</option>
+          <option value="CRO">Croatia</option>
+          <option value="POL">Poland</option>
+          <option value="GRC">Greece</option>
+          <option value="DNK">Denmark</option>
+          <option value="CHE">Switzerland</option>
+          <option value="AUT">Austria</option>
+          <option value="NOR">Norway</option>
+          <option value="HUN">Hungary</option>
+          <option value="ROU">Romania</option>
+          <option value="BGR">Bulgaria</option>
+          <option value="SRB">Serbia</option>
+          <option value="CZE">Czech Republic</option>
+        </datalist>
+      </div>
+      <ul class="club-list">
+        @for (club of filteredClubs | async; track club.name;){
+        <app-club-item [club]="club" [isSelected]="club.position === selectedClub"
+          (clubSelected)="selectClub($event)"></app-club-item>
+        }
+
+      </ul>
+    </div>
+
+    <!-- Details View: Selected Club Details -->
+    @if(selectedClub){
+
+    <router-outlet></router-outlet>
+    }
+
   </div>
-  
-  <table mat-table [dataSource]="dataSource" matSort class="mat-elevation-z8">
-    <!-- Position Column -->
-    <ng-container matColumnDef="position">
-      <th mat-header-cell *matHeaderCellDef mat-sort-header> Position </th>
-      <td mat-cell *matCellDef="let club"> {{ club.position }} </td>
-    </ng-container>
-
-    <!-- Name Column -->
-    <ng-container matColumnDef="name">
-      <th mat-header-cell *matHeaderCellDef mat-sort-header> Club </th>
-      <td mat-cell *matCellDef="let club"> {{ club.name }} </td>
-    </ng-container>
-
-    <!-- Country Column -->
-    <ng-container matColumnDef="country">
-      <th mat-header-cell *matHeaderCellDef mat-sort-header> Country </th>
-      <td mat-cell *matCellDef="let club"> {{ club.country }} </td>
-    </ng-container>
-
-    <!-- Other Columns -->
-    <ng-container matColumnDef="participated">
-      <th mat-header-cell *matHeaderCellDef mat-sort-header> Participated </th>
-      <td mat-cell *matCellDef="let club"> {{ club.participated }} </td>
-    </ng-container>
-
-    <ng-container matColumnDef="titles">
-      <th mat-header-cell *matHeaderCellDef mat-sort-header> Titles </th>
-      <td mat-cell *matCellDef="let club"> {{ club.titles }} </td>
-    </ng-container>
-
-    <ng-container matColumnDef="played">
-      <th mat-header-cell *matHeaderCellDef mat-sort-header> Played </th>
-      <td mat-cell *matCellDef="let club"> {{ club.played }} </td>
-    </ng-container>
-
-    <ng-container matColumnDef="win">
-      <th mat-header-cell *matHeaderCellDef mat-sort-header> Win </th>
-      <td mat-cell *matCellDef="let club"> {{ club.win }} </td>
-    </ng-container>
-
-    <ng-container matColumnDef="draw">
-      <th mat-header-cell *matHeaderCellDef mat-sort-header> Draw </th>
-      <td mat-cell *matCellDef="let club"> {{ club.draw }} </td>
-    </ng-container>
-
-    <ng-container matColumnDef="loss">
-      <th mat-header-cell *matHeaderCellDef mat-sort-header> Loss </th>
-      <td mat-cell *matCellDef="let club"> {{ club.loss }} </td>
-    </ng-container>
-
-    <ng-container matColumnDef="goalsFor">
-      <th mat-header-cell *matHeaderCellDef mat-sort-header> Goals For </th>
-      <td mat-cell *matCellDef="let club"> {{ club.goalsFor }} </td>
-    </ng-container>
-
-    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
-  </table>
-
-  <mat-paginator [pageSize]="5" showFirstLastButtons></mat-paginator>
 </div>
