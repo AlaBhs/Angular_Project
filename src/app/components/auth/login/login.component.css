@@ -1,0 +1,132 @@
+/* Container for the background and login card */
+.football-background {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Random Quote Section */
+.quote-container {
+  position: absolute;
+  top: 50px; /* Position at the top of the page */
+  left: 50%;
+  transform: translateX(-50%); /* Center the container horizontally */
+  max-width: 600px; /* Limit width for better readability */
+  width: auto; /* Let the content determine the width */
+  z-index: 3; /* Ensure it's above other elements */
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between icon and text */
+  animation: fadeIn 1s ease-out 0.1s forwards; /* Fade-in animation with delay */
+  opacity: 0; /* Start invisible */
+}
+
+/* Narrator Icon */
+.narrator-icon {
+  width: 120px; /* Adjust size as needed */
+  height: 120px; /* Adjust size as needed */
+  object-fit: cover; /* Ensure the image fits well */
+  cursor: pointer; /* Indicate the icon is interactive */
+  transition: transform 0.3s ease; /* Smooth hover effect */
+  position: absolute; /* Position the icon absolutely */
+  left: -140px; /* Move the icon to the left of the text */
+}
+
+/* Tooltip for Narrator Icon */
+.narrator-icon:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Quote text styling */
+.quote-text {
+  font-style: italic;
+  color: var(--text-color);
+  margin-bottom: 5px;
+  font-size: 1.5rem; /* Adjust font size as needed */
+  text-align: center; /* Center-align the text */
+  position: relative; /* Ensure the text is centered within the container */
+}
+
+/* Messi Image */
+.messi-image {
+  position: fixed;
+  top: 50px; /* Adjust as needed */
+  left: 0; /* Position on the left */
+  width: 300px; /* Same size as Ronaldo image */
+  height: 100%;
+  background-image: url('../../../../assets/images/messi.png'); /* Path to your Messi image */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2; /* Low opacity */
+  z-index: 1; /* Ensure it's below the login card */
+}
+
+/* Ronaldo Image */
+.ronaldo-image {
+  position: fixed;
+  top: 20;
+  right: 0;
+  width: 300px; /* Only half of the image will be visible */
+  height: 100%;
+  background-image: url('../../../../assets/images/cr7.png'); /* Path to your Ronaldo image */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2; /* Low opacity */
+  z-index: 1; /* Ensure it's below the login card */
+}
+
+/* Login Card */
+.login-card {
+  position: relative;
+  z-index: 2; /* Ensure it's above the Ronaldo image */
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  border-radius: 15px;
+  border: none;
+  max-width: 400px;
+  width: 100%;
+  margin-top: 180px;
+  animation: fadeIn 1s ease-out 0.1s forwards; /* Fade-in animation with delay */
+  opacity: 0; /* Start invisible */
+}
+
+/* Custom button styling */
+.login-button {
+  background-color: #ff6b6b; /* Custom color */
+  border: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #ff4757; /* Darker shade on hover */
+}
+
+/* Custom input field styling */
+.form-control {
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #ff6b6b; /* Match button color */
+  box-shadow: 0 0 5px rgba(255, 107, 107, 0.5);
+}
+
+/* Football emoji styling */
+.display-4 {
+  color: #333; /* Dark color for the emoji */
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

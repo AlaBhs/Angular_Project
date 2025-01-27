@@ -1,58 +1,21 @@
-<div class="container mt-5">
-    <!-- Hero Section -->
-    <div class="row align-items-center">
-      <div class="col-md-6">
-        <h1 class="display-4">Welcome to Football Trivia!</h1>
-        <p class="lead">
-          Explore fascinating trivia, historical milestones, and rankings of football's greatest players and teams.
-        </p>
-        <a routerLink="/trivia" class="btn btn-primary btn-lg me-2">Start Trivia</a>
-        <a routerLink="/hall-of-fame" class="btn btn-outline-secondary btn-lg me-2">Hall of Fame</a>
+<div class="home-container">
+  <div class="content-container">
+    <!-- Left Section (Introduction and Football Fact) -->
+    <div class="left-section">
+      <div class="introduction-section">
+        <app-introduction></app-introduction>
       </div>
-      <div class="col-md-6 text-center">
-        <img src="assets/football-hero.png" alt="Football Hero" class="img-fluid">
+      <div class="football-fact-section">
+        <app-football-fact></app-football-fact>
       </div>
     </div>
-  
-    <!-- Features Section -->
-    <div class="row mt-5">
-      <div class="col-md-4 text-center">
-        <div class="card shadow-sm">
-          <div class="card-body">
-            <i class="bi bi-trophy" style="font-size: 3rem; color: goldenrod;"></i>
-            <h3 class="mt-3">Hall of Fame</h3>
-            <p>Discover the greatest legends in football history.</p>
-            <a routerLink="/hall-of-fame" class="btn btn-link">Explore</a>
-          </div>
-        </div>
+
+    <!-- Right Section (Combined Quiz and Leaderboard) -->
+    <div class="right-section">
+      <div class="quiz-leaderboard-section">
+        <app-quiz></app-quiz>
+        <app-leaderboard></app-leaderboard>
       </div>
-      <div class="col-md-4 text-center">
-        <div class="card shadow-sm">
-          <div class="card-body">
-            <i class="bi bi-question-circle" style="font-size: 3rem; color: blue;"></i>
-            <h3 class="mt-3">Trivia Challenges</h3>
-            <p>Test your knowledge with exciting quizzes.</p>
-            <a routerLink="/trivia" class="btn btn-link">Play Now</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 text-center">
-        <div class="card shadow-sm">
-          <div class="card-body">
-            <i class="bi bi-graph-up" style="font-size: 3rem; color: green;"></i>
-            <h3 class="mt-3">Leaderboard</h3>
-            <p>See how you rank against other players.</p>
-            <a routerLink="/leaderboard" class="btn btn-link">View</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  
-    <!-- Call-to-Action -->
-    <div class="row mt-5 bg-light p-5 text-center">
-      <h2>Join the Fun!</h2>
-      <p class="lead">Start your football journey with us and become a trivia champion.</p>
-      <a routerLink="/contact" class="btn btn-primary btn-lg">Contact Us</a>
     </div>
   </div>
-  
+</div>
