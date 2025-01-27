@@ -6,9 +6,7 @@
   width: 2080px;
   pointer-events: none;
 }
-.bg_color {
-  background-color: var(--background-color);
-}
+
 .bg_ucl_2 {
   position: fixed;
   z-index: -1;
@@ -19,6 +17,9 @@
 }
 .primary-span {
   color: var(--primary-color);
+}
+.bg_color {
+  background-color: var(--background-color);
 }
 .hero-section img {
   width: 320px;
