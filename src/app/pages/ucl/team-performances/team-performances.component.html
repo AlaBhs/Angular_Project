@@ -1,3 +1,4 @@
+<div (click)="goBack()" class="arrow"></div>
 <div class="container text-center mt-4 mb-4">
   <img class="bg_ucl" src="assets/images/perf-team-bg.png" />
   <h1 class="mb-3">UEFA Champions League Team <span class="primary-span">Performances</span> </h1>
@@ -5,12 +6,12 @@
 
   <div class="master-details-container container mb-4 mt-4">
     <!-- Master View: List of Clubs -->
-    <div class="master-view scroll-content">
+    <div class="master-view scroll-content" #masterView (scroll)="onScroll($event)">
       <div class="d-flex mb-3">
         <input type="search" placeholder="Search for Club" aria-label="Search" class="form-control me-2"
-          [(ngModel)]="searchByName" (input)="onSearchChange()">
+          [(ngModel)]="searchByName" (input)="applyFilters()">
         <input type="search" placeholder="Filter by Country" aria-label="Search" class="form-control me-2"
-          list="european-countries" [(ngModel)]="selectedCountry" (input)="filterClubs()">
+          list="european-countries" [(ngModel)]="selectedCountry" (input)="applyFilters()">
         <datalist id="european-countries">
           <option value="GER">Germany</option>
           <option value="ITA">Italy</option>
@@ -38,11 +39,27 @@
           <option value="CZE">Czech Republic</option>
         </datalist>
       </div>
+      
       <ul class="club-list">
-        @for (club of filteredClubs | async; track club.name;){
-        <app-club-item [club]="club" [isSelected]="club.position === selectedClub"
-          (clubSelected)="selectClub($event)"></app-club-item>
-        }
+        @defer{
+          @for (club of filteredClubs$ | async; track club.name;){
+            <app-club-item [club]="club" [isSelected]="club.position === selectedClub"
+              (clubSelected)="selectClub($event)"></app-club-item>
+            }
+        }@placeholder(minimum 2000ms) { 
+              <ngx-skeleton-loader count="4" appearance="line" animation="progress-dark"
+                [theme]="
+                {
+                  'background-color': 'rgba(var(--accent-color),0.9)',
+                'gradient-color': 'var(--bs-body-color)',
+                'border-raduis': '1rem',
+                 width: '100%',
+                 height: '150px',
+                  margin: '5px 0' ,
+                  }"
+                  >
+              </ngx-skeleton-loader>
+            }
 
       </ul>
     </div>

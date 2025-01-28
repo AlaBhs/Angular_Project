@@ -1,7 +1,9 @@
+<div (click)="goBack()" class="arrow"></div>
 <div class="container text-center mt-6 mb-6 ">
     <img class="bg_ucl" src="assets/images/ball.png" />
-  <img class="bg_ucl_2" src="assets/images/ball.png" />
-    <h1 class="text-3xl text-yellow-400 font-bold flex-none mt-5">UEFA Champions League Finals from 1955 to the present</h1>
+    <img class="bg_ucl_2" src="assets/images/ball.png" />
+    <h1 class="text-3xl text-yellow-400 font-bold flex-none mt-5">UEFA Champions League Finals from 1955 to the present
+    </h1>
     <div class="flex flex-row justify-center items-center ">
         <div class="ml-10 p-4 ">
             <div class="relative">
@@ -39,4 +41,4 @@
 
     </div>
 </div>
-<app-finals-list  [finals]="finals || []"></app-finals-list>
+<app-finals-list [finals]="(filteredAndSortedFinals$ | async) || []"></app-finals-list>

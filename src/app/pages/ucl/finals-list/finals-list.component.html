@@ -1,3 +1,16 @@
 <div class="wc-list max-w-4xl mx-auto p-4 space-y-4">
-    <app-finals-item *ngFor="let final of finals" [final]="final"></app-finals-item>
-  </div>
+  @defer{
+  <app-finals-item *ngFor="let final of finals" [final]="final"></app-finals-item>
+
+  }@placeholder(minimum 2000ms) {
+  <ngx-skeleton-loader count="4" appearance="line" animation="progress-dark" [theme]="
+          {
+            'background-color': 'rgba(var(--accent-color),0.9)',
+            'gradient-color': 'var(--bs-body-color)',
+            width: '100%',
+            height: '200px',
+            margin: '5px 0',
+            }">
+  </ngx-skeleton-loader>
+  }
+</div>
