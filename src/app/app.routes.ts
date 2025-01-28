@@ -22,10 +22,10 @@ export const routes: Routes = [
         fact: FootballFactResolver, // Resolve data before activating the route
     },
   },
-  { path: 'timeline', component: TimelineComponent },
-  { path: 'trivia', component: TriviaComponent },
-  { path: 'hall-of-fame', component: HallOfFameComponent },
-  { path: 'on-this-day', component: OnThisDayComponent },
+  // { path: 'timeline', component: TimelineComponent },
+  // { path: 'trivia', component: TriviaComponent },
+  // { path: 'hall-of-fame', component: HallOfFameComponent },
+  // { path: 'on-this-day', component: OnThisDayComponent },
   { path: 'wc',
     component: WcComponent,
     // resolve: {

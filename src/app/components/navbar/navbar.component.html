@@ -14,20 +14,25 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link" routerLink="/trivia" routerLinkActive="active-link">Trivia</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" routerLink="/hall-of-fame" routerLinkActive="active-link">Hall Of Fame</a>
+        </li>-->
+        <li class="nav-item">
+          <a 
+          class="nav-link" 
+          routerLink="/" 
+          routerLinkActive="active-link" 
+          [routerLinkActiveOptions]="{ exact: true }">
+          Home
+        </a>  </li> 
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/ucl" routerLinkActive="active-link">UEFA Champions League</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/on-this-day" routerLinkActive="active-link">On This Day</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/ucl" routerLinkActive="active-link">UCL</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/wc" routerLinkActive="active-link">WC</a>
+          <a class="nav-link" routerLink="/wc" routerLinkActive="active-link">World Cup</a>
         </li>
         <li class="nav-item">
           <a
