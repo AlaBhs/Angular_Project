@@ -46,7 +46,7 @@
             <app-club-item [club]="club" [isSelected]="club.position === selectedClub"
               (clubSelected)="selectClub($event)"></app-club-item>
             }
-        }@placeholder(minimum 2000ms) { 
+        }@placeholder(minimum 1000ms) { 
               <ngx-skeleton-loader count="4" appearance="line" animation="progress-dark"
                 [theme]="
                 {

@@ -76,15 +76,53 @@ export class ClubService {
   }
 
   // Get club by position
-  getClubById(position: string | null): Observable<Club | undefined> {
-    if (!position) {
-      return of(undefined);
-    }
-    const club = this.clubsSubject.value.find(
-      (club) => club.position.toString() === position
-    );
+getClubById(position: string | null): Observable<Club | undefined> {
+  if (!position) {
+    return of(undefined);
+  }
+
+  // First, check locally loaded clubs
+  const club = this.clubsSubject.value.find(
+    (club) => club.position.toString() === position
+  );
+
+  // If found locally, return it
+  if (club) {
     return of(club);
   }
+
+  // If not found locally, send query request to the backend
+  const queryUrl = `http://localhost:3000/query-csv?csvFile=AllTimeRankingByClub.csv&filterColumns=Position&filterValues=${position}`;
+  return this.http.get<any[]>(queryUrl).pipe(
+    map((data) => {
+      if (data.length === 0) {
+        return undefined; // Club not found in database
+      }
+
+      // Map backend data to Club format
+      const fetchedClub: Club = {
+        position: data[0]['Position'],
+        name: data[0]['Club'],
+        country: data[0]['Country'],
+        participated: data[0]['Participated'],
+        titles: data[0]['Titles'],
+        played: data[0]['Played'],
+        win: data[0]['Win'],
+        draw: data[0]['Draw'],
+        loss: data[0]['Loss'],
+        goalsFor: data[0]['Goals For'],
+        goalsAgainst: data[0]['Goals Against'],
+        pts: data[0]['Pts'],
+      };
+
+      // Optionally add the fetched club to the local store
+      this.clubsSubject.next([...this.clubsSubject.value, fetchedClub]);
+
+      return fetchedClub;
+    })
+  );
+}
+
 
 
 

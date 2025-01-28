@@ -29,7 +29,6 @@ export class ClubDetailsViewComponent {
       }),
       catchError((error) => {
         console.error('Error fetching club:', error);
-       
         return of(undefined); 
       })
     );
