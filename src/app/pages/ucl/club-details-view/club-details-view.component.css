@@ -1,0 +1,91 @@
+
+.details-view {
+    background: rgba(var(--bs-body-color-rgb), 0.8);
+    border-right: 2px solid #ddd;
+    border-radius: 1rem;
+    width: 670px;
+    height: 600px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    overflow-y: hidden;
+  }
+  
+  .club-name {
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 1.7rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .details-bg {
+    overflow: hidden;
+    height: 100%;
+  }
+  .details-bg p {
+    margin: 0.5rem 0; /* Spacing between lines */
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .details-bg strong {
+    color: #007bff; /* Highlight strong text */
+  }
+  .details-bg img {
+    object-fit: cover;
+    max-width: 100%;
+    border: 2px solid #ddd;
+    height: 100%;
+    border-radius: 1rem;
+    position: relative;
+    top: 0;
+    right: -25%;
+    clip-path: polygon(35% 0%, 100% 0, 100% 100%, 8% 100%);
+    pointer-events: none;
+  }
+  .details-content {
+    position: relative;
+    z-index: 1;
+    top: -589px;
+    right: 10px;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.55rem;
+    font-weight: 500;
+    width: 66%;
+  }
+  .detail-row {
+    display: flex;
+    gap: 1rem; /* Add space between items */
+    margin-bottom: 1rem; /* Add some space between rows */
+    align-items: center;
+  }
+  
+  .detail-item strong {
+    color: var(--primary-color); 
+  }
+  .flag-div {
+    border-radius: 40rem;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center; /* Center the image vertically */
+    justify-content: center; /* Center the image horizontally */
+    overflow: hidden; /* Hide any overflow if the image is larger */
+    position: absolute;
+    right: -14rem;
+    top: 1rem;
+  }
+  
+  .flag-img {
+    width: 100%; /* Make the image fill the width of the div */
+    height: 100%; /* Make the image fill the height of the div */
+    object-fit: cover; /* Ensure the image scales to cover the entire div without distortion */
+  }
+  @media (max-width: 600px) {
+    .details-view {
+      padding: 1rem; /* Reduce padding on smaller screens */
+      font-size: 0.9rem; /* Slightly smaller text */
+    }
+  }

@@ -1,40 +1,20 @@
-.container {
-    background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
-    border-radius: 10px;
-    padding: 20px;
-  }
-  
-  h2 {
-    font-family: 'Arial Black', sans-serif;
-    color: #003a70;
-    text-transform: uppercase;
-  }
-  
-  .table {
-    background-color: white;
-  }
-  
-  .table-hover tbody tr:hover {
-    background-color: #f2f2f2;
-  }
-  
-  .table-dark th {
-    background-color: #003a70;
-    color: white;
-  }
-  
-  .team-logo {
-    width: 30px;
-    height: 30px;
-    margin-right: 5px;
-    vertical-align: middle;
-  }
-  
-  .shadow {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .rounded {
-    border-radius: 10px;
-  }
-  
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.bg_ucl {
+  position: fixed;
+    z-index: -1;
+    right: -50vw;
+    bottom: -10vw;
+    width: 2080px;
+    pointer-events: none;
+}
+
+.bg_ucl_2 {
+  position: fixed;
+  z-index: -1;
+  left: -35vw;
+  bottom: -30vw;
+  width: 1080px;
+  pointer-events: none;
+}

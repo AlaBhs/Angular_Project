@@ -1,0 +1,8 @@
+<figure [routerLink]="[club.position]" (click)="onClick()" [class.selected]="isSelected" [class.default-wallpaper]="isDefaultWallpaper">
+    <img 
+    [src]="'assets/clubs-wallpapers/' + club.name + '.jpg'" 
+    alt="{{ club.name || 'club image' }}" 
+    (error)="onImageError($event)"
+    >
+    <figcaption>{{ club.name }}</figcaption>
+</figure>
