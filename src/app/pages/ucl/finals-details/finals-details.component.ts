@@ -11,6 +11,7 @@ import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs';
 import { FinalsListComponent } from "../finals-list/finals-list.component";
 import { CommonModule } from '@angular/common';
+import { FinalsDetailsService } from './finals-details.service';
 
 @Component({
   selector: 'app-finals-details',
@@ -67,31 +68,19 @@ export class FinalsDetailsComponent {
   sortControl = new FormControl('');
   filteredAndSortedWcs$: Observable<any[]> | undefined;
 
-  constructor(private route: ActivatedRoute) {
+  constructor(private route: ActivatedRoute,private finalsService : FinalsDetailsService) {
     // this.selectedYear$ = this.finalservice.selectedYear$;
   }
-  ngOnInit(): void {
-    // this.selectedYear$?.subscribe((year) => {
-    //   if(year !== null)
-    //   this.finalservice.store(this.filterControl.value as string, this.sortControl.value as string);
-    // });
-    // this.finalservice.getfinals().subscribe(data => {
-    // this.finals = data;
-    // this.filteredAndSortedWcs$ = combineLatest([
-    //   this.filterControl.valueChanges.pipe(startWith(this.filterControl.value)), // Start with empty string for initial value
-    //   this.sortControl.valueChanges.pipe(startWith(this.sortControl.value))
-    // ]).pipe(
-    //   map(([filterValue, sortOption]) => {
-    //      if((filterValue == '')&&(sortOption == ''))
-    //      {filterValue = this.finalservice.filter ;
-    //       sortOption = this.finalservice.sort;
-    //      }
-    //     let filteredArray = this.filterfinals(filterValue || '');
-    //     // Apply sorting
-    //     return this.sortfinals(filteredArray,sortOption || '');
-    //   })
-    // );
-    // })
+  ngOnInit() {
+    this.finalsService.getFinalsData().subscribe(
+      (data) => {
+        console.log('Data received:', data); // Log the data to confirm it works
+        this.finals = data; // Assign data to the clubs array if applicable
+      },
+      (error) => {
+        console.error('Error:', error); // Log any errors
+      }
+    );
   }
 
   sortfinals(finals: any[], sortOption: string): any[] {
