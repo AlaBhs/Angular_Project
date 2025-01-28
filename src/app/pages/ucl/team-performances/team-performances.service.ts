@@ -6,6 +6,7 @@ import { Observable, of } from 'rxjs';
   providedIn: 'root',
 })
 export class ClubService {
+  private uclTeamsUrl = 'http://localhost:3000/query-csv?csvFile=matchesWC.csv';  
   private clubs: Club[] = [
     {
       position: 1,
