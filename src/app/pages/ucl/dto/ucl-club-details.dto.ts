@@ -9,5 +9,7 @@ export interface Club {
     draw: number;
     loss: number;
     goalsFor: number;
+    goalsAgainst: number;
+    pts:number;
   }
   

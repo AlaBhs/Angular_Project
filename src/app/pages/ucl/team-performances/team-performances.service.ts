@@ -1,138 +1,167 @@
 import { Injectable } from '@angular/core';
 import { Club } from '../dto/ucl-club-details.dto';
-import { Observable, of } from 'rxjs';
+import { BehaviorSubject, catchError, map, Observable, of } from 'rxjs';
+import { HttpClient } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root',
 })
 export class ClubService {
-  private uclTeamsUrl = 'http://localhost:3000/query-csv?csvFile=matchesWC.csv';  
-  private clubs: Club[] = [
-    {
-      position: 1,
-      name: 'Real Madrid CF',
-      country: 'ESP',
-      participated: 53,
-      titles: 14,
-      played: 476,
-      win: 285,
-      draw: 81,
-      loss: 110,
-      goalsFor: 1047,
-    },
-    {
-      position: 2,
-      name: 'FC Bayern München',
-      country: 'GER',
-      participated: 39,
-      titles: 6,
-      played: 382,
-      win: 229,
-      draw: 76,
-      loss: 77,
-      goalsFor: 804,
-    },
-    {
-      position: 3,
-      name: 'FC Barcelona',
-      country: 'ESP',
-      participated: 33,
-      titles: 5,
-      played: 339,
-      win: 197,
-      draw: 76,
-      loss: 66,
-      goalsFor: 667,
-    },
-    {
-      position: 4,
-      name: 'Manchester United',
-      country: 'ENG',
-      participated: 30,
-      titles: 3,
-      played: 293,
-      win: 160,
-      draw: 69,
-      loss: 64,
-      goalsFor: 533,
-    },
-    {
-      position: 5,
-      name: 'Juventus',
-      country: 'ITA',
-      participated: 37,
-      titles: 2,
-      played: 301,
-      win: 153,
-      draw: 70,
-      loss: 78,
-      goalsFor: 479,
-    },
-    {
-      position: 6,
-      name: 'Arsenal FC',
-      country: 'ENG',
-      participated: 21,
-      titles: 0,
-      played: 201,
-      win: 101,
-      draw: 43,
-      loss: 57,
-      goalsFor: 332,
-    },
-    {
-      position: 7,
-      name: 'Club Atlético de Madrid',
-      country: 'ESP',
-      participated: 18,
-      titles: 0,
-      played: 160,
-      win: 76,
-      draw: 42,
-      loss: 42,
-      goalsFor: 226,
-    },
-    {
-      position: 8,
-      name: 'RSC Anderlecht',
-      country: 'BEL',
-      participated: 34,
-      titles: 0,
-      played: 200,
-      win: 70,
-      draw: 44,
-      loss: 86,
-      goalsFor: 282,
-    },
-    {
-      position: 9,
-      name: 'Paris Saint-Germain',
-      country: 'FRA',
-      participated: 16,
-      titles: 0,
-      played: 143,
-      win: 77,
-      draw: 27,
-      loss: 39,
-      goalsFor: 283,
-    },
-  ];  
+  // http://localhost:3000/query-csv?csvFile=your_csv_file.csv&filterColumns=column1,column2&filterValues=value1,value2&excludeColumn=column3&excludeValues=excludeSubstring1,excludeSubstring2&sortColumn=columnName&sortOrder=ASC&page=1&pageSize=10
+  private readonly uclClubsUrl =
+    'http://localhost:3000/query-csv?csvFile=AllTimeRankingByClub.csv&sortColumn=Titles&sortOrder=DESC&pageSize=10';
 
-  getClubs(): Observable<Club[]> {
-    return of(this.clubs);
+  private currentPage: number = 1; // Track the current page
+  private clubsSubject = new BehaviorSubject<Club[]>([]); // BehaviorSubject to manage and emit club data
+  private isFetching = false; // Prevent multiple concurrent fetches
+
+  constructor(private http: HttpClient) {}
+
+  // Observable for club data
+  get clubs$(): Observable<Club[]> {
+    return this.clubsSubject.asObservable();
   }
 
-  onSearchAndFilter(searchTerm: string, country: string): Observable<Club[]> {
-    return of(
-      this.clubs.filter((club) => 
-        (club.name.toLowerCase().includes(searchTerm.toLowerCase()) && 
-        club.country.toLowerCase().includes(country.toLowerCase()))
-      )
+  // Fetch clubs from the server
+  private fetchClubsData(page: number): Observable<Club[]> {
+    const url = `${this.uclClubsUrl}&page=${page}`;
+    return this.http.get<any[]>(url).pipe(
+      map((data) => {
+        console.log('API Response:', data); // Add this log
+        return data.map((item) => ({
+          position: item['Position'],
+          name: item['Club'],
+          country: item['Country'],
+          participated: item['Participated'],
+          titles: item['Titles'],
+          played: item['Played'],
+          win: item['Win'],
+          draw: item['Draw'],
+          loss: item['Loss'],
+          goalsFor: item['Goals For'],
+          goalsAgainst: item['Goals Against'],
+          pts: item['Pts'],
+        }));
+      }),
+      catchError((error) => {
+        console.error('Error fetching clubs:', error);
+        return of([]); // Return an empty array on error
+      })
     );
   }
 
+  // Load initial data or more clubs
+  loadMoreClubs(): Observable<Club[]> {
+    if (this.isFetching) {
+      return of([]); // Prevent duplicate calls
+    }
+    this.isFetching = true;
+
+    return this.fetchClubsData(this.currentPage).pipe(
+      map((newClubs) => {
+        console.log('New Clubs Fetched:', newClubs); // Add this log
+        const updatedClubs = [...this.clubsSubject.value, ...newClubs];
+        this.clubsSubject.next(updatedClubs); // Emit updated data
+        console.log('Updated Club List:', updatedClubs); // Add this log
+        this.currentPage++;
+        this.isFetching = false;
+        return newClubs;
+      }),
+      catchError((error) => {
+        console.error('Error loading more clubs:', error);
+        this.isFetching = false;
+        return of([]);
+      })
+    );
+  }
+
+  // Get club by position
   getClubById(position: string | null): Observable<Club | undefined> {
-    const club = this.clubs.find((club) => club.position.toString() === position);
+    if (!position) {
+      return of(undefined);
+    }
+    const club = this.clubsSubject.value.find(
+      (club) => club.position.toString() === position
+    );
     return of(club);
+  }
+
+
+
+
+
+  private buildQueryUrl(
+    csvFile: string,
+    filterColumns: string[],
+    filterValues: string[],
+    excludeColumn?: string,
+    excludeValues?: string[],
+    sortColumn: string = 'Titles',
+    sortOrder: string = 'DESC',
+    page: number = 1,
+    pageSize: number = 10
+  ): string {
+    let query = `http://localhost:3000/query-csv?csvFile=${csvFile}&sortColumn=${sortColumn}&sortOrder=${sortOrder}&page=${page}&pageSize=${pageSize}`;
+  
+    if (filterColumns.length && filterValues.length) {
+      query += `&filterColumns=${filterColumns.join(',')}&filterValues=${filterValues.join(',')}`;
+    }
+  
+    if (excludeColumn && excludeValues?.length) {
+      query += `&excludeColumn=${excludeColumn}&excludeValues=${excludeValues.join(',')}`;
+    }
+  
+    return query;
+  }
+  
+  onSearchAndFilter(
+    searchTerm: string,
+    country: string,
+    csvFile: string = 'AllTimeRankingByClub.csv'
+  ): Observable<Club[]> {
+    const filterColumns = [];
+    const filterValues = [];
+  
+    // Add filters dynamically
+    if (searchTerm) {
+      filterColumns.push('Club');
+      filterValues.push(searchTerm);
+    }
+  
+    if (country) {
+      filterColumns.push('Country');
+      filterValues.push(country);
+    }
+  
+    const url = this.buildQueryUrl(
+      csvFile,
+      filterColumns,
+      filterValues,
+      undefined, // No excludeColumn
+      undefined, // No excludeValues
+      'Titles',
+      'DESC'
+    );
+  
+    console.log('Filtering with URL:', url);
+  
+    return this.http.get<any[]>(url).pipe(
+      map((data) =>
+        data.map((item) => ({
+          position: item['Position'],
+          name: item['Club'],
+          country: item['Country'],
+          participated: item['Participated'],
+          titles: item['Titles'],
+          played: item['Played'],
+          win: item['Win'],
+          draw: item['Draw'],
+          loss: item['Loss'],
+          goalsFor: item['Goals For'],
+          goalsAgainst: item['Goals Against'],
+          pts: item['Pts'],
+        }))
+      )
+    );
   }
 }

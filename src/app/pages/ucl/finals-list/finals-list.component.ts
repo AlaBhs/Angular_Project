@@ -1,12 +1,13 @@
 import { Component, Input } from '@angular/core';
 import { FinalsItemComponent } from "../finals-item/finals-item.component";
-import { FormsModule } from '@angular/forms';
+
 import { CommonModule } from '@angular/common';
+import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
 
 @Component({
   selector: 'app-finals-list',
   standalone: true,
-  imports: [FinalsItemComponent,CommonModule],
+  imports: [FinalsItemComponent,CommonModule,NgxSkeletonLoaderModule],
   templateUrl: './finals-list.component.html',
   styleUrl: './finals-list.component.css'
 })

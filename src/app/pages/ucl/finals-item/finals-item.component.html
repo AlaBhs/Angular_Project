@@ -7,15 +7,15 @@
         <!-- Row 1: Year, Host, Hosted By, and Winner aligned -->
         <div class="flex items-center justify-between">
             <div>
-                <h3 class="text-3xl font-extrabold">{{ final.year }}<p class="text-gray-300 text-lg font-semibold">{{
-                        final.country }}, {{ final.city }}, at {{ final.stadium }} Stadium</p>
+                <h3 class="text-3xl font-extrabold">{{ final.season }}<p class="text-gray-300 text-lg font-semibold">{{
+                        final.finalCountry }}, {{ final.finalCity }}, at {{ final.stadium }}</p>
                 </h3> <!-- Year more prominent -->
 
             </div>
             <div class="grid grid-cols-11 items-center w-full">
                 <div class="col-span-1 flex justify-center">
                     <div class="flag-placeholder w-7 h-7 bg-gray-600 rounded-full overflow-hidden">
-                        <img alt="Flag" class="w-full h-full object-cover" [src]="flagImage(final.host)">
+                        <img alt="Flag" class="w-full h-full object-cover" [src]="flagImage(final.winnerCountry)" (error)="onImageError($event)">
                     </div>
                 </div>
                 <h1 class="col-span-4 text-4xl text-center">
@@ -23,11 +23,11 @@
                 </h1>
                 <span class="col-span-1 text-center text-gray-400">vs</span>
                 <h1 class="col-span-4 text-4xl text-center">
-                    {{ final.opponent }}
+                    {{ final.runnerUp }}
                 </h1>
                 <div class="col-span-1 flex justify-center">
                     <div class="flag-placeholder w-7 h-7 bg-gray-600 rounded-full overflow-hidden">
-                        <img alt="Flag" class="w-full h-full object-cover" [src]="flagImage(final.opponentCountry)">
+                        <img alt="Flag" class="w-full h-full object-cover" [src]="flagImage(final.runnerUpCountry)" (error)="onImageError($event)">
                     </div>
                 </div>
             </div>
@@ -41,14 +41,16 @@
                
             </div>
             <div class="flex-1 grid grid-cols-5">
-                <h1 class="text-gray-400 col-start-2 text-white text-4xl">{{ final.score }}</h1>
+                <h1 class="text-gray-400 col-start-2 col-span-2 text-white text-4xl">{{ final.score }}</h1>
+                <span class="text-white text-sm">{{ final.winningWay }}</span>
             </div>
         </div>
 
         <!-- Row 4: Attendance -->
         <div class="flex space-x-4 mt-2">
             <div class="flex-1 flex flex-row gap-4">
-                <p class="text-gray-400">Attendance: <span class="text-white">{{ final.attendance }}</span></p><p class="text-gray-400">Winner: <span class="text-white">{{ final.winner }}</span></p>
+                <p class="text-gray-400">Attendance: <span class="text-white">{{ final.attendance }}</span></p>
+                <p class="text-gray-400">Winner: <span class="text-white">{{ final.winner }}</span></p>
             </div>
         </div>
     </div>

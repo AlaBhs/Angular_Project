@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Final } from '../dto/finals-item.dto';
 
 @Component({
   selector: 'app-finals-item',
@@ -8,7 +9,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrl: './finals-item.component.css'
 })
 export class FinalsItemComponent implements OnInit {
- @Input() final : any;
+ @Input() final! : Final;
   imagesrc: string="";
   constructor() { }
   ngOnInit() {
@@ -17,6 +18,10 @@ export class FinalsItemComponent implements OnInit {
 flagImage(s : string )
 {
   return "https://cdn.countryflags.com/thumbs/" + s.toLowerCase() + "/flag-400.png";
+}
+onImageError(event: Event): void {
+  const target = event.target as HTMLImageElement;
+  target.src = 'assets/clubs-wallpapers/default-wallpaper.jpg'; 
 }
 selectYear(year: number) {
   console.log(year);
