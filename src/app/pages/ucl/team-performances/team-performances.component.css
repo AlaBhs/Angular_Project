@@ -1,6 +1,7 @@
 .master-details-container {
   display: flex;
   gap: 1rem;
+  justify-content: center;
 }
 .form-control:focus {
   border-color: var(--primary-color) !important;
