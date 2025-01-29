@@ -67,16 +67,18 @@ export class TeamPerformancesComponent implements OnInit {
   }
 
   onScroll(event: Event): void {
-    if (this.isLoading) return; // Avoid triggering multiple requests
-
+    if (this.isLoading) return; // Prevent multiple requests
+  
     const element = this.masterViewElement.nativeElement;
     const scrollPosition = element.scrollTop + element.clientHeight;
     const scrollHeight = element.scrollHeight;
-
-    if (scrollPosition >= scrollHeight) {
+    const threshold = 170; // Load more when within 100px of the bottom
+  
+    if (scrollPosition + threshold >= scrollHeight) {
       this.loadMoreClubs();
     }
   }
+  
 
   loadMoreClubs(): void {
     this.isLoading = true;
