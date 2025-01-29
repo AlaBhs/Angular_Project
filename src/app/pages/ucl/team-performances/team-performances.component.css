@@ -8,7 +8,7 @@
 }
 
 .master-view {
-  width: 388px;
+  width: 28vw;
   background: rgba(var(--bs-body-color-rgb), 0.8);
   padding: 1rem;
   border-radius: 1rem;
