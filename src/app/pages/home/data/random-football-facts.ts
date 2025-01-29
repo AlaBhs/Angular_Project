@@ -10,13 +10,13 @@ export const RANDOM_FOOTBALL_FACTS: FootballFact[] = [
     videoUrl : ''
   },
   {
-    date: '01-02',
-    title: 'The first World Cup was held in 1930',
-    description:
-      'The first FIFA World Cup was held in Uruguay in 1930, and the host nation won the tournament.',
-    imageUrl: 'https://example.com/world-cup-1930.jpg',
-    videoUrl : ''
-  },
+    date: "01-29",
+    title: "The first World Cup was held in 1930",
+    description: "The first FIFA World Cup was held in Uruguay in 1930, marking the beginning of a global tradition in football. Organized by FIFA, the tournament brought together 13 teams, including four from Europe, despite the challenges of long-distance travel at the time.<br><br>The matches were played in Montevideo, with the Estadio Centenario serving as the central venue. Uruguay, both the host nation and defending Olympic champion, emerged victorious, defeating Argentina 4-2 in a thrilling final.<br><br>This historic event not only showcased the popularity of football but also set the stage for the World Cup to become the most celebrated sporting event in the world. The tournament remains a testament to Uruguay's rich footballing heritage and the global unity fostered by sports.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Uruguay_national_football_team_1930.jpg/1200px-Uruguay_national_football_team_1930.jpg",
+    videoUrl: ""
+  }
+  ,
   {
     date: '01-03',
     title: 'Pele won three World Cups',
@@ -51,12 +51,11 @@ export const RANDOM_FOOTBALL_FACTS: FootballFact[] = [
     videoUrl : ''
   },
   {
-    date: '08-23',
-    title: 'Oldest professional football player',
-    description:
-      'Kazuyoshi Miura, nicknamed “King Kazu,” is the oldest professional football player, still playing at the age of 56 as of 2023.',
-    imageUrl: 'https://example.com/king-kazu.jpg',
-    videoUrl : ''
+    date: "02-01",
+    title: "Oldest professional football player",
+    description: "Kazuyoshi Miura, famously known as 'King Kazu,' continues to defy age as the oldest professional football player, still playing at 58 years old in 2025.<br><br>Currently on loan to Atletico Suzuka from Yokohama FC, his contract extends until January 31, 2026. Miura's incredible career spans nearly four decades, having played in top leagues across Japan, Brazil, and Europe.<br><br>His commitment to the sport is unmatched, earning him legendary status in football history.'King Kazu' remains a global icon, inspiring fans and players of all ages.",
+    imageUrl: "https://tmssl.akamaized.net/images/foto/galerie/kazuyoshi-miura-king-kazu-ud-oliveirense-2023-1689087560-111268.jpg",
+    videoUrl: ""
   },
   {
     date: '09-09',
