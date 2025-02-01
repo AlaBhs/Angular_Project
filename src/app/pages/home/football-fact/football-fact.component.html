@@ -6,8 +6,9 @@
         @if (fact.date != '') {
           <h3>On this day: {{ fact.title }}</h3>
         } @else {
-          <h3>{{ fact.title }}</h3>
+          <h3>Football Fact: {{ fact.title }}</h3>
         }
+        
         <!-- Use innerHTML to render the description with line breaks -->
         <p [innerHTML]="fact.description"></p>
       </div>

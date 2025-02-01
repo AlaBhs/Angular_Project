@@ -42,14 +42,14 @@
 }
 
 .quiz-text {
-    color: var(--accent-color); /* daily quiz in your accent color */
+    color: var(--primary-color); /* daily quiz in your accent color */
 }
 
 /* Center the Cards with Moderate Spacing */
 .image-links {
     display: flex;
     justify-content: center; /* Center the cards horizontally */
-    gap: 300px; /* Reduced gap between the cards */
+    gap: 195px; /* Reduced gap between the cards */
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -58,7 +58,7 @@
 .section_card {
     display: grid;
     place-items: center;
-    width: 300px; /* Fixed width */
+    width: 330px; /* Fixed width */
     height: 300px; /* Increased height to accommodate content */
     overflow: hidden;
     border-radius: 0.825rem; /* 13.2px */
