@@ -57,16 +57,17 @@ A dedicated section displaying historical data and details from past World Cup t
 ## 📷 Screenshots
 
 ### Home Page
-![Home Page](./public/screenshots/homr_ang.png)
+![Home Page](./public/screenshots/home_ang.PNG)
 
 ### UCL page
 ![UCL page](./public/screenshots/ucl.png)
 
 ### Performance teams
-![Performance teams](./public/screenshots/perf_ucl.png)
+![Performance teams](./public/screenshots/perf_ucl.PNG)
 
 ### World Cup Page
-![World Cup Page](./public/screenshots/wc.png)
+![World Cup Page](./public/screenshots/wc.PNG)
+
 
 
 ## 📦 Getting Started
