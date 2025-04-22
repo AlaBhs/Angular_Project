@@ -1,27 +1,113 @@
-# AngularProject
+# FootHall Angular Web Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.5.
+FootHall is a modular Angular 18 web application offering quizzes, historical facts, club details, team performance stats, and more—powered by a simple mock backend.
 
-## Development server
-run `node index.js `dans le directory /server pour runner le serveur
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🚀 Features
 
-## Code scaffolding
+- 🔐 **Authentication** (login form, route guards)  
+- 🕰️ **On This Day** historical facts widget  
+- ❓ **Quiz Module** with dynamic questions  
+- ⚽ **Club Details** (e.g. UCL teams)  
+- 📊 **Team Performance** charts & stats  
+- 🏆 **World Cup (WC)** historical data  
+- ✉️ **Contact Form** with validations  
+- 📂 **CSV Import** via PapaParse  
+- 🖥️ **Mock Backend** (`server.ts`) for API endpoints  
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 📁 Project Structure
 
-## Build
+```
+/src
+  /app
+    /components      # Reusable Angular UI components
+    /services        # HTTP & data services
+    /pages           # Routed views (home, quiz, contact, club-details, stats)
+  /assets            # Static images & styles
+/server              # Mock API server (Express)
+/angular.json       # Angular workspace config
+/package.json       # NPM scripts & dependencies
+/tsconfig.json      # TypeScript config
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## ⚽ UCL (UEFA Champions League) Module
 
-## Running unit tests
+This module provides detailed information about various clubs participating in the Champions League, including:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Team names and logos
+- Historical performance
+- Match statistics and scores
+- Interactive data visualizations
 
-## Running end-to-end tests
+## 🏆 World Cup (WC) Module
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+A dedicated section displaying historical data and details from past World Cup tournaments:
 
-## Further help
+- Old match records
+- Winning teams and scores
+- Notable moments and players
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 🛠 Tech Stack
+
+- **Angular 18** + Angular CLI  
+- **TypeScript** & **RxJS**  
+- **Tailwind CSS**  
+- **PapaParse** (CSV parsing)  
+- **Node.js** / **Express** (mock backend)
+
+## 📷 Screenshots
+
+### Home Page
+![Home Page](./public/screenshots/homr_ang.png)
+
+### UCL page
+![UCL page](./public/screenshots/ucl.png)
+
+### Performance teams
+![Performance teams](./public/screenshots/perf_ucl.png)
+
+### World Cup Page
+![World Cup Page](./public/screenshots/wc.png)
+
+
+## 📦 Getting Started
+
+1. **Clone** the repo  
+   ```bash
+   git clone https://github.com/AlaBhs/Angular_Project.git
+   cd Angular_Project
+   ```
+
+2. **Install** dependencies  
+   ```bash
+   npm install
+   ```
+
+3. **Run** the mock backend  
+   ```bash
+   node server.ts
+   ```
+
+4. **Serve** the Angular app  
+   ```bash
+   ng serve
+   ```
+
+5. **Open** your browser  
+   ```
+   http://localhost:4200
+   ```
+
+## 📝 Available Scripts
+
+- `npm run start` / `ng serve` — development server  
+- `npm run build` — production build  
+- `npm run lint` — lint code  
+- `npm run test` — run unit tests  
+
+## 👨‍💻 Authors
+
+**AlaBhs** — [github.com/AlaBhs](https://github.com/AlaBhs)
+**NouiraTaher** — [github.com/NouiraTaher](https://github.com/NouiraTaher)
+**habibst1** — [github.com/habibst1](https://github.com/habibst1)
+
+MIT License © 2025
